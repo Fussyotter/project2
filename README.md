@@ -9,3 +9,7 @@ As a user, I'd like to be able to look up individual fish by name or location, v
 Javascript
 Mongoose
 Express
+
+##
+
+Acknowledgement: This project uses the https://www.fishwatch.gov/developers API.
