@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const fishSchema = new Schema({
-    // 4-5 information types
+	// 4-5 information types
 	Habitat: String,
 	'Image Gallery': String,
 	Location: String,
@@ -11,12 +11,14 @@ const fishSchema = new Schema({
 	// 'Population Status': String,
 	// 'Scientific Name': String,
 	'Species Aliases': String,
-    taste: String,
-    quote: String,
-    'Health benefits': String,
+	taste: String,
+	quote: String,
+	'Health benefits': String,
 	'Species Illustration Photo': [
-        {
-            src: String,
-        }
-    ],
+		{
+			src: String,
+		},
+	],
 });
+
+const
