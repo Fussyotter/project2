@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const app = express();
 require('dotenv').config();
-
+const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
