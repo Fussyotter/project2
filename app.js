@@ -15,7 +15,7 @@ app.use(methodOverride('_method'));
 app.get('/fish', (request, response)=> {
 	fishSchema.find( (error,allFish) => {
 		response.render('index.ejs', {
-			fish : allFish
+			fish : allFish 
 		})
 	})
 })
