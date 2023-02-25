@@ -14,7 +14,7 @@ const fishSchema = new Schema({
 	SpeciesAliases: String,
 	Taste: String,
 	Texture: String,
-	'Health benefits': String,
+	'Health Benefits': String,
 	'Species Illustration Photo': [{ src: String }],
 });
 
