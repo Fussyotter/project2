@@ -12,8 +12,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json);
 app.use(methodOverride('_method'));
 
+app.get('/fish', (request, response)=> {
+	fishSchema.find( (error,allFish) => {
+		response.render('index.ejs', {
+			fish : allFish
+		})
+	})
+})
+
 // Temporary
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB, () => {
 	console.log('The connection with mongod is established');
 });
+
