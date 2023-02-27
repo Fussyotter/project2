@@ -10,7 +10,9 @@
 			<% for(let i = 0; i < fish.length; i++){ %>
 			<li>
 				<a href="/fish/<%=fish[i].id%>"> <%=fish[i]['Species Name']%> </a>
-				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a> <%}%>
+				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
+
+				<%}%>
 			</li>
 		</ul>
 	</body>
