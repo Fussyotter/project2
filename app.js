@@ -18,7 +18,7 @@ app.use(methodOverride('_method'));
 app.get('/fish', (request, response)=> {
 	fishSchema.find( (error,allFish) => {
 		response.render('index.ejs', {
-			fish : allFish
+			fish : allFish 
 		})
 	})
 })
@@ -39,11 +39,50 @@ app.get('/fish/seed', (req, res) => {
 	});
 });
 
+app.get('/fish', (req, res) => {
+	recipeSchema.find({}, (error, allFish) => {
+		res.render('index.ejs', { fishArr: allFish });
+	});
+});
+
+app.get('/fish/:id', (request, response)=> {
+	fishSchema.findById(request.params.id, (err, foundFish) => {
+		response.render('show.ejs', {
+			fishArr : foundFish
+		})
+	})
+})
+
+// app.get('/new', (request,response) {
+// 	response.render('new.ejs')
+// })
+
+// app.post('/new', (request, response) => {
+// 	fishSchema.create(request.body, (err, newFish) => {
+// 		response.redirect('/fish')
+// 	})
+// })
+
+app.delete('/fish/:id', (request,response)=> {
+	fishSchema.findByIdAndRemove(request.params.id, (error, fishDelete)=> {
+		response.redirect('/fish')
+	})
+})
+
+app.get('fish/:id/edit', (request,response)=> {
+	fishSchema.findById(request.params.id, (err, fishEdit)=> {
+		response.render('edit.ejs', {
+			fishArr : fishEdit
+		})
+	})
+})
+
+app.put('/fish/:id', (request, response)=> {
+	fishSchema.findByIdAndUpdate(request.params.id, request.body, {new:true}, (err, fishEdit) => {
+		response.redirect('/fish')
+	})
+})
+
 app.listen(3000, () => {
 	console.log('listening');
 });
-// app.get('/fish', (req, res) => {
-// 	recipeSchema.find({}, (error, recipeIndex) => {
-// 		res.render('index.ejs', { data: recipeIndex });
-// 	});
-// });
