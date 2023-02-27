@@ -5,27 +5,27 @@ module.exports = [
 		Habitat: null,
 		'Habitat Impacts':
 			'Bottomfish fishing operations, typically using weighted lines and baited hooks, do not have adverse impacts to the habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_9.jpg',
 				alt: 'Crimson jobfish on measuring board.  Photo credit: Pacific Islands Fisheries Group',
 				title:
 					'Crimson jobfish on measuring board.  Photo credit: Pacific Islands Fisheries Group',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_7.jpg',
 				alt: 'Crimson jobfish aboard fishing vessel.  Photo credit: Pacific Islands Fisheries Group',
 				title:
 					'Crimson jobfish aboard fishing vessel.  Photo credit: Pacific Islands Fisheries Group',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_10.jpg',
 				alt: 'Fishing for crimson jobfish.  Photo credit: Pacific Islands Fisheries Group',
 				title:
 					'Fishing for crimson jobfish.  Photo credit: Pacific Islands Fisheries Group',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/iStock-496376114_2MB_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/iStock-496376114_2MB_0.jpg',
 				alt: 'Pan-seared crispy crimson jobfish with kiawe smoked chili pepper honey. Photo credit: iStock',
 				title:
 					'Pan-seared crispy crimson jobfish with kiawe smoked chili pepper honey. Photo credit: iStock',
@@ -43,7 +43,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/opakapaka" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Opakapaka</a>, <a href="/species-aliases/hawaiian-pink-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hawaiian pink snapper</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Pink_snapper_NB_W_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Pink_snapper_NB_W_0.png',
 			alt: 'Pink snapper',
 			title: 'Pink snapper',
 		},
@@ -107,30 +107,30 @@ module.exports = [
 			'<ul>\n<li>White hake are groundfish, meaning they live near the ocean bottom.</li>\n<li>White hake prefer areas with sandy or muddy bottoms.</li>\n<li>White hake live in relatively deep waters, typically at least 80 meters below sea level.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Calvin%20Alexander_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Calvin%20Alexander_1.jpg',
 				alt: 'White hake in sampling basket aboard research vessel',
 				title: 'White hake in sampling basket. Photo credit: Calvin Alexander',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Dave%20McElroy.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Dave%20McElroy.jpg',
 				alt: 'Scientist measuring white hake on research vessel',
 				title: 'White hake on measuring board. Photo credit: Dave McElroy',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20hake%20MD%20Dept%20Natural%20Resources.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20hake%20MD%20Dept%20Natural%20Resources.jpg',
 				alt: 'Recreational angler aboard boat with white hake',
 				title:
 					'Recreational angler with white hake. Photo credit: MD Dept. of Natural Resources',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20Hake%20Dish%20-%20iStock.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20Hake%20Dish%20-%20iStock.jpg',
 				alt: 'White hake dish with tomato sauce',
 				title: 'White hake dish.  Photo credit: iStock',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20Hake_Stephen%20Luk_New%20England%20Aquarium.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/White%20Hake_Stephen%20Luk_New%20England%20Aquarium.jpg',
 				alt: 'White hake in a tank at the New England Aquarium',
 				title: 'White hake at New England Aquarium. Photo credit: Stephen Luk',
 			},
@@ -146,7 +146,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mud-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mud hake</a>, <a href="/species-aliases/boston-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Boston hake</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Hake_White_NB_W_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Hake_White_NB_W_0.png',
 			alt: 'Illustration of white hake. Credit: Jack Hornady.',
 			title: '',
 		},
@@ -208,31 +208,31 @@ module.exports = [
 			'<ul>\n<li>Atlantic chub mackerel are a schooling pelagic species.&nbsp;</li>\n<li>They are found on the continental shelf to depths of about 250–300 meters throughout much of the western and eastern Atlantic Ocean. They can be found throughout U.S. Atlantic waters.&nbsp;</li>\n<li>Most Atlantic chub mackerel catches in offshore surveys occur south of the Hudson Shelf Valley in warm waters.&nbsp;</li>\n<li>State trawl surveys and recreational catch data suggest that Atlantic chub mackerel are also found in inshore waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some types of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel_Alessandro%20Duci.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel_Alessandro%20Duci.jpg',
 				alt: 'Atlantic chub mackerel swimming along bottom habitat',
 				title: 'Atlantic chub mackerel.  Photo credit: Alessandro Duci',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel_Vasco%20Ferreira.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel_Vasco%20Ferreira.jpg',
 				alt: 'A school of Atlantic chub mackerel.  ',
 				title: 'Atlantic chub mackerel.  Photo credit: Vasco Ferreira',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel%20Lunds%20Fisheries.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel%20Lunds%20Fisheries.jpg',
 				alt: 'Atlantic chub mackerel at the fish market.  ',
 				title:
 					'Atlantic chub mackerel at the fish market.  Photo credit: Lund&#039;s Fisheries',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel%20Jim%20Hutchinson%20Jr%20Compressed.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic%20Chub%20Mackerel%20Jim%20Hutchinson%20Jr%20Compressed.jpg',
 				alt: 'Recreational angler on a boat with Atlantic chub mackerel',
 				title:
 					'Recreational angler with Atlantic chub mackerel.  Photo credit Jim Hutchinson, Jr.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Smoked%20mackerel%20-%20istock.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Smoked%20mackerel%20-%20istock.jpg',
 				alt: 'Smoked Atlantic chub mackerel atop a bed of greens',
 				title: 'Smoked Atlantic chub mackerel.  Photo credit: iStock',
 			},
@@ -249,7 +249,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mackerel</a>, <a href="/species-aliases/chub-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Chub mackerel</a>, <a href="/species-aliases/tinker-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tinker mackerel</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic-chub-mackerel-FNL_NB_W.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic-chub-mackerel-FNL_NB_W.png',
 			alt: 'Illustration of Atlantic chub mackerel',
 			title: 'Atlantic chub mackerel',
 		},
@@ -311,7 +311,7 @@ module.exports = [
 			'<ul>\n<li>Shortfin squid live in deep and shallow waters on the continental shelf, continental slope, and open ocean depending on the season.</li>\n<li>They are found in nearshore waters of the Gulf of Maine during summer and fall.</li>\n<li>During spring, shortfin squid migrate onto the continental shelf, and during late fall, they migrate off the continental shelf.</li>\n<li>Their egg masses float in mid-water.</li>\n<li>Spawning occurs in the waters off Rhode Island and New Jersey.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest shortfin squid have minimal impacts on habitat.',
-		'Image Gallery': null,
+		imageGallery: null,
 		Location:
 			'<ul>\n<li>Shortfin squid inhabits the continental shelf and slope waters of the Northwest Atlantic Ocean, from Newfoundland to the central east coast of Florida.</li>\n<li>In the northwest Atlantic Ocean, shortfin squid are most often caught along the continental shelf break in depths between 150 to 275 meters.</li>\n</ul>\n',
 		Management: null,
@@ -324,7 +324,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/illex-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Illex squid</a>, <a href="/species-aliases/summer-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Summer squid</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Squid_Illex_NB_W.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Squid_Illex_NB_W.png',
 			alt: 'shortfin squid',
 			title: 'Shortfin Squid',
 		},
@@ -386,29 +386,29 @@ module.exports = [
 			'<ul>\n<li>American lobsters live on the ocean floor.</li>\n</ul>\n<ul>\n<li>They live alone and are very territorial.</li>\n</ul>\n<ul>\n<li>They can live in a variety of habitats as long as there is a burrow or crevice for cover.</li>\n</ul>\n<ul>\n<li>Coastal lobsters like rocky areas where they can readily find shelter, although they’re sometimes found in mud bottoms where they can burrow.</li>\n</ul>\n<ul>\n<li>Offshore populations are most abundant along the edge of the continental shelf near underwater canyons.</li>\n</ul>\n<ul>\n<li>Near the coast, small lobsters do not travel much, but larger ones may travel extensively. Offshore lobsters migrate during the spring anywhere from 50 to 190 miles.</li>\n</ul>\n<ul>\n<li>Scientists, managers, and fishermen are concerned about the habitat conditions for American lobster in inshore Southern New England waters, particularly in Long Island Sound. Scientists believe that a combination of warmer water temperatures, hypoxia (low dissolved oxygen levels), and other stress factors resulted in lobster die-offs in western Long Island Sound in late 1999 and in 2002. If these conditions continue, future die-offs are possible. Researchers also believe that increased water temperatures in Southern New England may be driving lobsters to cooler offshore waters and disrupting the settlement of larvae in traditional coastal areas.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest American lobster have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.JPG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.JPG',
 				alt: 'American Lobster',
 				title: 'American Lobster',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_6.jpg',
 				alt: 'American Lobster',
 				title: 'American Lobster',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_5.jpg',
 				alt: 'American Lobster',
 				title: 'American Lobster',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_0.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_0.png',
 				alt: 'American Lobster',
 				title: 'American Lobster',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_3.jpg',
 				alt: 'American Lobster',
 				title: 'American Lobster',
 			},
@@ -425,7 +425,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/lobster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lobster</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Lobster_American_NB_Web.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Lobster_American_NB_Web.png',
 			alt: 'American Lobster',
 			title: 'American Lobster',
 		},
@@ -489,7 +489,7 @@ module.exports = [
 			'<ul>\n<li>Yellowtail rockfish inhabit depths ranging from 0 to 1800 feet, and are commonly found along the middle continental shelf, near the ocean floor.</li>\n<li>Larvae and juveniles live near the surface, while older juveniles migrate deeper to near the ocean floor.</li>\n<li>Adults are semi-pelagic or pelagic and spend time near steep slopes and above rocky reefs.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Most fishing gear used to harvest yellowtail rockfish rarely contacts the ocean floor and has minimal impacts on habitat. Area closures and gear restrictions protect sensitive rocky, cold-water coral and sponge habitats from bottom trawl gear.',
-		'Image Gallery': null,
+		imageGallery: null,
 		Location:
 			'<ul>\n<li>Yellowtail rockfish are found along the Pacific coast of North America and range from Kodiak Island, Alaska to Baja California, Mexico.</li>\n</ul>\n',
 		Management: null,
@@ -501,7 +501,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/yellowtail-rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Yellowtail rockfish</a>, <a href="/species-aliases/greenie" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Greenie</a>, <a href="/species-aliases/yellow-sea-perch" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Yellow sea perch</a>, <a href="/species-aliases/rock-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock Cod</a>, <a href="/species-aliases/pacific-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific Snapper</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Rockfish_Yellowtail_NB_W.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Rockfish_Yellowtail_NB_W.png',
 			alt: 'Yellowtail rockfish',
 			title: 'Yellowtail rockfish',
 		},
@@ -565,7 +565,7 @@ module.exports = [
 			'<ul>\n<li>As bocaccio age, they switch from free-swimming pelagic habitat to bottom-oriented demersal habitat.</li>\n<li>Larvae and young-of-the-year bocaccio live in the upper layers of the ocean for several months.</li>\n<li>Juveniles settle nearshore in bottom habitats, such as rocky areas or kelp forests, and form schools.</li>\n<li>As juveniles mature, they move offshore to greater depths.</li>\n<li>Adult bocaccio primarily inhabit rocky habitats from 130 to 980 feet deep. They also live on coral and sponge reefs, and even artificial structures such as oil platforms.</li>\n<li>Several sources describe bocaccio as a midwater species during at least part of its adult phase.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect sensitive rocky, cold-water coral and sponge habitats from bottom trawl gear.',
-		'Image Gallery': null,
+		imageGallery: null,
 		Location:
 			'<ul>\n<li>Bocaccio are found between Punta Blanca, Baja California, and the Gulf of Alaska off Krozoff and Kodiak Islands. Within this range, bocaccio is most common between Oregon and northern Baja California.</li>\n<li>There are two partially isolated populations; one southern population centered in California, and one northern population centered in British Columbia.&nbsp;</li>\n</ul>\n',
 		Management: null,
@@ -577,7 +577,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/bocaccio" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bocaccio</a>, <a href="/species-aliases/rock-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock Salmon</a>, <a href="/species-aliases/salmon-rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Salmon Rockfish</a>, <a href="/species-aliases/pacific-red-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific Red Snapper</a>, <a href="/species-aliases/pacific-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific Snapper</a>, <a href="/species-aliases/oregon-red-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Oregon Red Snapper</a>, <a href="/species-aliases/oregon-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Oregon Snapper</a>, <a href="/species-aliases/longjaw" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Longjaw</a>, <a href="/species-aliases/merou" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Merou</a>, <a href="/species-aliases/jack" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Jack</a>, <a href="/species-aliases/snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Snapper</a>, <a href="/species-aliases/rock-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock Cod</a>, <a href="/species-aliases/rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rockfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Bocaccio_NB_W.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Bocaccio_NB_W.png',
 			alt: 'Illustration of a Bocaccio rockfish.',
 			title: 'Bocaccio rockfish.',
 		},
@@ -637,8 +637,8 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/SugarKelp_online.jpg',
+		imageGallery: {
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/SugarKelp_online.jpg',
 			alt: 'Sugar kelp growing on a long line. ',
 			title: 'Sugar kelp growing on a long line. ',
 		},
@@ -652,7 +652,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sea-belt" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea belt</a>, <a href="/species-aliases/devil%E2%80%99s-apron" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Devil’s apron</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Kelp_Sugar_NB_W.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Kelp_Sugar_NB_W.png',
 			alt: '',
 			title: '',
 		},
@@ -722,21 +722,21 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sablefish%202.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sablefish%202.png',
 				alt: 'Juvenile sablefish in tanks at the NOAA Manchester Research Station.',
 				title:
 					'Juvenile sablefish in tanks at the NOAA Manchester Research Station.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/IMG_0291.JPG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/IMG_0291.JPG',
 				alt: 'Sablefish being harvested from a preliminary netpen study at the NOAA Manchester Research Station. Credit: James Hackett.',
 				title:
 					'Sablefish being harvested from a preliminary netpen study at the NOAA Manchester Research Station. Credit: James Hackett.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sablefish_broodstock.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sablefish_broodstock.png',
 				alt: 'Sablefish broodstock from the wild at the NOAA Manchester Research Station.',
 				title:
 					'Sablefish broodstock from the wild at the NOAA Manchester Research Station.',
@@ -752,7 +752,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/black-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black cod</a>, <a href="/species-aliases/butterfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Butterfish</a>, <a href="/species-aliases/skil" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Skil</a>, <a href="/species-aliases/beshow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beshow</a>, <a href="/species-aliases/coalfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coalfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish.png',
 			alt: '',
 			title: '',
 		},
@@ -824,24 +824,24 @@ module.exports = [
 			'<ul>\n<li>Atlantic halibut are found in the temperate and arctic waters of the northern Atlantic.</li>\n<li>They live in coastal to upper slope areas.</li>\n<li>Atlantic halibut are demersal fish that live on or near sand, gravel or clay bottoms at depths of between 160 and 6,560 feet.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Trawl gear used to harvest Atlantic halibut have minimal or temporary effects on habitat. Area closures and gear restrictions protect sensitive habitats from bottom trawl gear. Hook and line gear has little or no impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1%20-%20atl_halibut_noa.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1%20-%20atl_halibut_noa.jpg',
 				alt: 'Picture of an Atlantic halibut face and mouth.',
 				title: 'Atlantic halibut face and mouth. Photo credit: NOAA.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2%20-%20nefsc.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2%20-%20nefsc.jpg',
 				alt: 'Picture of Atlantic halibut.',
 				title: 'Atlantic halibut. Photo credit: NOAA.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3%20-%20halibut2_fullsize.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3%20-%20halibut2_fullsize.jpg',
 				alt: 'Picture of Atlantic halibut.',
 				title: 'Picture of Atlantic halibut. Photo credit: NOAA.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1beer_battered_halibut_square_darren_howe_noaa_federal.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1beer_battered_halibut_square_darren_howe_noaa_federal.png',
 				alt: 'Battered halibut',
 				title: 'Battered halibut',
 			},
@@ -858,7 +858,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/atlantic-halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Atlantic halibut</a>, <a href="/species-aliases/halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Halibut</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-halibut-illustration.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-halibut-illustration.png',
 			alt: 'Illustration of Atlantic Halibut.',
 			title: 'Illustration of Atlantic Halibut.',
 		},
@@ -922,31 +922,31 @@ module.exports = [
 			'<ul>\n<li>Shortspine thornyhead can live in depths up to 1500 meters, though they are more commonly found between 55 and 465 meters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The trawl, longline, and pot gear used to harvest shortspine thornyhead have minimal or temporary effects on habitat. Area closures and gear restrictions protect sensitive rocky, cold-water coral, and sponge habitats from bottom trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1%20photo-west-coast-region-photo-gallery.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1%20photo-west-coast-region-photo-gallery.jpg',
 				alt: 'Close-up photo of a shortspine thornyhead. (Photo credit: NOAA)',
 				title:
 					'Close-up photo of a shortspine thornyhead. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2%20basket%20of%20shortspine%20thornyhead.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2%20basket%20of%20shortspine%20thornyhead.jpg',
 				alt: 'Basket of shortspine thornyhead. (Photo credit: NOAA)',
 				title: 'Basket of shortspine thornyhead. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3%20graphic%20with%20morphology%20ID_large.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3%20graphic%20with%20morphology%20ID_large.jpg',
 				alt: 'Shortspine thornyhead graphic identifying several physical characteristics, including head spines, pelvic and anal fins. (Photo credit: NOAA)',
 				title:
 					'Shortspine thornyhead graphic identifying several physical characteristics, including head spines, pelvic and anal fins. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4%20Head-on%20view%20of%20shortspine%20thornyhead.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4%20Head-on%20view%20of%20shortspine%20thornyhead.jpg',
 				alt: 'Head-on view of shortspine thornyhead. (Photo credit: NOAA)',
 				title: 'Head-on view of shortspine thornyhead. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5%20shortspine%20thornyhead%20amongst%20its%20habitat.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5%20shortspine%20thornyhead%20amongst%20its%20habitat.jpg',
 				alt: 'Shortspine thornyhead rockfish snuggled amongst a sea star, smaller brittle stars, and sea cucumbers with white tentacles on a mixed rocky and mud-covered habitat. (Photo credit: NOAA/OER)',
 				title:
 					'Shortspine thornyhead rockfish snuggled amongst a sea star, smaller brittle stars, and sea cucumbers with white tentacles on a mixed rocky and mud-covered habitat. (Photo credit: NOAA/OER)',
@@ -963,7 +963,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/thornyhead" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thornyhead</a>, <a href="/species-aliases/idiot-fish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Idiot fish</a>, <a href="/species-aliases/idiot-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Idiot cod</a>, <a href="/species-aliases/rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rockfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/shortspine-thornyhead-illustration.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/shortspine-thornyhead-illustration.png',
 			alt: 'Illustration of shortspine thornyhead.',
 			title: 'Illustration of shortspine thornyhead.',
 		},
@@ -1026,31 +1026,31 @@ module.exports = [
 			'<ul>\n<li>Canary rockfish primarily inhabit waters 160 to 820 feet deep but may be found to 1400 feet.</li>\n<li>Larvae are found in surface waters and may be distributed over a wide area extending several hundred miles offshore.</li>\n<li>Larvae and small juvenile rockfish may remain in open waters for several months, being passively dispersed by ocean currents.</li>\n<li>Juveniles and subadults tend to be more common than adults in shallow water and are associated with rocky reefs, kelp canopies, and artificial structures, such as piers and oil platforms.</li>\n<li>Adults generally move into deeper water as they increase in size and age but usually exhibit strong site fidelity to rocky bottoms and outcrops where they hover in loose groups just above the bottom.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Most fishing gear used to harvest canary rockfish rarely contacts the ocean floor and has minimal impacts on habitat. Area closures and gear restrictions protect sensitive rocky, cold-water coral and sponge habitats from bottom trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Canary%20rockfish%20captured%20on%20a%20research%20trawl%20Credit%20NOAA.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Canary%20rockfish%20captured%20on%20a%20research%20trawl%20Credit%20NOAA.jpg',
 				alt: 'Canary rockfish caught in a research trawl. (Photo credit: NOAA)',
 				title:
 					'Canary rockfish caught in a research trawl. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/PHOTO%20-%20canary%20rockfish%20-%2004182016%20-%20NOAA%20-%202240x1068%20-%20LANDSCAPE.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/PHOTO%20-%20canary%20rockfish%20-%2004182016%20-%20NOAA%20-%202240x1068%20-%20LANDSCAPE.jpg',
 				alt: 'Canary rockfish. (Photo credit: NOAA)',
 				title: 'Canary rockfish. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pinniger.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pinniger.jpg',
 				alt: 'Canary rockfish graphic identifying several physical characteristics, including head spines, lateral line, pelvic and anal fins. (Photo credit: NOAA)',
 				title:
 					'Canary rockfish graphic identifying several physical characteristics, including head spines, lateral line, pelvic and anal fins. (Photo credit: NOAA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/UCM059680%20from%20FDA%20whole.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/UCM059680%20from%20FDA%20whole.jpg',
 				alt: 'Canary rockfish specimen of whole fish. (Photo credit: FDA)',
 				title: 'Canary rockfish specimen of whole fish. (Photo credit: FDA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/UCM059650%20from%20FDA%20filet.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/UCM059650%20from%20FDA%20filet.jpg',
 				alt: 'Canary rockfish specimen of fish filet. (Photo credit: FDA)',
 				title: 'Canary rockfish specimen of fish filet. (Photo credit: FDA)',
 			},
@@ -1066,7 +1066,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/canaries" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Canaries</a>, <a href="/species-aliases/canary-rockcod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Canary rockcod</a>, <a href="/species-aliases/rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rockfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/canary%20rockfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/canary%20rockfish.png',
 			alt: 'Canary rockfish illustration.',
 			title: 'Canary rockfish illustration.',
 		},
@@ -1129,19 +1129,19 @@ module.exports = [
 			'<ul>\n<li>Juvenile black grouper can occur in seagrass and oyster rubble habitat in the Carolinas, and along reefs in the Florida Keys and in Brazil.</li>\n<li>Adults prefer rocky bottoms, drop-off walls and ledges, caves, crevices, and coral and artificial reefs.</li>\n<li>Black grouper are relatively sedentary and can remain in one particular site for some time.</li>\n<li>They move to progressively deeper waters as they age.</li>\n<li>They are found inshore up to depths of 656 feet (200 meters).</li>\n<li>Adults are solitary, but in some instances form small groups.</li>\n<li>Adults make seasonal migrations to spawning sites where they form large spawning aggregations.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest black grouper have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black_grouper_whsa_sd.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black_grouper_whsa_sd.jpg',
 				alt: 'Black grouper on display at the Woods Hole Science Aquarium.',
 				title: 'Black grouper on display at the Woods Hole Science Aquarium.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black%20grouper%20by%20Anik%20Clemens.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black%20grouper%20by%20Anik%20Clemens.jpg',
 				alt: 'Black grouper. (Photo credit: Anik Clemens)',
 				title: 'Black grouper. (Photo credit: Anik Clemens)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black%20grouper%20by%20Nick%20Farmer.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black%20grouper%20by%20Nick%20Farmer.jpg',
 				alt: 'Black Grouper. (Photo credit: Nick Farmer)',
 				title: 'Black Grouper. (Photo credit: Nick Farmer)',
 			},
@@ -1157,7 +1157,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/grouper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grouper</a>, <a href="/species-aliases/blackfin-grouper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blackfin grouper</a>, <a href="/species-aliases/marbled-rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Marbled rockfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black-grouper-illustration.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black-grouper-illustration.png',
 			alt: 'black grouper illustration',
 			title: 'black grouper illustration',
 		},
@@ -1222,14 +1222,14 @@ module.exports = [
 			'<ul>\n<li>Striped marlin prefer water temperatures of 20-25˚ C.</li>\n<li>Acoustic telemetry studies indicate that they spend 86 percent of their time in the surface layer above the thermocline (a layer above and below which the water is at different temperatures).</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear used to harvest striped marlin rarely contacts the ocean floor, so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/marlin%20david%20itano_from%20SWFSC%20research%20page.PNG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/marlin%20david%20itano_from%20SWFSC%20research%20page.PNG',
 				alt: 'Striped marlin near buoy mooring. Photo credit  David Itano.',
 				title: 'Striped marlin near buoy mooring. Photo credit  David Itano.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/obs_striped_marlin1_from%20PIRO%20observer%20page.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/obs_striped_marlin1_from%20PIRO%20observer%20page.jpg',
 				alt: 'Striped marlin encountered in the Hawaii and/or American Samoa Longline Observer Programs.',
 				title:
 					'Striped marlin encountered in the Hawaii and/or American Samoa Longline Observer Programs.',
@@ -1247,7 +1247,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/nairagi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Nairagi</a>, <a href="/species-aliases/%E2%80%98u" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">A‘u</a>, <a href="/species-aliases/makijki" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Makijki</a>, <a href="/species-aliases/barred-marlin" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Barred marlin</a>, <a href="/species-aliases/spikefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spikefish</a>, <a href="/species-aliases/striped-swordfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Striped swordfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/striped-marlin-illustration.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/striped-marlin-illustration.png',
 			alt: 'Striped Marlin',
 			title: 'Striped Marlin',
 		},
@@ -1315,33 +1315,33 @@ module.exports = [
 			'<ul>\n<li>Blueline tilefish typically live along the outer continental shelf, shelf break, and upper slope.</li>\n<li>They live on irregular bottom with ledges or crevices, and around boulders or rubble piles at depths of 98 to 774 feet where temperatures range from 59 to 73.4 ° F.</li>\n<li>They have been found to burrow head first into cone-shaped piles of sand and may also occupy existing holes and crevices.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest blueline tilefish have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_8.jpg',
 				alt: 'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
 				title:
 					'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_5.jpg',
 				alt: 'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
 				title:
 					'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_4.jpg',
 				alt: 'Blueline tilefish (Caulolatilus microps) caught during 2004 NEFSC Cooperative Research cruise. Photo credit: Anne Richards, NOAA Northeast Fisheries Science Center.',
 				title:
 					'Blueline tilefish (Caulolatilus microps) caught during 2004 NEFSC Cooperative Research cruise. Photo credit: Anne Richards, NOAA Northeast Fisheries Science Center.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_7.jpg',
 				alt: 'Blueline tilefish (Caulolatilus microps) caught during 2004 NEFSC Cooperative Research cruise. Photo credit: Anne Richards, NOAA Northeast Fisheries Science Center.',
 				title:
 					'Blueline tilefish (Caulolatilus microps) caught during 2004 NEFSC Cooperative Research cruise. Photo credit: Anne Richards, NOAA Northeast Fisheries Science Center.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_2.jpg',
 				alt: 'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
 				title:
 					'Blueline tilefish (Caulolatilus microps). Photo credit: NOAA Northeast Fisheries Science Center.',
@@ -1359,7 +1359,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/gray-tilefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gray tilefish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/blueline-tilefish-illustration_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/blueline-tilefish-illustration_0.png',
 			alt: 'Illustration of Blueline Tilefish',
 			title: 'Illustration of Blueline Tilefish',
 		},
@@ -1425,29 +1425,29 @@ module.exports = [
 			'<ul>\n<li>The northern stock of red hake inhabits the waters of the Gulf of Maine and Northern Georges Bank, and the southern stock inhabits the waters of Southern Georges Bank and the Mid-Atlantic Bight.</li>\n<li>As nocturnal, semi-pelagic predators, red hake move up in the water column to feed at night, primarily between dusk and midnight. They return to rest on the ocean floor during the day, preferring sandy, muddy, or pebbly ocean bottoms.</li>\n<li>Red hake migrate in response to seasonal changes in water temperatures, moving toward shallow, warmer waters in the spring.</li>\n<li>They spawn in these shallow waters during late spring and early summer and then return to deeper waters in the autumn.</li>\n<li>Juveniles seek shelter from predators in scallop beds and commonly hide underneath <a href="https://www.fishwatch.gov/profiles/atlantic-sea-scallop">sea scallops</a>.</li>\n<li>Older, larger red hake prefer deeper waters.</li>\n<li>During the summer, portions of both stocks can be found on Georges Bank.</li>\n<li>During the winter, fish in the northern stock move to deep basins in the Gulf of Maine, while fish in the southern stock move to outer continental shelf and slope waters.</li>\n<li>Red hake are widely distributed, and have been observed at temperature ranges of 2 to 17° C (36 to 63° F) and depth ranges of 11 to 500 meters (36 to 1,640 feet). However, they are most commonly found in temperatures between 7 and 10° C (45 to 50° F).</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest red hake have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_juvenile_noaa-formatted.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_juvenile_noaa-formatted.jpg',
 				alt: 'Juvenile red hake.',
 				title: 'Juvenile red hake.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_minnow_noaa%20teacher%20at%20sea-formatted_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_minnow_noaa%20teacher%20at%20sea-formatted_0.jpg',
 				alt: 'Red hake minnow.',
 				title: 'Red hake minnow.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_noaa%20teacher%20at%20sea-formatted.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_hake_noaa%20teacher%20at%20sea-formatted.jpg',
 				alt: 'Red hake with distinctive chin barbel.',
 				title: 'Red hake with distinctive chin barbel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver_hake_top_and_red_hake_bottom_noaa%20teacher%20at%20sea-formatted.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver_hake_top_and_red_hake_bottom_noaa%20teacher%20at%20sea-formatted.jpg',
 				alt: 'Comparing a silver hake (top) and a red hake (bottom).',
 				title: 'Comparing a silver hake (top) and a red hake (bottom).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-hake1_largest-formatted.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-hake1_largest-formatted.jpg',
 				alt: 'Red hake.',
 				title: 'Red hake.',
 			},
@@ -1464,7 +1464,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/ling" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ling</a>, <a href="/species-aliases/squirrel-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Squirrel hake</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-hake-illustration-formatted.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-hake-illustration-formatted.png',
 			alt: 'Red Hake',
 			title: 'Red Hake',
 		},
@@ -1530,27 +1530,27 @@ module.exports = [
 			'<ul>\n<li>Atlantic sharpnose sharks live in both warm-temperate and tropical waters, from the Bay of Fundy to the Yucatan.</li>\n<li>They can be found as deep as 920 feet, but mostly remain in waters less than 32 feet deep.</li>\n<li>They are commonly found in bays, estuaries, harbors, and the surf zone (area where waves break, commonly at 16 to 32 feet deep), mostly over mud and sand bottoms.</li>\n<li>Atlantic sharpnose sharks seasonally migrate between inshore and offshore waters, moving to deeper offshore waters in winter and returning to inshore waters in spring to mate and give birth.</li>\n<li>During migrations, they form large schools separated by sex.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest Atlantic sharpnose shark have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_6.jpg',
 				alt: 'Sharpnose shark caught in the Atlantic for research purposes. Photo credit: NOAA Fisheries.',
 				title:
 					'Sharpnose shark caught in the Atlantic for research purposes. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_reformatted.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_reformatted.jpg',
 				alt: 'Sharpnose shark caught in the Atlantic for research purposes. Photo credit: NOAA Fisheries.',
 				title:
 					'Sharpnose shark caught in the Atlantic for research purposes. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_3.jpg',
 				alt: 'Sharpnose shark caught in the Gulf of Mexico for research purposes. Photo credit: NOAA Fisheries.',
 				title:
 					'Sharpnose shark caught in the Gulf of Mexico for research purposes. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_6.jpg',
 				alt: 'Teacher-at-sea examining a sharpnose shark caught during a research cruise. Photo credit: NOAA Fisheries.',
 				title:
 					'Teacher-at-sea examining a sharpnose shark caught during a research cruise. Photo credit: NOAA Fisheries.',
@@ -1567,7 +1567,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/newfoundland-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Newfoundland shark</a>, <a href="/species-aliases/sharp-nosed-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sharp-nosed shark</a>, <a href="/species-aliases/white-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">White shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic_Sharpnosed_Shark_NB_W_smaller_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Atlantic_Sharpnosed_Shark_NB_W_smaller_0.png',
 			alt: 'Atlantic Sharpnose Shark',
 			title: 'Atlantic Sharpnose Shark',
 		},
@@ -1629,32 +1629,32 @@ module.exports = [
 			'<ul>\n<li>Pacific sardines live in the water column in nearshore and offshore areas along the coast.</li>\n<li>They are sometimes found in estuaries.</li>\n<li>They form large, dense schools near the ocean surface.</li>\n<li>Pacific sardines move seasonally along the coast.\n<ul>\n<li>Older adults may move from spawning grounds in southern California and northern Baja California to feeding/spawning grounds off the Pacific Northwest and Canada.</li>\n<li>Younger adults appear to migrate to feeding grounds primarily in central and northern California.</li>\n</ul>\n</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The gear used to catch Pacific sardines is used at the surface and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_57.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_57.jpg',
 				alt: 'Pacific sardine.',
 				title: 'Pacific sardine.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_42.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_42.jpg',
 				alt: 'Historic photo of the sardine fishery in California. In the 1940s and 1950s, about 200 vessels participated in the Pacific sardine fishery. Some of these boats are still fishing today.',
 				title:
 					'Historic photo of the sardine fishery in California. In the 1940s and 1950s, about 200 vessels participated in the Pacific sardine fishery. Some of these boats are still fishing today.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_47.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_47.jpg',
 				alt: 'Sardine schools (dark patches) around a commercial fishing vessel.',
 				title:
 					'Sardine schools (dark patches) around a commercial fishing vessel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_39.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_39.jpg',
 				alt: ' Adult Pacific sardines caught during NOAA Southwest Fisheries Science Center’s 2006 survey. These sardines were measured and weighed. Scientists also determined their reproductive status and collected otoliths (ear bones) for ageing studies.',
 				title:
 					' Adult Pacific sardines caught during NOAA Southwest Fisheries Science Center’s 2006 survey. These sardines were measured and weighed. Scientists also determined their reproductive status and collected otoliths (ear bones) for ageing studies.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_31.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_31.jpg',
 				alt: 'Sardine seafood dish.',
 				title: '',
 			},
@@ -1671,7 +1671,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/pilchard" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pilchard</a>, <a href="/species-aliases/california-sardine" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">California sardine</a>, <a href="/species-aliases/california-pilchard" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">California pilchard</a>, <a href="/species-aliases/sardina" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sardina</a>, <a href="/species-aliases/sardine" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sardine</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_sardine.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_sardine.png',
 			alt: 'Pacific sardine illustration.',
 			title: '',
 		},
@@ -1733,27 +1733,27 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_hanging_bags.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_hanging_bags.jpg',
 				alt: 'Shellfish farming techniques include grow-out in bags placed in the tidelands, suspended culture, and “rack and bag” grow-out, among others.',
 				title:
 					'Shellfish farming techniques include grow-out in bags placed in the tidelands, suspended culture, and “rack and bag” grow-out, among others.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_farming_shelton_wa_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_farming_shelton_wa_0.jpg',
 				alt: 'In the Pacific Northwest, the shellfish industry injects an estimated $270 million a year into the region’s economy, bringing jobs to over 3,200 people, primarily in coastal communities.',
 				title:
 					'In the Pacific Northwest, the shellfish industry injects an estimated $270 million a year into the region’s economy, bringing jobs to over 3,200 people, primarily in coastal communities.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_natural_habitat.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster_natural_habitat.jpg',
 				alt: 'Rebuilding Olympia oyster populations in Puget Sound, Washington, provides critical habitat and water quality attributes upon which other species depend. Source: Puget Sound Restoration Fund',
 				title:
 					'Rebuilding Olympia oyster populations in Puget Sound, Washington, provides critical habitat and water quality attributes upon which other species depend. Source: Puget Sound Restoration Fund',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oysters_willapabay.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oysters_willapabay.jpg',
 				alt: 'Oyster beds generate habitat for eel grass and other plants, as well as a variety of marine life including fish and crabs. Source: Puget Sound Restoration Fund',
 				title:
 					'Oyster beds generate habitat for eel grass and other plants, as well as a variety of marine life including fish and crabs. Source: Puget Sound Restoration Fund',
@@ -1769,7 +1769,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/japanese-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Japanese oyster</a>, <a href="/species-aliases/miyagi-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Miyagi oyster</a>, <a href="/species-aliases/pacific-cupped-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific cupped oyster</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_oyster.png',
 			alt: 'Illustration of a Pacific Oyster',
 			title: 'Pacific Oyster',
 		},
@@ -1836,21 +1836,21 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_8.jpg',
 				alt: 'Also known as a quahog, round clam, or hard-shell clam, hard clams are native to eastern shores throughout North America.',
 				title:
 					'Also known as a quahog, round clam, or hard-shell clam, hard clams are native to eastern shores throughout North America.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_6.jpg',
 				alt: 'Clams are raised in hatcheries until planted for grow-out to produce healthy, sustainable seafood. Source: New York Sea Grant',
 				title:
 					'Clams are raised in hatcheries until planted for grow-out to produce healthy, sustainable seafood. Source: New York Sea Grant',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_48.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_48.jpg',
 				alt: 'Clam beds on Virginia&#039;s eastern shore. Clam aquaculture provides jobs and maintains activity at working waterfronts. Source: Virginia Sea Grant',
 				title:
 					'Clam beds on Virginia&#039;s eastern shore. Clam aquaculture provides jobs and maintains activity at working waterfronts. Source: Virginia Sea Grant',
@@ -1866,7 +1866,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/hard-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hard clam</a>, <a href="/species-aliases/quahog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Quahog</a>, <a href="/species-aliases/round-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Round clam</a>, <a href="/species-aliases/chowder-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Chowder clam</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/hard_clam_northern_quahog.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/hard_clam_northern_quahog.png',
 			alt: 'Illustration of a Hard Clam, also known as Northern Quahog',
 			title: 'Hard Clam/Northern Quahog',
 		},
@@ -1934,27 +1934,27 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck01.jpg',
 				alt: 'Geoducks really do “dig deep!” Burrowing up to three feet down, they make for a unique and challenging harvest. Photo credit: Nanette Stark, Washington Department of Fish and Wildlife',
 				title:
 					'Geoducks really do “dig deep!” Burrowing up to three feet down, they make for a unique and challenging harvest. Photo credit: Nanette Stark, Washington Department of Fish and Wildlife',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck02.jpg',
 				alt: 'One of the largest clams in the world, geoducks are native to the west coast of North America and are a high-value delicacy in Asian cuisine.',
 				title:
 					'One of the largest clams in the world, geoducks are native to the west coast of North America and are a high-value delicacy in Asian cuisine.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck03.jpg',
 				alt: 'These baby geoducks, known as ‘seed’, will be planted on an intertidal beach in PVC pipes for protection. Geoducks (and all filter-feeders) remove plankton and organic matter from the water column and have an overall restorative effect on water quality. P',
 				title:
 					'These baby geoducks, known as ‘seed’, will be planted on an intertidal beach in PVC pipes for protection. Geoducks (and all filter-feeders) remove plankton and organic matter from the water column and have an overall restorative effect on water quality. P',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck04.jpg',
 				alt: 'Young geoducks are vulnerable to predators. These pipes protect them until they can burrow deep enough to evade predators on their own.',
 				title:
 					'Young geoducks are vulnerable to predators. These pipes protect them until they can burrow deep enough to evade predators on their own.',
@@ -1970,7 +1970,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/king-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">King Clam</a>, <a href="/species-aliases/elephant-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Elephant Clam</a>, <a href="/species-aliases/gweduck" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gweduck</a>, <a href="/species-aliases/goeduck" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Goeduck</a>, <a href="/species-aliases/goiduck" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Goiduck</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/geoduck.png',
 			alt: 'Illustration of a Geoduck',
 			title: 'Geoduck',
 		},
@@ -2038,21 +2038,21 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/easterm_oyster.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/easterm_oyster.jpg',
 				alt: 'Oysters are delicious, nutritious, and represent a large portion of domestic aquaculture.',
 				title:
 					'Oysters are delicious, nutritious, and represent a large portion of domestic aquaculture.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_hanging_oyster_bags.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_hanging_oyster_bags.jpg',
 				alt: 'There are several ways to grow oysters including in suspended bags, which produces a quicker growing, but more delicate product. Source: Bill Walton, Auburn University',
 				title:
 					'There are several ways to grow oysters including in suspended bags, which produces a quicker growing, but more delicate product. Source: Bill Walton, Auburn University',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_oystermen_in_boats.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_oystermen_in_boats.jpg',
 				alt: 'Oyster farming is a way of life for watermen in coastal states around the country. Source: Bill Walton, Auburn University',
 				title:
 					'Oyster farming is a way of life for watermen in coastal states around the country. Source: Bill Walton, Auburn University',
@@ -2068,7 +2068,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/american-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">American oyster</a>, <a href="/species-aliases/atlantic-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Atlantic oyster</a>, <a href="/species-aliases/american-cupped-oyster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">American cupped oyster</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_oyster.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/eastern_oyster.png',
 			alt: 'Illustration of an Eastern Oyster',
 			title: 'Eastern Oyster',
 		},
@@ -2135,33 +2135,33 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/mussels.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/mussels.jpg',
 				alt: 'Mussels are an excellent protein source that contain heart- and brain-healthy omega-3 fatty acids.',
 				title:
 					'Mussels are an excellent protein source that contain heart- and brain-healthy omega-3 fatty acids.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/AQ_New%20Hampshire_UNH%20OOA%20Project_Mussel%20Longlines%20in%20Gulf%20of%20Maine_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/AQ_New%20Hampshire_UNH%20OOA%20Project_Mussel%20Longlines%20in%20Gulf%20of%20Maine_0.jpg',
 				alt: 'Offshore mussel lines such as these, grown nearly three miles from land, are far from pollution sources, and are submerged out of sight and safely away from boat traffic. Photo credit: University of New Hampshire',
 				title:
 					'Offshore mussel lines such as these, grown nearly three miles from land, are far from pollution sources, and are submerged out of sight and safely away from boat traffic. Photo credit: University of New Hampshire',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/mussel_socks_hanging_from_raft.JPG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/mussel_socks_hanging_from_raft.JPG',
 				alt: 'Growing mussels on long-lines maximizes nutrient uptake while protecting them from bottom-dwelling predators. Photo credit: Department of Fisheries and Oceans, Canada',
 				title:
 					'Growing mussels on long-lines maximizes nutrient uptake while protecting them from bottom-dwelling predators. Photo credit: Department of Fisheries and Oceans, Canada',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/boat_tending_mussel_lines_gloucester.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/boat_tending_mussel_lines_gloucester.jpg',
 				alt: 'With minor modifications, fishing boats can tend to mussels suspended on long-lines.',
 				title:
 					'With minor modifications, fishing boats can tend to mussels suspended on long-lines.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/steamed_mussels-on-plate.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/steamed_mussels-on-plate.jpg',
 				alt: 'Cooked steamed blue mussels on a plate.',
 				title: 'Cooked, steamed blue mussels.',
 			},
@@ -2176,7 +2176,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/edible-mussel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Edible mussel</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/blue_mussel.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/blue_mussel.png',
 			alt: 'Illustration of a Blue Mussel',
 			title: 'Blue Mussel',
 		},
@@ -2244,7 +2244,7 @@ module.exports = [
 		'Fishery Management': null,
 		Habitat: null,
 		'Habitat Impacts': null,
-		'Image Gallery': null,
+		imageGallery: null,
 		Location: null,
 		Management:
 			'<ul>\n<li>Permitting for salmon aquaculture is governed by federal, state and local governments.</li>\n<li>The federal agencies involved are&nbsp;NOAA, the Army Corps of Engineers, U.S. Fish &amp; Wildlife Service, U.S. Department of Agriculture, the Environmental Protection Agency, the Food and Drug Administration, the Bureau of Ocean Energy Management, and the Coast Guard.</li>\n<li>Salmon farms must adhere to federal regulations including those in the Magnuson-Stevens Fishery Conservation &amp; Management Act, the Endangered Species Act, the National Environmental Policy Act, the Clean Water Act, and the Marine Mammal Protection Act. //</li>\n</ul>\n',
@@ -2255,7 +2255,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sea-run-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea run salmon</a>, <a href="/species-aliases/kelts" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kelts</a>, <a href="/species-aliases/black-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black salmon</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon.png',
 			alt: 'Illustration of an Atlantic Salmon.',
 			title: 'Atlantic Salmon',
 		},
@@ -2328,30 +2328,30 @@ module.exports = [
 			'<ul>\n<li>Butterfish shift their distribution in response to changing bottom water temperatures.</li>\n<li>During summer, they move northward and inshore to feed and spawn.</li>\n<li>During winter, they move southward and offshore to avoid cold waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest butterfish have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_5.jpg',
 				alt: 'Butterfish.',
 				title: 'Butterfish. Credit: NOAA Fisheries/NEFSC.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_2.jpg',
 				alt: 'Butterfish.',
 				title: 'Butterfish. Credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_2.jpg',
 				alt: 'Juvenile butterfish caught in a bongo net sample from the Gulf of Maine.',
 				title:
 					'Juvenile butterfish (30 mm long) caught in a bongo net sample from the Gulf of Maine. Credit: Jerry Prezioso, NOAA Fisheries/NEFSC.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_4.jpg',
 				alt: 'A pile of caught butterfish.',
 				title: 'Caption: Butterfish. Credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/butterfish_on_karen_elizabeth_Manderson_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/butterfish_on_karen_elizabeth_Manderson_0.jpg',
 				alt: 'The fishing vessel Karen Elizabeth, owned by Chris Roebuck, Point Judith Rhode Island, with a fish box full of butterfish. Credit: John Manderson, NOAA Fisheries/NEFSC.',
 				title:
 					'The fishing vessel Karen Elizabeth, owned by Chris Roebuck, Point Judith Rhode Island, with a fish box full of butterfish. Credit: John Manderson, NOAA Fisheries/NEFSC.',
@@ -2368,7 +2368,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/american-butterfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">American butterfish</a>, <a href="/species-aliases/atlantic-butterfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Atlantic butterfish</a>, <a href="/species-aliases/dollarfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dollarfish</a>, <a href="/species-aliases/shiner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Shiner</a>, <a href="/species-aliases/skipjack" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Skipjack</a>, <a href="/species-aliases/sheepshead" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sheepshead</a>, <a href="/species-aliases/harvestfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Harvestfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/butterfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/butterfish.png',
 			alt: 'Illustration of a Butterfish',
 			title: 'Butterfish',
 		},
@@ -2431,20 +2431,20 @@ module.exports = [
 			'<ul>\n<li>Winter skate live on sand and gravel bottoms in the northwest Atlantic, most commonly in southern New England and on Georges Bank. They are occasionally found in the Gulf of Maine, on the Scotian Shelf, in the Gulf of Saint Lawrence, and in the Mid-Atlantic.</li>\n<li>Skates are not known to migrate far, but they do move with the seasons as water temperature changes. They are generally offshore during the summer and early autumn and inshore during winter and spring.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_55.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_55.jpg',
 				alt: 'A close-up photograph of a Winter Skate',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_45.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_45.jpg',
 				alt: 'Historic promotional material for skates and rays from the U.S. Bureau of Commercial Fisheries.',
 				title:
 					'Historic promotional material for skates and rays from the U.S. Bureau of Commercial Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_38.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_38.jpg',
 				alt: 'Fishermen looking through catch from a bottom trawl that includes some skates.',
 				title: 'Catch from a bottom trawl including some skates.',
 			},
@@ -2460,7 +2460,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/skate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Skate</a>, <a href="/species-aliases/big-skate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Big skate</a>, <a href="/species-aliases/spotted-skate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spotted skate</a>, <a href="/species-aliases/eyed-skate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Eyed skate</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/winter_skate.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/winter_skate.png',
 			alt: 'Illustration of a Winter Skate',
 			title: 'Winter Skate',
 		},
@@ -2523,31 +2523,31 @@ module.exports = [
 			'<ul>\n<li>Freshwater streams, estuaries, and associated wetlands provide vital nursery grounds for pink salmon.</li>\n<li>Adult salmon leave the ocean, enter fresh water, and migrate upstream to spawn, usually in the stream of their birth.</li>\n<li>Pink salmon spawn in rivers closer to tidewater than most other Pacific salmon species, generally within 30 miles of a river mouth.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch pink salmon rarely contacts the ocean floor and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_54.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_54.jpg',
 				alt: 'Pink salmon in Washington&#039;s Elwha River.',
 				title: 'Pink salmon in Washington&#039;s Elwha River.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_40.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_40.jpg',
 				alt: 'Pink salmon breaking the surface of the water.',
 				title: 'Pink salmon. Photo credit: U.S. Fish and Wildlife Service',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_44.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_44.jpg',
 				alt: 'A whole pink salmon.',
 				title:
 					'Whole pink salmon. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_37.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_37.jpg',
 				alt: 'Pink salmon fillet and steak.',
 				title:
 					'Pink salmon fillet and steak. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_30.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_30.jpg',
 				alt: 'A plate of baked pink salmon.',
 				title: '',
 			},
@@ -2564,7 +2564,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/humpback-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Humpback salmon</a>, <a href="/species-aliases/humpy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Humpy</a>, <a href="/species-aliases/gorbusch" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gorbusch</a>, <a href="/species-aliases/haddo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Haddo</a>, <a href="/species-aliases/holia" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Holia</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pink_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pink_salmon.png',
 			alt: 'Illustration of a Pink Salmon',
 			title: 'Pink Salmon',
 		},
@@ -2630,30 +2630,30 @@ module.exports = [
 			'<ul>\n<li>Northern shrimp are found in the cold waters of the North Atlantic, North Pacific, and Arctic Oceans. On the U.S. Atlantic coast, northern shrimp are mainly found in waters off of Maine, New Hampshire, and Massachusetts.</li>\n<li>They live on soft mud bottoms in waters approximately 30 to 1,000 feet deep.</li>\n<li>Northern shrimp appear to travel with seasonal changes in water temperature. They’re only common in nearshore waters during late winter and spring when these waters are coldest.</li>\n<li>Egg-bearing females move inshore in late fall and winter when nearshore waters have cooled. After their eggs hatch (February to April), females return to offshore waters in the western Gulf of Maine.</li>\n<li>Larvae and young juveniles remain in nearshore waters for up to 20 months as they develop. After 1 year, juveniles begin to migrate offshore to deeper waters.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Bottom trawl gear used to harvest northern shrimp has minimal impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_52.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_52.jpg',
 				alt: 'A picture of an Northern Shrimp being measured.',
 				title:
 					'Northern shrimp are often referred to as salad shrimp because they are small, reaching only 2 to 4 inches in length.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_41.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_41.jpg',
 				alt: 'A picture of northern shrimp being hauled aboard a shrimp boat.',
 				title: 'Northern shrimp are hauled aboard a shrimp boat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_35.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_35.jpg',
 				alt: 'A plate of Atlantic Northern Shrimp.',
 				title: 'A plate of Atlantic Northern Shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2.JPG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2.JPG',
 				alt: 'Measuring a northern shrimp.',
 				title: 'Measuring a northern shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5%20Distribution%20of%20adult%20female%20northern%20shrimp.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5%20Distribution%20of%20adult%20female%20northern%20shrimp.jpg',
 				alt: 'Map showing the distribution of adult female northern shrimp.',
 				title: 'Map showing the distribution of adult female northern shrimp.',
 			},
@@ -2670,7 +2670,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/pink-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pink shrimp</a>, <a href="/species-aliases/salad-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Salad shrimp</a>, <a href="/species-aliases/coldwater-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coldwater shrimp</a>, <a href="/species-aliases/deep-water-prawn" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Deep water prawn</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/northern_shrimp.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/northern_shrimp.png',
 			alt: 'An illustration of an Atlantic Northern Shrimp',
 			title: 'Atlantic Northern Shrimp',
 		},
@@ -2736,32 +2736,32 @@ module.exports = [
 			'<ul>\n<li>Swordfish live in surface water to mid-water but feed throughout the water column.</li>\n<li>Scientists know little about the migration of Pacific swordfish, but tagging data suggest swordfish move eastward from the central Pacific, north of Hawaii, toward the U.S. West Coast.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch Pacific swordfish rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_49.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_49.jpg',
 				alt: 'Swordfish’s species name, gladius, is derived from the word for the sword carried by Roman legionaires.',
 				title:
 					'Swordfish’s species name, gladius, is derived from the word for the sword carried by Roman legionaires.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_39.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_39.jpg',
 				alt: 'Because of their size and the risk of serious injury to the tagging crew, satellite tags are harpooned into large swordfish rather than bringing them aboard.',
 				title:
 					'Because of their size and the risk of serious injury to the tagging crew, satellite tags are harpooned into large swordfish rather than bringing them aboard.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_40.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_40.jpg',
 				alt: 'Swordfish harpoon boat, Dana Point, California.',
 				title: 'Swordfish harpoon boat, Dana Point, California.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_34.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_34.jpg',
 				alt: 'Swordfish steaks. Photo credit: U.S. Food and Drug Administration.',
 				title:
 					'Swordfish steaks. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_29.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_29.jpg',
 				alt: 'Swordfish seafood dish.',
 				title: '',
 			},
@@ -2777,7 +2777,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/broadbill-swordfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Broadbill swordfish</a>, <a href="/species-aliases/espada" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Espada</a>, <a href="/species-aliases/emperado" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Emperado</a>, <a href="/species-aliases/au" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">A`u</a>, <a href="/species-aliases/mekajiki" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mekajiki</a>, <a href="/species-aliases/shutome" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Shutome</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north_atlantic_swordfish_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north_atlantic_swordfish_0.png',
 			alt: 'North pacific swordfish',
 			title: '',
 		},
@@ -2842,26 +2842,26 @@ module.exports = [
 			'<ul>\n<li>Atlantic mackerel are common in cold and temperate waters over the continental shelf. They swim in schools near the surface, and travel to and from spawning and summering grounds.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest Atlantic mackerel have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_48.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_48.jpg',
 				alt: 'Atlantic mackerel.',
 				title: 'Atlantic mackerel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_38.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_38.jpg',
 				alt: 'Atlantic mackerel collected by researchers during a bottom trawl survey. NOAA’s Northeast Fisheries Science Center conducts these surveys to provide information on the abundance, biology, and distribution of the marine resources in the Northwest Atlantic.',
 				title:
 					'Atlantic mackerel collected by researchers during a bottom trawl survey. NOAA’s Northeast Fisheries Science Center conducts these surveys to provide information on the abundance, biology, and distribution of the marine resources in the Northwest Atlantic.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_39.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_39.jpg',
 				alt: 'Historic photograph of fishermen dressing and salting mackerel onboard a vessel in Gloucester Harbor, Massachusetts.',
 				title:
 					'Historic photograph of fishermen dressing and salting mackerel onboard a vessel in Gloucester Harbor, Massachusetts.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_33.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_33.jpg',
 				alt: 'Atlantic mackerel seafood dish.',
 				title: '',
 			},
@@ -2878,7 +2878,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mackerel</a>, <a href="/species-aliases/common-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Common mackerel</a>, <a href="/species-aliases/boston-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Boston mackerel</a>, <a href="/species-aliases/caballa" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Caballa</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mackerel.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mackerel.png',
 			alt: 'Atlantic mackerel',
 			title: '',
 		},
@@ -2943,29 +2943,29 @@ module.exports = [
 			'<ul>\n<li>Bigeye tuna are a highly migratory species, swimming long distances throughout the ocean.</li>\n<li>They often swim in schools and live at or near the surface but dive into deeper waters (to about 800 feet, deeper than other tropical tunas) during the day.</li>\n<li>Larvae are found in tropical waters, and as juvenile fish grow larger they tend to move into temperate waters.</li>\n<li>As juveniles they often school with <a href="https://www.fishwatch.gov/profiles/atlantic-yellowfin-tuna">yellowfin</a> and <a href="https://www.fishwatch.gov/profiles/atlantic-skipjack-tuna">skipjack</a> tunas at the surface, especially in warm waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch bigeye tuna rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_47.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_47.jpg',
 				alt: 'Measuring a bigeye tuna.',
 				title: 'Measuring a bigeye tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_37.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_37.jpg',
 				alt: 'Bigeye tuna catch.',
 				title: 'Bigeye tuna catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_38.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_38.jpg',
 				alt: 'A fishery observer measuring a bigeye tuna.',
 				title: 'A fishery observer measuring a bigeye tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_32.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_32.jpg',
 				alt: 'Bigeye tuna on ice.',
 				title: 'Bigeye tuna on ice.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_28.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_28.jpg',
 				alt: 'Bigeye tuna sushi.',
 				title: '',
 			},
@@ -2982,7 +2982,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tuna</a>, <a href="/species-aliases/big-eye" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Big eye</a>, <a href="/species-aliases/ahi-b" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ahi-b</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bigeye_tuna_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bigeye_tuna_0.png',
 			alt: 'Atlantic bigeye tuna',
 			title: '',
 		},
@@ -3045,29 +3045,29 @@ module.exports = [
 			'<ul>\n<li>Albacore tuna are a highly migratory species – they are found around the world and can travel long distances.</li>\n<li>They are a temperate (cooler water) species but spawn in warmer tropical waters.</li>\n<li>Juveniles prefer warmer surface waters, and adults like cooler, deeper waters.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest North Atlantic albacore tuna has no impact on habitat because it does not contact the ocean floor.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_46.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_46.jpg',
 				alt: 'Albacore on the line.',
 				title: 'Albacore on the line.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_36.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_36.jpg',
 				alt: 'Measuring an albacore tuna.',
 				title: 'Measuring an albacore tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_37.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_37.jpg',
 				alt: 'A recreational fisherman with his catch of albacore.',
 				title: 'A recreational fisherman with his catch of albacore.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_31.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_31.jpg',
 				alt: 'A fisherman displays his catch of albacore.',
 				title: 'A fisherman displays his catch of albacore.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_27.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_27.jpg',
 				alt: 'Atlantic albacore sushi dish.',
 				title: '',
 			},
@@ -3083,7 +3083,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/northern-albacore" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern albacore</a>, <a href="/species-aliases/longfin-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Longfin tuna</a>, <a href="/species-aliases/germon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Germon</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_albacore_tuna_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_albacore_tuna_0.png',
 			alt: 'Atlantic albacore tuna',
 			title: '',
 		},
@@ -3148,31 +3148,31 @@ module.exports = [
 			'<ul>\n<li>Acadian redfish are found over rocky, mud, or clay ocean bottoms.</li>\n<li>Off New England they are most common in the deep waters of the Gulf of Maine (to depths of 975 feet).</li>\n<li>They tend to move off the bottom at night to feed and move closer to shore in the winter.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_4.jpg',
 				alt: 'Baskets of redfish for sampling during a trawl survey.',
 				title: 'Baskets of redfish for sampling during a trawl survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_1.jpg',
 				alt: 'Acadian redfish are found in deep boulder reefs and among anemone forests in the muddy basins of Stellwagen Bank National Marine Sanctuary. (Photo credit: National Undersea Research Center, University of Connecticut)',
 				title:
 					'Acadian redfish are found in deep boulder reefs and among anemone forests in the muddy basins of Stellwagen Bank National Marine Sanctuary. (Photo credit: National Undersea Research Center, University of Connecticut)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_1.jpg',
 				alt: 'Measuring an Acadian redfish. Redfish can grow up to 20 inches long.',
 				title:
 					'Measuring an Acadian redfish. Redfish can grow up to 20 inches long.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5.jpg',
 				alt: 'Catch of Acadian redfish.',
 				title: 'Catch of Acadian redfish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Acadian%20redfish%20with%20chimichurri.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Acadian%20redfish%20with%20chimichurri.jpg',
 				alt: 'Acadian redfish with chimichurri',
 				title: 'Acadian redfish with chimichurri',
 			},
@@ -3188,7 +3188,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/redfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Redfish</a>, <a href="/species-aliases/ocean-perch" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ocean perch</a>, <a href="/species-aliases/labrador-redfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Labrador redfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/acadian_redfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/acadian_redfish.png',
 			alt: 'Acadian redfish',
 			title: '',
 		},
@@ -3251,31 +3251,31 @@ module.exports = [
 			'<ul>\n<li>Skipjack tuna are a pelagic species. They mostly live in the open ocean, but they may spend part of their life in nearshore waters.</li>\n<li>They can be found in surface waters and to depths of 850 feet during the day and generally stay near the surface at night.</li>\n<li>Skipjack tuna is a highly migratory species, swimming long distances to feed and reproduce.</li>\n<li>They swim in schools, especially around floating objects or hydrographic features such as convergence zones and boundaries between cold and warm water masses. They also school around upwelling areas, where dense, cooler, and usually nutrient-rich water is pushed toward the ocean surface, replacing the warmer, usually nutrient-depleted surface water.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest skipjack tuna has no impact on habitat because it does not contact the ocean floor.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_45.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_45.jpg',
 				alt: 'A black and white photo of a school of skipjack tuna.',
 				title: 'School of skipjack tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_35.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_35.jpg',
 				alt: 'Measuring a skipjack tuna.',
 				title: 'Measuring a skipjack tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_30.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_30.jpg',
 				alt: 'Whole skipjack tuna.',
 				title:
 					'Whole skipjack tuna. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_26.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_26.jpg',
 				alt: 'Skipjack tuna fillets.',
 				title:
 					'Skipjack tuna fillets. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_12.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_12.jpg',
 				alt: 'A grilled Atlantic Skipjack Tuna steak served with tomatoes and olives.',
 				title: '',
 			},
@@ -3291,7 +3291,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tuna</a>, <a href="/species-aliases/ocean-bonito" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ocean bonito</a>, <a href="/species-aliases/lesser-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lesser tuna</a>, <a href="/species-aliases/aku" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Aku</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_skipjack_tuna_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_skipjack_tuna_0.png',
 			alt: 'Illustration of an Atlantic Skipjack Tuna',
 			title: 'Atlantic Skipjack Tuna',
 		},
@@ -3357,31 +3357,31 @@ module.exports = [
 			'<ul>\n<li>Adult scallops live close together in groups called “beds,” on sandy or gravelly parts of the ocean floor.</li>\n<li>They are generally found at depths of about 100 to 300 feet on Georges Bank and in the Mid-Atlantic.</li>\n<li>Sea scallops can be found in shallower waters in Maine and Canada.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl and dredge gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_44.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_44.jpg',
 				alt: 'A close-up of a scallop under water.',
 				title:
 					'You can tell how old a scallop is by counting the number of annuli (rings) on their shells (kind of like counting tree rings on a stump).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/14.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/14.jpg',
 				alt: 'A close-up of an Atlantic Sea Scallop.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/11.jpg',
 				alt: 'A man holding two different sized scallops.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09_1.jpg',
 				alt: 'Men sort their catch of Atlantic Sea Scallops.',
 				title:
 					'Sorting the catch from the northern edge, Closed Area II survey in 2008 aboard the research vessel Hugh Sharp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/17_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/17_0.jpg',
 				alt: 'Grilled Atlantic Sea Scallops served with salad greens.',
 				title: '',
 			},
@@ -3397,7 +3397,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/scallop" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Scallop</a>, <a href="/species-aliases/sea-scallop" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea scallop</a>, <a href="/species-aliases/giant-scallop" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Giant scallop</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_sea_scallop.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_sea_scallop.png',
 			alt: 'Illustration of an Atlantic Sea Scallop',
 			title: 'Atlantic Sea Scallop',
 		},
@@ -3461,32 +3461,32 @@ module.exports = [
 			'<ul>\n<li>Atlantic salmon are anadromous – they leave the ocean to return to freshwater streams and rivers to breed.</li>\n<li>After hatching, young Atlantic salmon (called parr) remain in rivers or streams for the first 1 to 2 years of life, preferring shallow, cool, fast-flowing water with shade.</li>\n<li>After this period, the salmon migrate to open ocean waters where they spend about 2 to 3 years feeding, then return to their natal streams or rivers to spawn during the fall.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Not applicable – there is no commercial or recreational fishery for Atlantic salmon in the United States.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_43.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_43.jpg',
 				alt: 'A man displays his catch of Atlantic salmon.',
 				title: 'Atlantic salmon.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_34.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_34.jpg',
 				alt: 'A schematic of the Atlantic salmon life cycle.',
 				title: 'Atlantic salmon life cycle.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_36.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_36.jpg',
 				alt: 'Wild Atlantic salmon spawning on a Connecticut River tributary.',
 				title:
 					'Wild Atlantic salmon spawning on a Connecticut River tributary. Photo credit: U.S. Fish and Wildlife Service.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_29.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_29.jpg',
 				alt: 'Atlantic salmon parr emerging from streambed.',
 				title:
 					'Atlantic salmon parr emerging from streambed. Photo credit: U.S. Fish and Wildlife Service.',
 			},
 		],
 		Location:
-			'<ul>\n<li>Atlantic salmon are the only salmon native to the Atlantic Ocean.</li>\n<li>There are three groups of wild Atlantic salmon: North American, European, and Baltic. The North American group, including the Canadian and U.S. populations, was historically found from northern Quebec southeast to Newfoundland and southwest to Long Island Sound.</li>\n<li>In the United States, Atlantic salmon were once native to almost every river north of the Hudson River. Due to the effects of industrial and agricultural development (including habitat destruction, dams, and historic overfishing), most populations native to New England were eradicated. Now, the only native populations of Atlantic salmon in the United States are found in Maine.</li>\n</ul>\n<p><img alt="A map showing the geographic range of Altantic Salmon." height="495" width="640" class="media-element file-default" data-delta="1" typeof="foaf:Image" src="https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon_migration_route_large.jpg" /></p>\n',
+			'<ul>\n<li>Atlantic salmon are the only salmon native to the Atlantic Ocean.</li>\n<li>There are three groups of wild Atlantic salmon: North American, European, and Baltic. The North American group, including the Canadian and U.S. populations, was historically found from northern Quebec southeast to Newfoundland and southwest to Long Island Sound.</li>\n<li>In the United States, Atlantic salmon were once native to almost every river north of the Hudson River. Due to the effects of industrial and agricultural development (including habitat destruction, dams, and historic overfishing), most populations native to New England were eradicated. Now, the only native populations of Atlantic salmon in the United States are found in Maine.</li>\n</ul>\n<p><img alt="A map showing the geographic range of Altantic Salmon." height="495" width="640" class="media-element file-default" data-delta="1" typeof="foaf:Image" img="https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon_migration_route_large.jpg" /></p>\n',
 		Management: null,
 		'NOAA Fisheries Region': 'Greater Atlantic',
 		Population:
@@ -3497,7 +3497,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sea-run-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea run salmon</a>, <a href="/species-aliases/kelts" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kelts</a>, <a href="/species-aliases/black-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black salmon</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_salmon.png',
 			alt: 'Illustration of an Atlantic Salmon.',
 			title: 'Atlantic Salmon',
 		},
@@ -3562,31 +3562,31 @@ module.exports = [
 			'<ul>\n<li>Pollock eggs and larvae are found in the water column.</li>\n<li>Juveniles are found inshore and move offshore as they grow older. When in inshore waters, juvenile pollock school in the open water at low tide, then scatter at high tide and hide in intertidal seaweed beds.</li>\n<li>Adults live offshore near the ocean floor over a wide variety of ocean bottom habitats including sand, mud, rocks, and vegetation.</li>\n<li>Atlantic pollock swim in schools and are believed to travel extensively between the Scotian Shelf and Georges Bank and, to a lesser extent, between the Scotian Shelf and the Gulf of Maine.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_42.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_42.jpg',
 				alt: 'Atlantic pollock swimming.',
 				title: 'Atlantic pollock.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_33.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_33.jpg',
 				alt: 'A fisherman displays his catch of Atlantic Pollock.',
 				title: 'Atlantic pollock catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_28.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_28.jpg',
 				alt: 'A photo of a whole Atlantic pollock.',
 				title:
 					'Whole Atlantic pollock. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_25.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_25.jpg',
 				alt: 'A photo of Atlantic pollock fillets.',
 				title:
 					'Atlantic pollock fillets. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_11.jpg',
 				alt: 'A photo of a plate of Atlantic Pollock with green beans.',
 				title: '',
 			},
@@ -3602,7 +3602,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/saithe" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Saithe</a>, <a href="/species-aliases/coalfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coalfish</a>, <a href="/species-aliases/coley" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coley</a>, <a href="/species-aliases/green-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Green cod</a>, <a href="/species-aliases/boston-bluefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Boston bluefish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_pollack.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_pollack.png',
 			alt: 'Illustration of an Atlantic Pollock',
 			title: 'Atlantic Pollock',
 		},
@@ -3665,29 +3665,29 @@ module.exports = [
 			'<ul>\n<li>Yellowfin tuna are highly migratory and can swim across an entire ocean.</li>\n<li>Juvenile yellowfin tuna travel in schools with <a href="https://www.fishwatch.gov/profiles/atlantic-skipjack-tuna">skipjack</a> and juvenile <a href="https://www.fishwatch.gov/profiles/atlantic-bigeye-tuna">bigeye</a> tuna. &nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest yellowfin tuna have almost no impact on habitat because they’re used in the water column and don’t come into contact with the ocean floor.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_01.jpg',
 				alt: 'Atlantic Yellowfin Tuna image',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_02.jpg',
 				alt: 'Measuring a yellowfin tuna image',
 				title: 'Measuring a yellowfin tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_03.jpg',
 				alt: 'A recreational fisherman fillets his catch of yellowfin tuna image',
 				title: 'A recreational fisherman fillets his catch of yellowfin tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_04.jpg',
 				alt: 'Yellowfin tuna caught off Nags Head, North Carolina image',
 				title: 'Yellowfin tuna caught off Nags Head, North Carolina.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-yellowfin-tuna_05.jpg',
 				alt: 'A school of yellowfin tuna image',
 				title: 'A school of yellowfin tuna.',
 			},
@@ -3703,7 +3703,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tuna</a>, <a href="/species-aliases/ahi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ahi</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_yellowfin_tuna_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_yellowfin_tuna_0.png',
 			alt: 'Atlantic Yellowfin Tuna illustration',
 			title: '',
 		},
@@ -3767,31 +3767,31 @@ module.exports = [
 			'<ul>\n<li>Adults live over mud or sand/mud substrates of the continental shelf and upper continental slope in waters as deep as 1,300 feet.</li>\n<li>Adults and juveniles migrate vertically in the water column, remaining near the seabed during the day and moving toward the surface at night.&nbsp;</li>\n<li>North of Cape Hatteras, squid migrate seasonally—offshore during late autumn to spend the winter in warmer waters along the shelf edge and slope, and back inshore during the spring where they remain until late autumn.</li>\n<li>Squid egg masses are attached to rocks and small boulders or aquatic vegetation and on sandy bottoms.</li>\n<li>Paralarvae are found in surface waters. Juveniles also live in the upper water column in water 165 to 1,650 feet deep.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest longfin squid have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_01.jpg',
 				alt: 'Picture of fried squid on a plate',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_02.jpg',
 				alt: 'Picture of Longfin Squid on a counter top.',
 				title: 'Longfin squid.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_03.jpg',
 				alt: 'Picture of a Longfin Squid in the ocean.',
 				title:
 					'Longfin squid. Photo credit: National Undersea Research Center – University of Connecticut.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin-squid_05.jpg',
 				alt: 'Picture of offloading squid from the fishing vessel Atlantic Traveler at Co-op Seafood Market dock in New Jersey image',
 				title:
 					'Offloading squid from the fishing vessel Atlantic Traveler at Co-op Seafood Market dock in New Jersey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_3.jpg',
 				alt: 'Picture of Longfin Squid being measured for length during a research survey.',
 				title: 'Longfin squid research survey.',
 			},
@@ -3807,7 +3807,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/longfin-inshore-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Longfin inshore squid</a>, <a href="/species-aliases/loligo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Loligo</a>, <a href="/species-aliases/winter-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Winter squid</a>, <a href="/species-aliases/boston-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Boston squid</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin_squid.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/longfin_squid.png',
 			alt: 'Longfin Squid illustration',
 			title: '',
 		},
@@ -3872,29 +3872,29 @@ module.exports = [
 			'<ul>\n<li>Scup eggs and larvae are found in the water column in coastal waters during warmer months.</li>\n<li>As larvae mature, they settle to the seafloor and develop into juveniles.</li>\n<li>Juveniles live in a variety of habitats including rocky ledges, artificial reefs, mussel beds, sand, silty sand, shell, mud bottoms, and eelgrass.</li>\n<li>During the summer and early fall, juveniles and adults are common in large estuaries, open sandy bottoms, and structured habitats such as mussel beds, reefs, or rock rubble.</li>\n<li>Scup migrate north and inshore to spawn in the spring, then migrate south and offshore in autumn as the water cools, arriving by December in offshore areas where they spend the winter.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Otter trawls can impact bottom habitat. Scup are mainly harvested over sand and mud habitats, which appear to be more resilient to the effects of trawling than more structured habitats, such as coral.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_01.jpg',
 				alt: 'Flash fried whole scup with garnish image',
 				title: 'Flash fried whole scup with garnish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_02.jpg',
 				alt: 'Measuring scup image',
 				title: 'Measuring scup.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_03.jpg',
 				alt: 'Preparing and scaling whole scup to be cooked image',
 				title: 'Preparing and scaling whole scup to be cooked.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/scup_04.jpg',
 				alt: 'Scup and black sea bass hovering around a reef ledge image',
 				title: 'Scup and black sea bass hovering around a reef ledge.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Whole%20scup%20on%20the%20grill.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Whole%20scup%20on%20the%20grill.jpg',
 				alt: 'Whole scup on the grill',
 				title: 'Whole scup on the grill',
 			},
@@ -3910,7 +3910,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/porgy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Porgy</a>, <a href="/species-aliases/maiden" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Maiden</a>, <a href="/species-aliases/fair-maid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Fair maid</a>, <a href="/species-aliases/ironsides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ironsides</a>, <a href="/species-aliases/northern-porgy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern porgy</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/porgy_scup.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/porgy_scup.png',
 			alt: 'Scup illustration',
 			title: '',
 		},
@@ -3973,20 +3973,20 @@ module.exports = [
 			'<ul>\n<li>Pink shrimp are commonly found on sand, sand-shell, or coral-mud bottoms.</li>\n<li>Young shrimp live and grow in nursery areas with marsh grasses in the South Atlantic and Gulf of Mexico. These grassy areas offer abundant food and shelter.</li>\n<li>As pink shrimp grow, they migrate seaward to deeper, saltier water. They travel primarily at night, especially around dusk, and bury themselves in the bottom substrate during the day.</li>\n<li>Smaller pink shrimp remain in estuaries during winter and bury themselves deep in the sand or mud to protect themselves from the cold temperatures.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear restrictions, such as a weak-link in the tickler chain, are in place to protect bottom habitat from trawl gear. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_41.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_41.jpg',
 				alt: 'Pink shrimp typically have a dark colored spot on each side between their third and fourth abdominal segments. Photo credit: South Carolina Department of Natural Resources.',
 				title:
 					'Pink shrimp typically have a dark colored spot on each side between their third and fourth abdominal segments. Photo credit: South Carolina Department of Natural Resources.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_32.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_32.jpg',
 				alt: 'Shrimp trawler operating in the Gulf of Mexico.',
 				title: 'Shrimp trawler operating in the Gulf of Mexico.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_35.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_35.jpg',
 				alt: 'Sea turtle escaping a shrimp net through a Turtle Excluder Device.',
 				title:
 					'Sea turtle escaping a shrimp net through a Turtle Excluder Device.',
@@ -4003,7 +4003,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/spotted-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spotted shrimp</a>, <a href="/species-aliases/hopper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hopper</a>, <a href="/species-aliases/pink-spotted-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pink spotted shrimp</a>, <a href="/species-aliases/brown-spotted-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Brown spotted shrimp</a>, <a href="/species-aliases/grooved-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grooved shrimp</a>, <a href="/species-aliases/green-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Green shrimp</a>, <a href="/species-aliases/pink-night-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pink night shrimp</a>, <a href="/species-aliases/red-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Red shrimp</a>, <a href="/species-aliases/skipper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Skipper</a>, <a href="/species-aliases/pushed-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pushed shrimp</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pink_shrimp.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pink_shrimp.png',
 			alt: 'Pink shrimp',
 			title: '',
 		},
@@ -4067,19 +4067,19 @@ module.exports = [
 			'<ul>\n<li>White shrimp commonly inhabit estuaries and coastal areas out to about 100 feet offshore.</li>\n<li>Young shrimp live and grow in nursery areas with muddy ocean bottoms and low to moderate salinity.</li>\n<li>White shrimp are often found in association with other shrimp species, specifically <a href="https://www.fishwatch.gov/profiles/brown-shrimp">brown</a> shrimp.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear restrictions, such as a weak-link in the tickler chain, are in place to protect bottom habitat from trawl gear. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_40.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_40.jpg',
 				alt: 'White shrimp.',
 				title: 'White shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_31.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_31.jpg',
 				alt: 'Shrimp trawler off Georgia.',
 				title: 'Shrimp trawler off Georgia.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_34.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_34.jpg',
 				alt: 'Shrimp boats at a Louisiana boatyard.',
 				title: 'Shrimp boats at a Louisiana boatyard.',
 			},
@@ -4095,7 +4095,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/northern-white-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern white shrimp</a>, <a href="/species-aliases/gray-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gray shrimp</a>, <a href="/species-aliases/lake-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lake shrimp</a>, <a href="/species-aliases/green-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Green shrimp</a>, <a href="/species-aliases/common-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Common shrimp</a>, <a href="/species-aliases/daytona-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Daytona shrimp</a>, <a href="/species-aliases/southern-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Southern shrimp</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white_shrimp.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white_shrimp.png',
 			alt: 'White shrimp',
 			title: '',
 		},
@@ -4160,26 +4160,26 @@ module.exports = [
 			'<ul>\n<li>In U.S. waters, two stocks have been identified. The northern stock of silver hake inhabits the waters of the Gulf of Maine and Northern Georges Bank, and the southern stock inhabits the waters of Southern Georges Bank and the Mid-Atlantic Bight.</li>\n<li>As nocturnal, semi-pelagic predators, silver hake move up in the water column to feed at night, primarily between dusk and midnight. They return to rest on the ocean bottom during the day, preferring sandy, muddy, or pebbly ocean bottoms.</li>\n<li>Silver hake migrate in response to seasonal changes in water temperatures, moving toward shallow, warmer waters in the spring.</li>\n<li>They spawn in these shallow waters during late spring and early summer and then return to deeper waters in the autumn.</li>\n<li>Older, larger silver hake prefer deeper waters.</li>\n<li>During the summer, portions of both stocks can be found on Georges Bank.</li>\n<li>During the winter, fish in the northern stock move to deep basins in the Gulf of Maine, while fish in the southern stock move to outer continental shelf and slope waters.</li>\n<li>Silver hake are widely distributed, and have been observed at temperature ranges of 2 to 17° C (36 to 63° F) and depth ranges of 11 to 500 meters (36 to 1,640 feet). However, they are most commonly found in temperatures between 7 and 10° C (45 to 50° F).</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest silver hake have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_01_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_01_0.jpg',
 				alt: 'Silver hake image',
 				title:
 					'Silver hake (Merluccius blinearis). Credit: NOAA Teacher at Sea',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_02.jpg',
 				alt: 'Silver hake image',
 				title:
 					'Silver hake (Merluccius bilinearis). Credit: Don Flescher, National Marine Fisheries Service Systematics Laboratory',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_03.jpg',
 				alt: 'Silver hake image',
 				title: 'Silver hake (Merluccius bilinearis). Credit: NEFSC/NOAA',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver-hake_04.jpg',
 				alt: 'Two juvenile hake on a fingertip image',
 				title:
 					'Two juvenile hake on a fingertip. Credit: Jerry Prezioso, NEFSC/NOAA',
@@ -4196,7 +4196,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/whiting" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Whiting</a>, <a href="/species-aliases/atlantic-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Atlantic hake</a>, <a href="/species-aliases/new-england-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">New England hake</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver_hake.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/silver_hake.png',
 			alt: 'Silver Hake illustration',
 			title: 'Silver Hake',
 		},
@@ -4260,31 +4260,31 @@ module.exports = [
 			'<ul>\n<li>Skipjack tuna is a highly migratory species, swimming long distances to feed and reproduce.</li>\n<li>They are a pelagic species—they mostly live in the open ocean, although they may spend part of their life in nearshore waters.</li>\n<li>They can be found in large schools swimming in warm, well-mixed surface waters and to depths of 850 feet during the day.</li>\n<li>They generally stay near the surface at night.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch skipjack tuna rarely contacts the ocean floor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_01.jpg',
 				alt: 'Pacific Skipjack Tuna meal image',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_02.jpg',
 				alt: 'Skipjack tuna fillets image',
 				title:
 					'Skipjack tuna fillets. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_03.jpg',
 				alt: 'Whole skipjack tuna image',
 				title:
 					'Whole skipjack tuna. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_04.jpg',
 				alt: 'Pacific skipjack tuna image',
 				title: 'Photo credit: U.S. Department of State.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-skipjack-tuna_05.jpg',
 				alt: 'Measuring a skipjack tuna image',
 				title: 'Measuring a skipjack tuna.',
 			},
@@ -4300,7 +4300,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/ocean-bonito" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ocean bonito</a>, <a href="/species-aliases/lesser-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lesser tuna</a>, <a href="/species-aliases/aku" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Aku</a>, <a href="/species-aliases/katsuo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Katsuo</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_skipjack_tuna.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_skipjack_tuna.png',
 			alt: 'Pacific Skipjack Tuna illustration',
 			title: 'Pacific Skipjack Tuna',
 		},
@@ -4365,33 +4365,33 @@ module.exports = [
 			'<ul>\n<li>Swordfish live in the surface to mid-water but feed throughout the water column.&nbsp;</li>\n<li>They move from spawning grounds in warm waters to feeding grounds in colder waters.</li>\n<li>The Gulf of Mexico and Florida Straights are important nursery area for North Atlantic swordfish.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Pelagic longline gear and handgear used to catch swordfish have no impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_02.jpg',
 				alt: 'Swordfish steaks photo',
 				title:
 					'Swordfish steaks. Photo credit: Regulatory Fish Encyclopedia: U.S. Food and Drug Administration, 1993-2010',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_03.jpg',
 				alt: 'Because of fish size and risk of serious injury to the tagging crew, researchers harpoon satellite tags into large swordfish rather than bringing them aboard to tag image',
 				title:
 					'Because of fish size and risk of serious injury to the tagging crew, researchers harpoon satellite tags into large swordfish rather than bringing them aboard to tag.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_04.jpg',
 				alt: 'James Barbour, NOAA fishing gear researcher, holds a swordfish. Swordfish’s species name, gladius, is derived from the word for the sword carried by Roman legionaires image',
 				title:
 					'James Barbour, NOAA fishing gear researcher, holds a swordfish. Swordfish’s species name, gladius, is derived from the word for the sword carried by Roman legionaires.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_05.jpg',
 				alt: 'A large swordfish pulled up on a vessel that took part in the experiment on new gear on the Grand Banks from 2001 to 2003 image',
 				title:
 					'A large swordfish pulled up on a vessel that took part in the experiment on new gear on the Grand Banks from 2001 to 2003.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north-atlantic-swordfish_01.jpg',
 				alt: 'North Atlantic Swordfish meal image',
 				title: '',
 			},
@@ -4407,7 +4407,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/broadbilled-swordfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Broadbilled swordfish</a>, <a href="/species-aliases/broadbill" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Broadbill</a>, <a href="/species-aliases/espada" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Espada</a>, <a href="/species-aliases/emperado" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Emperado</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north_atlantic_swordfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/north_atlantic_swordfish.png',
 			alt: 'North Atlantic Swordfish illustration',
 			title: 'North Atlantic Swordfish',
 		},
@@ -4472,20 +4472,20 @@ module.exports = [
 			'<ul>\n<li>Brown rock shrimp mainly live on sand bottoms in water 80 to 215 feet deep, although they’ve been found in depths to 600 feet.</li>\n<li>They are active at night and burrow in the sand during the day.</li>\n<li>Larval brown rock shrimp grow and develop in coastal estuaries and travel back to offshore areas as they mature.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear restrictions, such as fishing prohibitions in certain areas and shrimp fishery access areas, are in place to protect deepwater coral habitat from trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_38.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_38.jpg',
 				alt: 'A close-up of someone holding a Brown Rock Shrimp between their fingers.',
 				title:
 					'Photo credit: North Carolina National Estuarine Research Reserve',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_29.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_29.jpg',
 				alt: 'A brown rock shrimp swimming.',
 				title: 'Photo credit: South Carolina Department of Natural Resources.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_32.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_32.jpg',
 				alt: 'Shrimp trawler',
 				title: 'Shrimp trawler',
 			},
@@ -4502,7 +4502,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/rock-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock shrimp</a>, <a href="/species-aliases/florida-rock-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Florida rock shrimp</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rock_shrimp.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rock_shrimp.png',
 			alt: 'Illustration of a Brown Rock Shrimp',
 			title: 'Brown Rock Shrimp',
 		},
@@ -4567,31 +4567,31 @@ module.exports = [
 			'<ul>\n<li>Yellowtail flounder are relatively sedentary.</li>\n<li>They live on sandy bottoms in waters between 130 and 230 feet deep.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_36.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_36.jpg',
 				alt: 'Yellowtail flounder over the ocean floor.',
 				title: 'Yellowtail flounder over the ocean floor.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_28.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_28.jpg',
 				alt: 'Yellowtail Flounder.',
 				title: 'Yellowtail Flounder.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_31.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_31.jpg',
 				alt: 'Tagging a yellowtail as part of the Yellowtail Flounder Cooperative Tagging Program',
 				title:
 					'Tagging a yellowtail as part of the Yellowtail Flounder Cooperative Tagging Program',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_26.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_26.jpg',
 				alt: 'Fish processing workers cutting yellowtail flounder at the Pigeon Cove Trading Company, Gloucester, Massachusetts.',
 				title:
 					'Fish processing workers cutting yellowtail flounder at the Pigeon Cove Trading Company, Gloucester, Massachusetts.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_5.jpg',
 				alt: 'Yellowtail flounder seafood dish.',
 				title: '',
 			},
@@ -4608,7 +4608,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/rusty-dab" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rusty dab</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowtail_flounder.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowtail_flounder.png',
 			alt: 'Yellowtail flounder',
 			title: '',
 		},
@@ -4672,30 +4672,30 @@ module.exports = [
 			'<ul>\n<li>Winter flounder get their name because of their migrations. In the winter, adults migrate from offshore areas where they feed to inshore bays and estuaries where they spawn.</li>\n<li>While inshore, they live on muddy sand, clean sand, clay, and pebbly or gravelly bottom habitats.</li>\n<li>They often bury their whole body, except for their eyes, in bottom sediments.</li>\n<li>Larvae and some 1-year-olds live in the estuaries where they were born.</li>\n<li>Juveniles prefer sand or sand-silt bottoms with a wide range of salinity and temperature.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_35.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_35.jpg',
 				alt: 'Winter flounder in eelgrass habitat.',
 				title: 'Winter flounder in eelgrass habitat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_27.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_27.jpg',
 				alt: 'Winter flounder’s coloring often varies with its habitat. Here a winter flounder lies over a sandy bottom. It is camouflaged by its sandy brown coloring.',
 				title:
 					'Winter flounder’s coloring often varies with its habitat. Here a winter flounder lies over a sandy bottom. It is camouflaged by its sandy brown coloring.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_30.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_30.jpg',
 				alt: 'Baby winter flounder.',
 				title: 'Baby winter flounder.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_25.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_25.jpg',
 				alt: 'Measuring winter flounder.',
 				title: 'Measuring winter flounder.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_23.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_23.jpg',
 				alt: 'Flounder seafood dish.',
 				title: '',
 			},
@@ -4712,7 +4712,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/lemon-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lemon sole</a>, <a href="/species-aliases/georges-bank-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Georges Bank flounder</a>, <a href="/species-aliases/blackback-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blackback flounder</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/winter_flounder.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/winter_flounder.png',
 			alt: 'Winter flounder',
 			title: '',
 		},
@@ -4775,32 +4775,32 @@ module.exports = [
 			'<ul>\n<li>Coho salmon spend their early life growing and feeding in freshwater streams, estuaries, and associated wetlands.</li>\n<li>They spend the remainder of their life foraging in the ocean before returning to the streams and tributaries where they were born to spawn.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch coho salmon rarely contacts the ocean floor and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_02.jpg',
 				alt: 'Coho salmon fillets and steak image',
 				title:
 					'Coho salmon fillets and steak. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_03.jpg',
 				alt: 'Whole coho salmon image',
 				title:
 					'Whole coho salmon. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_04.jpg',
 				alt: 'Adult male coho salmon image',
 				title: 'Adult male coho salmon.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_05.jpg',
 				alt: 'A group of coho salmon smolts after release from a California hatchery image',
 				title:
 					'A group of coho salmon smolts after release from a California hatchery. Some wild steelhead may also be mixed in with the group.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho-salmon_01.jpg',
 				alt: 'Coho Salmon meal',
 				title: 'Coho Salmon',
 			},
@@ -4817,7 +4817,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Salmon</a>, <a href="/species-aliases/silver-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Silver salmon</a>, <a href="/species-aliases/medium-red-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Medium red salmon</a>, <a href="/species-aliases/hoopid-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hoopid salmon</a>, <a href="/species-aliases/white-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">White salmon</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/coho_salmon.png',
 			alt: 'Coho Salmon illustration',
 			title: 'Coho Salmon',
 		},
@@ -4884,25 +4884,25 @@ module.exports = [
 			'<ul>\n<li>Chum salmon spend their early life growing and feeding in fresh water streams, estuaries, and associated wetlands.</li>\n<li>They spend the remainder of their life foraging in the ocean before returning to the streams and tributaries where they were born to spawn.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch chum salmon rarely contacts the ocean floor and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_02.jpg',
 				alt: 'Chum salmon are nicknamed “dog salmon,” likely because of the mature male chum salmon’s large head, elongated upper jaw, and prominent, canine-like teeth image',
 				title:
 					'Chum salmon are nicknamed “dog salmon,” likely because of the mature male chum salmon’s large head, elongated upper jaw, and prominent, canine-like teeth. Photo credit: U.S. Geological Survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_03.jpg',
 				alt: 'Measuring a chum salmon image',
 				title: 'Measuring a chum salmon.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_04.jpg',
 				alt: 'Chum salmon spawning image',
 				title: 'Chum salmon spawning.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum-salmons_01.jpg',
 				alt: 'Chum Salmon meal image',
 				title: '',
 			},
@@ -4919,7 +4919,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Salmon</a>, <a href="/species-aliases/chum" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Chum</a>, <a href="/species-aliases/keta" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Keta</a>, <a href="/species-aliases/dog-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dog salmon</a>, <a href="/species-aliases/calico-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Calico salmon</a>, <a href="/species-aliases/chub" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Chub</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chum_salmon.png',
 			alt: 'Chum Salmon illustration',
 			title: 'Chum Salmon',
 		},
@@ -4986,30 +4986,30 @@ module.exports = [
 			'<ul>\n<li>Brown shrimp live in shallow water, generally less than 180 feet deep, but can be found in water up to 360 feet deep. As they grow, they migrate seaward to deeper, saltier water.</li>\n<li>They travel primarily at night, especially at or shortly after dusk, and bury themselves during the day.</li>\n<li>Inshore, brown shrimp prefer areas with muddy or peaty bottoms rich in organic matter and decaying vegetation.</li>\n<li>Offshore, brown shrimp prefer soft bottoms of mud and sand.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear restrictions, such as a weak-link in the tickler chain, are in place to protect bottom habitat from trawl gear. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_01.jpg',
 				alt: 'Survey catch of brown shrimp image',
 				title: 'Survey catch of brown shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_02.jpg',
 				alt: 'Measuring a brown shrimp image',
 				title: 'Measuring a brown shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_03.jpg',
 				alt: 'Baby brown shrimp image.',
 				title: 'Baby brown shrimp.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_04.jpg',
 				alt: 'A shrimp trawler off the coast of Galveston, Texas. A net is towed by the boat and retrieved when full image',
 				title:
 					'A shrimp trawler off the coast of Galveston, Texas. A net is towed by the boat and retrieved when full.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown-shrimp_05.jpg',
 				alt: 'Sea turtle escaping a shrimp net through a Turtle Excluder Device image',
 				title:
 					'Sea turtle escaping a shrimp net through a Turtle Excluder Device.',
@@ -5026,7 +5026,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/brownies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Brownies</a>, <a href="/species-aliases/green-lake-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Green lake shrimp</a>, <a href="/species-aliases/red-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Red shrimp</a>, <a href="/species-aliases/redtail-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Redtail shrimp</a>, <a href="/species-aliases/golden-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Golden shrimp</a>, <a href="/species-aliases/native-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Native shrimp</a>, <a href="/species-aliases/summer-shrimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Summer shrimp</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown_shrimp_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/brown_shrimp_0.png',
 			alt: 'Brown Shrimp illustration',
 			title: 'Brown Shrimp',
 		},
@@ -5090,31 +5090,31 @@ module.exports = [
 			'<ul>\n<li>Pacific mackerel live within 20 miles of shore in water ranging from 50˚ to 72˚ F.</li>\n<li>When the population is small, they tend to occupy only the warmer part of their habitat.</li>\n<li>Juveniles live off sandy beaches, around kelp beds, and in open bays.</li>\n<li>Adults are found near shallow banks from the surface to waters almost 1,000 feet deep.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The gear used to catch Pacific mackerel is used at the surface and has little impact on bottom habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_34.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_34.jpg',
 				alt: 'Pacific mackerel.',
 				title: 'Pacific mackerel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_26.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_26.jpg',
 				alt: 'Pacific mackerel being loaded on a boat.',
 				title: 'Pacific mackerel being loaded on a boat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_24.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_24.jpg',
 				alt: 'Whole Pacific mackerel.',
 				title:
 					'Whole Pacific mackerel. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_22.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_22.jpg',
 				alt: 'Pacific mackerel fillets.',
 				title:
 					'Pacific mackerel fillets. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_10.jpg',
 				alt: 'A whole pacific mackerel served over salad.',
 				title: '',
 			},
@@ -5130,7 +5130,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/chub-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Chub mackerel</a>, <a href="/species-aliases/spanish-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spanish mackerel</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_mackeral.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_mackeral.png',
 			alt: 'Illustration of a Pacific Mackerel',
 			title: 'Pacific Mackerel',
 		},
@@ -5192,26 +5192,26 @@ module.exports = [
 			'<ul>\n<li>Bluefin tuna are highly migratory and travel long distances throughout the Pacific Ocean.</li>\n<li>They are found mostly in temperate ocean waters but also in the tropics and cooler coastal regions.</li>\n<li>Of the tunas, Pacific bluefin tuna have the largest geographic range.</li>\n<li><a href="http://gtopp.org/about-gtopp/animals/pacific-bluefin-tuna.html" rel="external">Tagging studies</a> have revealed that some bluefin spend their entire lives in the Western Pacific Ocean, while others migrate to the Eastern Pacific Ocean. The trans-Pacific journey can take as little as 55 days.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch bluefin tuna rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2_0.jpg',
 				alt: 'A close-up of a Pacific Bluefin Tuna.',
 				title:
 					'Pacific bluefin tuna are the super-athletes of the ocean. Researchers followed several of them as they migrated from California to Japan and back in a matter of months. Photo credit: TOPP. Copyright Randy Wilder, Monterey Bay Aquarium.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_3.jpg',
 				alt: 'School of bluefin tuna.',
 				title: 'School of bluefin tuna. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_2.jpg',
 				alt: 'A school of bluefin tuna',
 				title:
 					'Bluefin tuna. Photo credit: NOAA Fisheries Southwest Regional Office.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_1.jpg',
 				alt: 'Tuna sushi',
 				title: 'Photo credit: Fotosearch.',
 			},
@@ -5228,7 +5228,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/northern-bluefin-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern bluefin tuna</a>, <a href="/species-aliases/tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tuna</a>, <a href="/species-aliases/bluefin-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bluefin tuna</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bluefin_tuna.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bluefin_tuna.png',
 			alt: 'Illustration of a Pacific Bluefin Tuna',
 			title: 'Pacific Bluefin Tuna',
 		},
@@ -5294,31 +5294,31 @@ module.exports = [
 		Habitat: '<ul>\n<li>Opah live in deep open ocean waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch opah rarely contacts the ocean floor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_2.jpg',
 				alt: 'This opah, also known as the moonfish, was caught and released on a longline set off of the Channel Islands near California.',
 				title:
 					'This opah, also known as the moonfish, was caught and released on a longline set off of the Channel Islands near California.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3_0.jpg',
 				alt: 'A photograph of an opah on the deck of a fishing boat.',
 				title: 'Opah on deck.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah_2.jpg',
 				alt: 'Researchers examine and later release this opah caught off California.',
 				title:
 					'Researchers examine and later release this opah caught off California.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah_4.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah_4.png',
 				alt: 'Opah at market.',
 				title: 'Opah at market.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/5_0.jpg',
 				alt: 'A dish of opah with lobster tail.',
 				title: '',
 			},
@@ -5335,7 +5335,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/moonfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Moonfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/opah.png',
 			alt: 'Illustration of an Opah',
 			title: 'Opah',
 		},
@@ -5403,31 +5403,31 @@ module.exports = [
 			'<ul>\n<li>Atlantic herring are found in coastal and continental shelf waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest Atlantic herring have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_03.jpg',
 				alt: 'Herring migrate in schools photo',
 				title:
 					'Herring migrate in schools to areas where they feed, spawn, and spend the winter.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_04.jpg',
 				alt: 'Harvesting herring photo',
 				title: 'Harvesting herring with a purse seine off the coast of Maine.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_05.jpg',
 				alt: 'Historic photo of children at sardine cannery cleaning herring for canning photo',
 				title:
 					'Historic photo of children at sardine cannery cleaning herring for canning.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_8.jpg',
 				alt: '',
 				title: 'Basket of herring',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-herring_01.jpg',
 				alt: 'Atlantic herring meal photo',
 				title: '',
 			},
@@ -5444,7 +5444,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/herring" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Herring</a>, <a href="/species-aliases/sea-herring" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea herring</a>, <a href="/species-aliases/sild" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sild</a>, <a href="/species-aliases/common-herring" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Common herring</a>, <a href="/species-aliases/labrador-herring" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Labrador herring</a>, <a href="/species-aliases/sardine" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sardine</a>, <a href="/species-aliases/sperling" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sperling</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_herring.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_herring.png',
 			alt: 'Atlantic Herring illustration',
 			title: 'Atlantic Herring',
 		},
@@ -5508,31 +5508,31 @@ module.exports = [
 			'<ul>\n<li>Vermilion snapper are found in waters 60 to 400 feet deep, but are most abundant in water less than 180 feet deep.</li>\n<li>They live on the seafloor, and are commonly found over rock, gravel, or sand bottoms near the edge of the continental and island shelves.</li>\n<li>They often swim in large schools but do not travel very far.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Most vermilion snapper are caught using hook-and-line gear, which has minimal impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_25.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_25.jpg',
 				alt: 'Measuring a vermilion snapper.',
 				title: 'Measuring a vermilion snapper.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_29.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_29.jpg',
 				alt: 'Schools of vermilion snapper are common over rock, gravel, or sand bottoms off the southeastern United States.',
 				title:
 					'Schools of vermilion snapper are common over rock, gravel, or sand bottoms off the southeastern United States.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_23.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_23.jpg',
 				alt: 'Packing vermilion snapper on ice aboard the commercial fishing vessel, Nan Baldwin.',
 				title:
 					'Packing vermilion snapper on ice aboard the commercial fishing vessel, Nan Baldwin.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_21.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_21.jpg',
 				alt: 'Vermilion snapper.',
 				title: 'Vermilion snapper.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_9.jpg',
 				alt: 'Vermillion snapper seafood dish.',
 				title: '',
 			},
@@ -5549,7 +5549,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Snapper</a>, <a href="/species-aliases/beeliner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beeliner</a>, <a href="/species-aliases/clubhead-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Clubhead snapper</a>, <a href="/species-aliases/night-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Night snapper</a>, <a href="/species-aliases/besugo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Besugo</a>, <a href="/species-aliases/rubia" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rubia</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/vermilion_snapper.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/vermilion_snapper.png',
 			alt: 'Vermillion snapper',
 			title: 'Vermillion snapper',
 		},
@@ -5612,32 +5612,32 @@ module.exports = [
 			'<ul>\n<li>The Atlantic blacktip shark is primarily a continental shelf species.</li>\n<li>They’re commonly found off beaches, in bays, estuaries, over coral reefs, and off river mouths. They can also be found around some oceanic islands.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear used to catch blacktip sharks has minimal impact on habitat. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_02.jpg',
 				alt: 'Blacktip shark caught for research purposes photo',
 				title:
 					'Blacktip shark caught for research purposes. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_03.jpg',
 				alt: 'Blacktip shark fillets photo',
 				title:
 					'Blacktip shark fillets. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_04.jpg',
 				alt: 'Blacktip shark in the water photo',
 				title: 'Blacktip shark in the water. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic-blacktip-shark_05.jpg',
 				alt: 'Scientists weighing a blacktip shark during a research cruise photo',
 				title:
 					'Scientists weighing a blacktip shark during a research cruise. Photo credit: NOAA Fisheries.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_33.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_33.jpg',
 				alt: 'Atlantic blacktip shark meal photo',
 				title: 'Photo credit: Shutterstock.',
 			},
@@ -5653,7 +5653,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/black-fin-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black fin shark</a>, <a href="/species-aliases/blacktip-whaler" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blacktip whaler</a>, <a href="/species-aliases/common-blacktip-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Common blacktip shark</a>, <a href="/species-aliases/gray-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gray shark</a>, <a href="/species-aliases/requiem-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Requiem shark</a>, <a href="/species-aliases/small-blacktip-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Small blacktip shark</a>, <a href="/species-aliases/spot-fin-ground-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spot-fin ground shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/BlackTip_Shark_NB_W-fishwatch.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/BlackTip_Shark_NB_W-fishwatch.png',
 			alt: 'Atlantic Blacktip Shark image',
 			title: 'Atlantic Blacktip Shark',
 		},
@@ -5717,31 +5717,31 @@ module.exports = [
 			'<ul>\n<li>Haddock are groundfish—they live near the bottom and prefer habitats of gravel, pebbles, clay, and smooth hard sand.</li>\n<li>These bottom types are more common on Georges Bank. Haddock are more abundant there than in the Gulf of Maine.</li>\n<li>Haddock are most common in waters approximately 130 to 500 feet deep and prefer temperatures below 45° F.</li>\n<li>Juveniles are found in shallower water on bank and shoal areas, while larger adults are more common in deeper water.</li>\n<li>Adults travel to shallower waters in the spring to spawn.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_0.jpg',
 				alt: 'Haddock collected during a research survey.',
 				title: 'Haddock collected during a research survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7_1.jpg',
 				alt: 'Whole haddock pictured with statistics.',
 				title:
 					'Whole haddock. Photo credit: U.S. Food and Drug Administration (FDA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_1.jpg',
 				alt: 'Haddock fillets pictured with statistics.',
 				title:
 					'Haddock fillets. Photo credit: U.S. Food and Drug Administration (FDA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/9.jpg',
 				alt: 'Haddock fillets served with a lemon sauce.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Cod-haddock-tomato-mango-sauce_Credit-Mark-Dixon-NOAA-Fisheries.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Cod-haddock-tomato-mango-sauce_Credit-Mark-Dixon-NOAA-Fisheries.jpg',
 				alt: 'Haddock with a tomato mango sauce',
 				title:
 					'Haddock with tomato mango sauce. Credit: Mark Dixon/NOAA Fisheries. ',
@@ -5758,7 +5758,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/scrod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Scrod</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/haddock.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/haddock.png',
 			alt: 'Illustration of a Haddock',
 			title: 'Haddock',
 		},
@@ -5822,31 +5822,31 @@ module.exports = [
 			'<ul>\n<li>Chinook salmon spend their early life growing and feeding in freshwater streams, estuaries, and associated wetlands.</li>\n<li>They spend the remainder of their life foraging in the ocean before returning to the streams and tributaries where they were born to spawn.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch Chinook salmon rarely contacts the ocean floor and has little impact on habitat. In the U.S., the key habitat issue for salmon recovery is restoring quality salmon habitat that once supported robust and thriving salmon runs.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_58.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_58.jpg',
 				alt: 'Chinahook Salmon meal photo',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_22.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_22.jpg',
 				alt: 'A NOAA biologist with a chinook salmon.',
 				title: 'A NOAA biologist with a chinook salmon.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_20.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_20.jpg',
 				alt: 'A fisherman holds a Chinook Salmon over the water',
 				title:
 					'The scientific name for Chinook salmon, Oncorhynchus tshawytscha, is derived from the Greek words “onkos” (hook), “rynchos” (nose), and “tshawytscha” (the common name for the species in Siberia and Alaska). Photo credit: U.S. Geological Survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_8.jpg',
 				alt: 'A whole Chinook salmon pictured with statistics.',
 				title:
 					'Whole Chinook salmon. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_4.jpg',
 				alt: 'Chinook salmon fillets and steak with statistics.',
 				title:
 					'Chinook salmon fillets and steak. Photo credit: U.S. Food and Drug Administration.',
@@ -5864,7 +5864,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/king-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">King salmon</a>, <a href="/species-aliases/spring-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spring salmon</a>, <a href="/species-aliases/tyee" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tyee</a>, <a href="/species-aliases/winter" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Winter</a>, <a href="/species-aliases/quinnat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Quinnat</a>, <a href="/species-aliases/blackmouth" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blackmouth</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chinook_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/chinook_salmon.png',
 			alt: 'Illustration of a Chinook Salmon',
 			title: 'Chinook Salmon',
 		},
@@ -5929,29 +5929,29 @@ module.exports = [
 			'<ul>\n<li>Bigeye tuna are highly migratory and travel long distances throughout the ocean.</li>\n<li>They favor water temperatures between 55° and 84° F.</li>\n<li>Juvenile and small adult bigeye tuna school at the surface, sometimes with <a href="https://www.fishwatch.gov/profiles/pacific-skipjack-tuna">skipjack</a>&nbsp;and juvenile <a href="https://www.fishwatch.gov/profiles/pacific-yellowfin-tuna">yellowfin</a>&nbsp;tunas.</li>\n<li>Schools of bigeye tuna may associate with floating objects or large, slow-moving marine animals such as whale sharks or manta rays.</li>\n<li>Bigeye tuna also group together near seamounts and submarine ridges.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch bigeye tuna rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_31.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_31.jpg',
 				alt: 'Measuring a bigeye tuna.',
 				title: 'Measuring a bigeye tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_24.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_24.jpg',
 				alt: 'Bigeye tuna catch.',
 				title: 'Bigeye tuna catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_28.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_28.jpg',
 				alt: 'A fishery observer measuring a bigeye tuna.',
 				title: 'A fishery observer measuring a bigeye tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_21.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_21.jpg',
 				alt: 'Bigeye tuna on ice.',
 				title: 'Bigeye tuna on ice.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_19.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_19.jpg',
 				alt: 'Bigeye tuna sushi',
 				title: '',
 			},
@@ -5967,7 +5967,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/bigeye" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bigeye</a>, <a href="/species-aliases/ahi-0" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">`Ahi</a>, <a href="/species-aliases/mabachi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mabachi</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bigeye_tuna.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bigeye_tuna.png',
 			alt: 'Pacific bigeye tuna',
 			title: 'Pacific bigeye tuna',
 		},
@@ -6031,33 +6031,33 @@ module.exports = [
 			'<ul>\n<li>Shortfin mako sharks are a pelagic species. Their habitat ranges widely in the upper zones of the oceans.</li>\n<li>Juveniles are common in coastal waters, from the low-tide line to the edge of the continental shelf. Adults are primarily found offshore.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Not applicable - Atlantic shortfin mako sharks cannot be harvested.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_30.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_30.jpg',
 				alt: 'A close-up of an Atlantic Shortfin Mako Shark',
 				title:
 					'Shortfin mako sharks are fast-moving and streamlined. They propel themselves through the water with short strokes of their thick, powerful tails.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_27.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_27.jpg',
 				alt: 'An Atlantic Shortfin Mako Shark being pulled out of the water onto a boat.',
 				title:
 					'Shortfin mako hooked on a circle hook. Sharks are armed with a formidable set of teeth and jaws. The teeth are replaced often, so sharks always have a sharp set to inflict a clean bite. The shortfin mako’s teeth are long, smooth, and bladelike.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_20.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_20.jpg',
 				alt: 'A photo of a caught Atlantic Shortfin Mako Shark on the deck of a boat.',
 				title:
 					' Shortfin mako sharks have very pointed snouts and long gill slits. They have dark blue/gray backs, light metallic blue sides, and white undersides.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_18.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_18.jpg',
 				alt: 'Shortfin mako shark steaks.',
 				title:
 					'Shortfin mako shark steaks. (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_7.jpg',
 				alt: 'A dish of shark steaks with shrimp.',
 				title: '',
 			},
@@ -6074,7 +6074,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mako-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mako shark</a>, <a href="/species-aliases/blue-pointer" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blue pointer</a>, <a href="/species-aliases/bonito-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bonito shark</a>, <a href="/species-aliases/atlantic-mako-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Atlantic mako shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_shortfin_mako_shark_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_shortfin_mako_shark_0.png',
 			alt: 'Illustration of an Atlantic Shortfin Mako Shark',
 			title: 'Atlantic Shortfin Mako Shark',
 		},
@@ -6137,32 +6137,32 @@ module.exports = [
 			'<ul>\n<li>Common thresher sharks are highly migratory species, often traveling over entire ocean basins.</li>\n<li>They’re most common near land and are often found in areas rich with plankton, where their prey is also abundant.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear used to harvest Atlantic common thresher shark does not contact the ocean floor and has no impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_29.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_29.jpg',
 				alt: 'A large common thresher shark being pulled to the surface.',
 				title:
 					'Sharks have an extremely sensitive sense of smell, eyes that can adapt to dim light, lateral line receptors that sense movement in the water, and electroreceptors that can detect prey even in the absence of scent or visual clues.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_23.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_23.jpg',
 				alt: 'A photo of an Atlantic Common Thresher shark that was caught.',
 				title:
 					'Thresher sharks have been observed using their long caudal fin to bunch up, disorient, and stun prey at or near the surface.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_atl%20com.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_atl%20com.jpg',
 				alt: 'A shark longline fisherman off the coast of Florida.',
 				title: 'A shark longline fisherman off the coast of Florida.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_19.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_19.jpg',
 				alt: 'A photograph of fresh common thresher shark steaks.',
 				title:
 					'Common thresher shark steaks. (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_17.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_17.jpg',
 				alt: 'A photo of a dish of thresher shark steaks with shrimp.',
 				title: '',
 			},
@@ -6179,7 +6179,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/thresher-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thresher shark</a>, <a href="/species-aliases/fox-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Fox shark</a>, <a href="/species-aliases/sea-fox" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea fox</a>, <a href="/species-aliases/swingletail" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Swingletail</a>, <a href="/species-aliases/whiptail-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Whiptail shark</a>, <a href="/species-aliases/thintail-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thintail shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_common_thresher_shark_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_common_thresher_shark_0.png',
 			alt: 'Illustration of an Atlantic Common Thresher Shark',
 			title: 'Atlantic Common Thresher Shark',
 		},
@@ -6242,30 +6242,30 @@ module.exports = [
 			'<ul>\n<li>Yellowfin sole live on soft, sandy ocean bottoms on the eastern Bering Sea Shelf.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by bottom trawls used to harvest yellowfin sole. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_02.jpg',
 				alt: 'Yellowfin sole caught during a survey in the Bering Sea.',
 				title: 'Yellowfin sole caught during a survey in the Bering Sea.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_04.jpg',
 				alt: 'Offloading yellowfin sole from a commercial fishing vessel.',
 				title: 'Offloading yellowfin sole from a commercial fishing vessel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_03.jpg',
 				alt: 'Measuring a juvenile yellowfin sole.',
 				title: 'Measuring a juvenile yellowfin sole.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_05.jpg',
 				alt: 'A yellowfin sole otolith (a bone located in a fish&#039;s skull, similar to the human earbone). Scientists count the growth rings on the otolith to estimate the age of fish. This yellowfin sole was estimated to be 22 years old.',
 				title:
 					'A yellowfin sole otolith (a bone located in a fish&#039;s skull, similar to the human earbone). Scientists count the growth rings on the otolith to estimate the age of fish. This yellowfin sole was estimated to be 22 years old.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin-sole_01.jpg',
 				alt: 'Yellowfin sole meal',
 				title: '',
 			},
@@ -6281,7 +6281,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin_sole.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/yellowfin_sole.png',
 			alt: 'Yellowfin Sole',
 			title: 'Yellowfin Sole',
 		},
@@ -6343,24 +6343,24 @@ module.exports = [
 			'<ul>\n<li>Yellowfin tuna are highly migratory and travel long distances throughout the warm ocean.</li>\n<li>They favor water temperatures between 64° and 88° F.</li>\n<li>They make annual trips to higher latitudes as water temperatures increase with the seasons.</li>\n<li>Larval and juvenile yellowfin tuna stay in surface waters, while older yellowfin tuna are often found in deeper water.</li>\n<li>Yellowfin tuna are known to gather around drifting flotsam (natural floating debris), fish aggregating devices (FADs), anchored buoys, dolphins, and other large marine animals.</li>\n<li>Adult yellowfin also gather in areas having abundant phytoplankton and zooplankton and smaller prey.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch Pacific yellowfin tuna rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_02.jpg',
 				alt: 'Yellowfin tuna off the coast of Venezuela.',
 				title: 'Yellowfin tuna off the coast of Venezuela.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_03.jpg',
 				alt: 'Measuring a yellowfin tuna.',
 				title: 'Measuring a yellowfin tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_04.jpg',
 				alt: 'School of yellowfin tuna.',
 				title: 'School of yellowfin tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-yellowfin-tuna_01.jpg',
 				alt: 'Pacific Yellowfin Tuna meal',
 				title: '',
 			},
@@ -6376,7 +6376,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/ahi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ahi</a>, <a href="/species-aliases/kihada" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kihada</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_yellowfin_tuna.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_yellowfin_tuna.png',
 			alt: 'Pacific Yellowfin Tuna',
 			title: 'Pacific Yellowfin Tuna',
 		},
@@ -6441,26 +6441,26 @@ module.exports = [
 			'<ul>\n<li>Pacific whiting school in midwater but have also been observed resting on the seafloor.</li>\n<li>They’re most common in water between 164 and 1,640 feet deep, but adults&nbsp;are found in water over 3,000 feet deep and 250 miles or more offshore.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Mid-water trawls used to harvest Pacific whiting have minimal impact on habitat. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_28.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_28.jpg',
 				alt: 'Pacific whiting is a roundfish like cod. They’re silvery in color with black speckles on the back and black inside the mouth.',
 				title:
 					'Pacific whiting is a roundfish like cod. They’re silvery in color with black speckles on the back and black inside the mouth.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_22.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_22.jpg',
 				alt: 'Pacific whiting catch.',
 				title: 'Pacific whiting catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_18.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_18.jpg',
 				alt: ' Pacific whiting is currently the most abundant commercial fish species on the U.S. West Coast.',
 				title:
 					' Pacific whiting is currently the most abundant commercial fish species on the U.S. West Coast.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_16.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_16.jpg',
 				alt: 'A dish of Pacific Whiting with vegetables.',
 				title: '',
 			},
@@ -6476,7 +6476,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/pacific-hake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific hake</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_whiting.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_whiting.png',
 			alt: 'Illustration of a Pacific Whiting',
 			title: 'Pacific Whiting',
 		},
@@ -6542,21 +6542,21 @@ module.exports = [
 			'<ul>\n<li>Spanish mackerel mostly live in open water but are sometimes found over deep grass beds and reefs, as well as in shallow estuaries.</li>\n<li>They prefer water temperatures above 68° F.</li>\n</ul>\n',
 		'Habitat Impacts':
 			' Fishing gears used to harvest Spanish mackerel have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_27.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_27.jpg',
 				alt: 'Spanish mackerel have yellow or olive green oval spots on their bodies.',
 				title:
 					'Spanish mackerel have yellow or olive green oval spots on their bodies.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_26.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_26.jpg',
 				alt: 'King and Spanish mackerel being unloaded from a charter boat in Miami. The Spanish mackerel is much smaller than king mackerel.',
 				title:
 					'King and Spanish mackerel being unloaded from a charter boat in Miami. The Spanish mackerel is much smaller than king mackerel.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_17.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_17.jpg',
 				alt: 'Picture of a Spanish mackerel seafood dish',
 				title: '',
 			},
@@ -6572,7 +6572,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mackerel</a>, <a href="/species-aliases/spotted-cybium" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spotted cybium</a>, <a href="/species-aliases/bay-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bay mackerel</a>, <a href="/species-aliases/spotted-mackerel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spotted mackerel</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/spanish_mackerel_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/spanish_mackerel_0.png',
 			alt: 'Spanish mackerel',
 			title: 'Spanish mackerel',
 		},
@@ -6636,26 +6636,26 @@ module.exports = [
 			'<ul>\n<li>Larvae are found in the upper 100 feet of the water column. Juveniles move to deeper water as they grow larger.</li>\n<li>Juveniles and adults live on the ocean bottom and are found in shallow-water bays over the continental shelf.</li>\n<li>They can be found as deep as 2,400 feet but are uncommon below 985 feet.&nbsp;</li>\n<li>Rock sole prefer sandy or gravel ocean bottoms.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat affected by bottom trawls used to harvest rock sole. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_25.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_25.jpg',
 				alt: 'Southern rock sole. Rock sole is sometimes called roughback because of the rough scales on its back.',
 				title:
 					'Southern rock sole. Rock sole is sometimes called roughback because of the rough scales on its back.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_20.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_20.jpg',
 				alt: 'The southern rock sole&#039;s blind side (seen here) is white with glossy highlights; the northern rock sole&#039;s blind side is creamy white, with no glossy highlights.',
 				title:
 					'The southern rock sole&#039;s blind side (seen here) is white with glossy highlights; the northern rock sole&#039;s blind side is creamy white, with no glossy highlights.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_22.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_22.jpg',
 				alt: 'Rock sole can grow up to 2 feet in length.',
 				title: 'Rock sole can grow up to 2 feet in length.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_16.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_16.jpg',
 				alt: 'Picture of a rock sole seafood dish.',
 				title: '',
 			},
@@ -6672,7 +6672,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/rock-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock flounder</a>, <a href="/species-aliases/two-lined-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Two-lined flounder</a>, <a href="/species-aliases/white-bellied-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">White-bellied flounder</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rock_sole.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rock_sole.png',
 			alt: 'Rock sole',
 			title: 'Rock sole',
 		},
@@ -6735,14 +6735,14 @@ module.exports = [
 			'<ul>\n<li>Wahoo live near the surface and are frequently found alone or in small, loosely connected groups rather than in compact schools.</li>\n<li>They may also be found near banks, pinnacles, and natural debris drifting in the ocean.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch Pacific wahoo rarely contacts the ocean floor and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_24.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_24.jpg',
 				alt: 'A scientist measures the length of a wahoo.',
 				title: 'Measuring the length of a wahoo.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_21.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_21.jpg',
 				alt: 'A dish of wahoo with fresh vegetables.',
 				title: '',
 			},
@@ -6759,7 +6759,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/kingfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kingfish</a>, <a href="/species-aliases/peto" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Peto</a>, <a href="/species-aliases/guarapucu" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Guarapucu</a>, <a href="/species-aliases/ono" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ono</a>, <a href="/species-aliases/thazard-batard" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thazard batard</a>, <a href="/species-aliases/wahoo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Wahoo</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_wahoo_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_wahoo_0.png',
 			alt: 'Illustration of a Pacific Wahoo',
 			title: 'Pacific Wahoo',
 		},
@@ -6823,33 +6823,33 @@ module.exports = [
 			'<ul>\n<li>King mackerel are a coastal pelagic species, meaning they live in the open waters near the coast.</li>\n<li>They live in water 115 to almost 600 feet deep.</li>\n<li>They prefer warm waters and seldom enter waters below 68° F.</li>\n<li>King mackerel migrate with seasonal changes in water temperature and with changes in food availability.</li>\n<li>They migrate to the northern part of their range in the summer and to the southern part in the winter, swimming in large schools.</li>\n<li>Both the South Atlantic and Gulf of Mexico stocks congregate in a winter mixing zone in an area of Monroe County, Florida, south of the Florida Keys, between November and March.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest king mackerel have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_23.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_23.jpg',
 				alt: 'A fisherman dehooks a king mackerel.',
 				title:
 					'A fisherman dehooks a king mackerel. Photo credit: Collier County Sea Grant Extension',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_19.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_19.jpg',
 				alt: 'Fishing boat rigged for trolling for mackerel. Trolling is one of the main methods to commercially harvest king mackerel.',
 				title:
 					'Fishing boat rigged for trolling for mackerel. Trolling is one of the main methods to commercially harvest king mackerel. Photo credit: Collier County Sea Grant Extension',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_20.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_20.jpg',
 				alt: 'Putting mackerel catch into the cooler.',
 				title:
 					'Putting mackerel catch into the cooler. Photo credit: Collier County Sea Grant Extension',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_15.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_15.jpg',
 				alt: 'Icing the gutted king mackarel catch.',
 				title:
 					'Icing the gutted catch. Photo credit: Collier County Sea Grant Extension',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_3.jpg',
 				alt: 'A dish of king mackarel steaks with steamed vegetables.',
 				title: '',
 			},
@@ -6866,7 +6866,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/cavalla" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cavalla</a>, <a href="/species-aliases/sierra" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sierra</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/king_mackerel.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/king_mackerel.png',
 			alt: 'Illustration of King Mackarel',
 			title: 'King Mackarel',
 		},
@@ -6931,26 +6931,26 @@ module.exports = [
 			'<ul>\n<li>Greenland turbot live near the ocean floor.</li>\n<li>They prefer cold temperatures and soft, muddy ocean bottoms.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by some types of fishing gear used to harvest Greenland turbot.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_37.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_37.jpg',
 				alt: 'A scientist holding up a Greenland turbot during a research cruise.',
 				title:
 					'A scientist holding up a Greenland turbot during a research cruise.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_18.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_18.jpg',
 				alt: 'Measuring a Greenland turbot.',
 				title: 'Measuring a Greenland turbot.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_19.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_19.jpg',
 				alt: 'Preparing otoliths (ear bones) from adult Greenland turbot for age estimation studies and other analyses.',
 				title:
 					'Preparing otoliths (ear bones) from adult Greenland turbot for age estimation studies and other analyses.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_15.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_15.jpg',
 				alt: 'A seafood dish served at a restaurant',
 				title: '',
 			},
@@ -6966,7 +6966,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/greenland-halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Greenland halibut</a>, <a href="/species-aliases/turbot" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Turbot</a>, <a href="/species-aliases/newfoundland-turbot" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Newfoundland turbot</a>, <a href="/species-aliases/blue-halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blue halibut</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/greenland_turbot.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/greenland_turbot.png',
 			alt: 'Illustration of a Greenland Turbot',
 			title: 'Greenland Turbot',
 		},
@@ -7028,26 +7028,26 @@ module.exports = [
 			'<ul>\n<li>Market squid live in the water column from the surface to depths of 2,600 feet.&nbsp;</li>\n<li>They prefer the salty ocean and are rarely found in estuaries, bays, or river mouths.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Pelagic gear used to catch market squid has minimal impact on bottom habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_22.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_22.jpg',
 				alt: 'Market squid swim backwards by pumping water through valves near their heads.',
 				title:
 					'Market squid swim backwards by pumping water through valves near their heads.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_17.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_17.jpg',
 				alt: 'Market squid laying eggs.',
 				title: 'Market squid laying eggs.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_18.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_18.jpg',
 				alt: 'Market squid are members of the mollusk family known as cephalopods, which means foot-on-head. They have eight arms and two tentacles that extend from the ends of their bodies where their mouths are located.',
 				title:
 					'Market squid are members of the mollusk family known as cephalopods, which means foot-on-head. They have eight arms and two tentacles that extend from the ends of their bodies where their mouths are located.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_14.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_14.jpg',
 				alt: 'A dish of fried squid.',
 				title: '',
 			},
@@ -7064,7 +7064,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Squid</a>, <a href="/species-aliases/pacific-loligo-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific loligo squid</a>, <a href="/species-aliases/opalescent-inshore-squid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Opalescent inshore squid</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/california_market_squid.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/california_market_squid.png',
 			alt: 'Illustration of a California Market Squid',
 			title: 'California Market Squid',
 		},
@@ -7128,19 +7128,19 @@ module.exports = [
 			'<ul>\n<li>Wahoo live near the surface and are frequently found alone or in small, loosely connected groups rather than compact schools.</li>\n<li>They may also be found near banks, pinnacles, and natural debris drifting in the ocean.</li>\n<li>Scientists do not know much about wahoo migrations, but one study revealed that a tagged and recaptured fish had traveled 1,700 miles in 6 ½ months.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest Atlantic wahoo have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_21.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_21.jpg',
 				alt: 'A scientist measures the length of a wahoo.',
 				title: 'Measuring the length of a wahoo.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/A_wahoo.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/A_wahoo.jpg',
 				alt: 'Wahoo catch. ',
 				title: 'Wahoo catch. ',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_17.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_17.jpg',
 				alt: 'A gourmet dish of fish and fresh vegetables.',
 				title: '',
 			},
@@ -7157,7 +7157,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/kinkfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kinkfish</a>, <a href="/species-aliases/peto" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Peto</a>, <a href="/species-aliases/guarapucu" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Guarapucu</a>, <a href="/species-aliases/ono" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ono</a>, <a href="/species-aliases/thazard-batard" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thazard batard</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_wahoo.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_wahoo.png',
 			alt: 'Illustration of an Atlantic Wahoo',
 			title: 'Atlantic Wahoo',
 		},
@@ -7220,25 +7220,25 @@ module.exports = [
 			'<ul>\n<li>Adults live offshore and prefer hard-bottom habitat including reefs and wrecks, and live bottom (sponges, corals and sea squirts), and depressions and ledges.</li>\n<li>Juveniles live in estuaries in structured habitats, including seagrass beds, oyster reefs, and shipwrecks.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest gag has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_20.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_20.jpg',
 				alt: 'Gag in its reef habitat.',
 				title: 'Gag in its reef habitat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_16.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_16.jpg',
 				alt: 'Gag grouper.',
 				title: 'Gag grouper.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_16.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_16.jpg',
 				alt: 'Gag grouper (top) and red snapper specimens, labeled for further study.',
 				title:
 					'Gag grouper (top) and red snapper specimens, labeled for further study.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_13.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_13.jpg',
 				alt: 'Picture of cooked Gag grouper.',
 				title: '',
 			},
@@ -7255,7 +7255,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/grouper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grouper</a>, <a href="/species-aliases/copper-belly" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Copper belly</a>, <a href="/species-aliases/charcoal-belly" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Charcoal belly</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/gag_grouper.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/gag_grouper.png',
 			alt: 'Gag grouper',
 			title: 'Gag grouper',
 		},
@@ -7318,19 +7318,19 @@ module.exports = [
 			'<ul>\n<li>Young flathead sole live in shallow estuaries, bays, and nearshore coastal areas along the Pacific coast.&nbsp;</li>\n<li>Adults live on mixed muddy and sandy ocean habitats in depths less than 1,000 feet.</li>\n<li>They migrate from winter spawning grounds along the outer continental shelf to feeding grounds in shallower water in the spring.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by bottom trawls used to harvest flathead sole. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_19.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_19.jpg',
 				alt: 'Flathead sole',
 				title: 'Flathead sole',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_15.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_15.jpg',
 				alt: 'Underside of flathead sole.',
 				title: 'Underside of flathead sole.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_12.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_12.jpg',
 				alt: 'Picture of a cooked Flathead sole seafood dish.',
 				title: '',
 			},
@@ -7347,7 +7347,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/flathead-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flathead flounder</a>, <a href="/species-aliases/halibut-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Halibut-like flounder</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/flathead_sole.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/flathead_sole.png',
 			alt: 'Flathead sole',
 			title: 'Flathead sole',
 		},
@@ -7410,30 +7410,30 @@ module.exports = [
 			'<ul>\n<li>Larval summer flounder live in estuaries and coastal lagoons.</li>\n<li>Juveniles burrow in the sediment in marsh creeks, seagrass beds, mud flats, and open bays, notably Pamlico Sound and Chesapeake Bay. Because this important life stage takes place near heavily populated urban areas, maintaining good water quality is important for successful growth and survival of young summer flounder.</li>\n<li>Adults spend most of their lives on or near the seafloor burrowing in the sand. They’re also found in marsh creeks, seagrass beds, and sand flats.</li>\n<li>Adult summer flounder migrate inshore and offshore seasonally with changes in water temperature. In the winter and early spring, they’re found offshore along the outer edge of the continental shelf. In late spring and early summer, they move inshore into shallow coastal waters and estuaries. Summer flounder migrate back offshore in the fall.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Bottom trawls can impact bottom habitats. However, summer flounder live on sandy ocean bottom habitat, which is more resilient than other habitat types to the impacts of fishing gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_1.jpg',
 				alt: 'Cooked Summer Flounder image',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_2.jpg',
 				alt: 'Summer flounder in net.',
 				title: 'Summer flounder in net.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_3.jpg',
 				alt: 'Summer flounder are called chameleons of the sea because of their ability to change color to match the bottom on which they are found.',
 				title:
 					'Summer flounder are called chameleons of the sea because of their ability to change color to match the bottom on which they are found.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_4.jpg',
 				alt: 'A researcher holds up a summer flounder.',
 				title: 'A researcher holds up a summer flounder.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer-flounder_5.jpg',
 				alt: 'Filleting summer flounder.',
 				title: 'Filleting summer flounder.',
 			},
@@ -7449,7 +7449,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/fluke" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Fluke</a>, <a href="/species-aliases/northern-fluke" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern fluke</a>, <a href="/species-aliases/hirame" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hirame</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer_flounder.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/summer_flounder.png',
 			alt: 'Summer Flounder',
 			title: 'Summer Flounder',
 		},
@@ -7512,31 +7512,31 @@ module.exports = [
 			'<ul>\n<li>Rex sole live on sandy or muddy ocean bottoms.</li>\n<li>They are found at depths between 100 and 200 meters and are found throughout the Gulf of Alaska.&nbsp;</li>\n<li>Along the coast of the Pacific Northwest they are found at depths of about 500 meters.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats that are affected by bottom trawls used to harvest rex sole.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_1.jpg',
 				alt: 'Rex sole caught during a bottom trawl survey. Credit: NOAA Teacher at Sea',
 				title:
 					'Rex sole caught during a bottom trawl survey. Credit: NOAA Teacher at Sea',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_2.jpg',
 				alt: 'Juvenile rex sole. Credit: NOAA Alaska Fisheries Science Center',
 				title:
 					'Juvenile rex sole. Credit: NOAA Alaska Fisheries Science Center',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_4.jpg',
 				alt: 'Rex sole fillets. Credit: U.S. Food and Drug Administration',
 				title: 'Rex sole fillets. Credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex-sole_5.jpg',
 				alt: 'Whole rex sole. Credit: U.S. Food and Drug Administration',
 				title: 'Whole rex sole. Credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sole-sliders_2019-Rhode-Island-Cookoff-Winner_Courtesy-Rhode-Island-Sea-Grant.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Sole-sliders_2019-Rhode-Island-Cookoff-Winner_Courtesy-Rhode-Island-Sea-Grant.jpg',
 				alt: 'Sole slider on a plate',
 				title:
 					'Sole sliders, winner of the 2019 Rhode Island Cook-Off. Photo courtesy of Rhode Island Sea Grant.',
@@ -7554,7 +7554,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/witch-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Witch sole</a>, <a href="/species-aliases/threadfin-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Threadfin sole</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex_sole_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rex_sole_0.png',
 			alt: 'Rex Sole image',
 			title: 'Rex Sole',
 		},
@@ -7618,30 +7618,30 @@ module.exports = [
 			'<ul>\n<li>Red grouper are referred to as shallow-water grouper because they’re common in waters 10 to 60 feet deep.</li>\n<li>Juveniles prefer grass beds, rock formations, and reefs in shallow, nearshore waters. They move offshore as they mature.</li>\n<li>Adults are most commonly found around ledges, crevices, and caverns of rocky limestone reefs, and also near lower-profile, live-bottom (sponges, corals and sea squirts) areas.</li>\n<li>Adults may school or move together as groups, but only for short distances.</li>\n<li>Red grouper play a significant role in their underwater environment by acting as “marine engineers.” They&nbsp;excavate flat-bottom areas creating habitat for themselves and other commercially important species, such as <a href="https://www.fishwatch.gov/profiles/caribbean-spiny-lobster">spiny lobster</a>, <a href="https://www.fishwatch.gov/profiles/black-grouper">black grouper</a>, red porgy, and <a href="https://www.fishwatch.gov/profiles/vermilion-snapper">vermilion snapper</a>.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch red grouper rarely contacts the ocean bottom and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_2.jpg',
 				alt: 'Red grouper have large mouths, which allow them to eat their prey whole image.',
 				title:
 					'Red grouper have large mouths, which allow them to eat their prey whole.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_3.jpg',
 				alt: 'Red grouper image.',
 				title: 'Red grouper.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_4.jpg',
 				alt: 'Red grouper swims through its reef habitat image.',
 				title: 'Red grouper swims through its reef habitat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_5.jpg',
 				alt: 'Red grouper spawning image.',
 				title: 'Red grouper spawning.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-grouper_1.jpg',
 				alt: 'Red grouper image.',
 				title: '',
 			},
@@ -7658,7 +7658,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/grouper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grouper</a>, <a href="/species-aliases/cherna-americana" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cherna americana</a>, <a href="/species-aliases/negre" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Negre</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_grouper.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_grouper.png',
 			alt: 'Red Grouper',
 			title: 'Red Grouper',
 		},
@@ -7722,32 +7722,32 @@ module.exports = [
 			'<ul>\n<li>Larval and juvenile English sole live in estuaries and nearshore areas, including Puget Sound and the Strait of Georgia.</li>\n<li>Adults live in water more than 1,800 feet deep.</li>\n<li>Juveniles and adults prefer soft sandy or muddy ocean bottom habitats, but have also been found in eelgrass habitats.</li>\n<li>After spawning in the spring, English sole travel north to summer feeding grounds. They return south in the fall.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by bottom trawls used to harvest English sole.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_18.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_18.jpg',
 				alt: 'English sole',
 				title: 'English sole',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_14.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_14.jpg',
 				alt: 'English sole. Photo credit: Oregon Department of Fish and Wildlife',
 				title:
 					'English sole. Photo credit: Oregon Department of Fish and Wildlife',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_14.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_14.jpg',
 				alt: 'Whole English sole. Photo credit: U.S. Food and Drug Administration',
 				title:
 					'Whole English sole. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_11.jpg',
 				alt: 'English sole fillets. Photo credit: U.S. Food and Drug Administration',
 				title:
 					'English sole fillets. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_14.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_14.jpg',
 				alt: 'Picture of cooked english sole.',
 				title: '',
 			},
@@ -7763,7 +7763,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/lemon-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lemon sole</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/english_sole.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/english_sole.png',
 			alt: 'English sole',
 			title: 'English sole',
 		},
@@ -7825,32 +7825,32 @@ module.exports = [
 			'<ul>\n<li>Dover sole live near the ocean floor and prefer soft bottom habitat in waters 7 to 4,500 feet deep.</li>\n<li>They travel to deeper water as they age.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by some types of fishing gear used to harvest Dover sole. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_17.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_17.jpg',
 				alt: 'The Dover sole&#039;s coloring helps the fish camouflage itself on the muddy ocean floor.',
 				title:
 					'The Dover sole&#039;s coloring helps the fish camouflage itself on the muddy ocean floor.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_13.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_13.jpg',
 				alt: 'View of Dover sole from the top.',
 				title: 'View of Dover sole from the top.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_10.jpg',
 				alt: 'Flag rockfish, Dover sole, Dungeness crab, and crinoids on the mid-shelf off the coast of northern California.',
 				title:
 					'Flag rockfish, Dover sole, Dungeness crab, and crinoids on the mid-shelf off the coast of northern California.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_13.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_13.jpg',
 				alt: 'Dover sole on the sandy ocean floor. Researchers use parallel lasers (red dots above the fish) to estimate fish length.',
 				title:
 					'Dover sole on the sandy ocean floor. Researchers use parallel lasers (red dots above the fish) to estimate fish length.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_2.jpg',
 				alt: 'Picture of cooked dover sole',
 				title: '',
 			},
@@ -7867,7 +7867,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/slippery-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Slippery sole</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/dover_sole_1.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/dover_sole_1.png',
 			alt: 'Dover sole illustration.',
 			title: '',
 		},
@@ -7930,32 +7930,32 @@ module.exports = [
 			'<ul>\n<li>Caribbean spiny lobster live in shallow waters to depths of 295 feet, and occasionally deeper.</li>\n<li>Larval spiny lobster float in the water column.</li>\n<li>As they grow, they swim to nearshore habitats and settle in dense vegetation, especially among macroalgae. They live there until they reach about 0.6 to 0.8 inches, then find shelter in crevices provided by large sponges, octocorals (soft corals), and solution holes until they are about 1½ inches long.</li>\n<li>When they reach 2 to 3.15 inches, they travel from their nearshore nursery habitat to shallow banks in nearshore waters.</li>\n<li>As mature adults, they inhabit bays, estuarine areas, coral reefs and other offshore habitats, but are found on softbottom and seagrass during migratory periods.</li>\n<li>Adults move along shore and offshore seasonally, migrating in single-file lines to deeper water to escape cold and turbid waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Lobster trap closures are in place in some areas to prevent damage to ocean bottom habitat. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_16.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_16.jpg',
 				alt: 'A Caribbean spiny lobster on the sea floor, spotted during a 2010 NOAA expedition in the U.S. Virgin Islands to map underwater habitats and the marine life they support.',
 				title:
 					'A Caribbean spiny lobster on the sea floor, spotted during a 2010 NOAA expedition in the U.S. Virgin Islands to map underwater habitats and the marine life they support.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_12.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_12.jpg',
 				alt: 'An egg-bearing spiny lobster. Photo credit: Caribbean Fishery Management Council.',
 				title:
 					'An egg-bearing spiny lobster. Photo credit: Caribbean Fishery Management Council.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_12.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_12.jpg',
 				alt: 'Caribbean spiny lobster in its reef habitat.',
 				title: 'Caribbean spiny lobster in its reef habitat.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_12.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_12.jpg',
 				alt: 'Caribbean spiny lobster. Photo credit: Caribbean Fishery Management Council.',
 				title:
 					'Caribbean spiny lobster. Photo credit: Caribbean Fishery Management Council.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_6.jpg',
 				alt: 'Picture of a seafood dish with lobster.',
 				title: '',
 			},
@@ -7972,7 +7972,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/crawfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Crawfish</a>, <a href="/species-aliases/rock-lobster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock lobster</a>, <a href="/species-aliases/bug" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bug</a>, <a href="/species-aliases/florida-lobster" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Florida lobster</a>, <a href="/species-aliases/langosta-espinosa" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Langosta espinosa</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/carribean_spiny_lobster.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/carribean_spiny_lobster.png',
 			alt: 'Carribean spiny lobster',
 			title: 'Carribean spiny lobster',
 		},
@@ -8038,29 +8038,29 @@ module.exports = [
 			'<ul>\n<li>Albacore tuna are found in open waters of all tropical and temperate oceans.</li>\n<li>They are a highly migratory species, swimming long distances throughout the ocean.</li>\n<li>Temperature is a major factor in determining where Pacific albacore live.</li>\n<li>Juveniles are often found near oceanic fronts or temperate discontinuities.</li>\n<li>Adults are found in depths of at least 1,250 feet. They also explore deeper waters in search of prey.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch albacore rarely contacts the seafloor so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_15.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_15.jpg',
 				alt: 'Albacore tuna off the coast of Venezuela.',
 				title: 'Albacore tuna off the coast of Venezuela.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_pac_albacore.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_pac_albacore.jpg',
 				alt: 'Measuring an albacore tuna.',
 				title: 'Measuring an albacore tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_9.jpg',
 				alt: 'A fisherman displays his catch of albacore.',
 				title: 'A fisherman displays his catch of albacore.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_11.jpg',
 				alt: 'A tuna fish sandwich',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_5.jpg',
 				alt: 'A picture of sashimi',
 				title: '',
 			},
@@ -8076,7 +8076,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/albacore" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Albacore</a>, <a href="/species-aliases/germon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Germon</a>, <a href="/species-aliases/longfinned-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Longfinned tuna</a>, <a href="/species-aliases/albecor" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Albecor</a>, <a href="/species-aliases/ahipalaha" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ahipalaha</a>, <a href="/species-aliases/tombo" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tombo</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_albacore_tuna.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_albacore_tuna.png',
 			alt: 'Illustration of a Pacific Albacore Tuna',
 			title: 'Pacific Albacore Tuna',
 		},
@@ -8141,32 +8141,32 @@ module.exports = [
 			'<ul>\n<li>Wreckfish live in water ranging in depth from 140 to 3,300 feet.</li>\n<li>Juvenile wreckfish are found in surface waters, often near floating debris.</li>\n<li>Adult wreckfish prefer steep, rocky ocean bottoms and deep reefs, which provide food and shelter. They’re often found near caves and overhangs.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch wreckfish has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-1.jpg',
 				alt: 'Picture of cooked wreckfish.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-2.jpg',
 				alt: 'Wreckfish, such as this one, are believed to use deep Lophelia reefs found on the Blake Plateau as a safe haven. These coral habitats offer both shelter and food.',
 				title:
 					'Wreckfish, such as this one, are believed to use deep Lophelia reefs found on the Blake Plateau as a safe haven. These coral habitats offer both shelter and food.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-3.jpg',
 				alt: 'Complex habitats of the Blake Plateau, such as those on the Charleston Bump, provide substrate for a variety of attached invertebrates and shelter for large fishes, such as the red bream and wreckfish (on the right).',
 				title:
 					'Complex habitats of the Blake Plateau, such as those on the Charleston Bump, provide substrate for a variety of attached invertebrates and shelter for large fishes, such as the red bream and wreckfish (on the right).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-4.jpg',
 				alt: 'Two laser beams (seen as a red and green dot) from a submersible reflect off the wreckfish shown here. The dots produced by these lasers are 25 cm apart and can be used to estimate fish length and the area viewed by the camera.',
 				title:
 					'Two laser beams (seen as a red and green dot) from a submersible reflect off the wreckfish shown here. The dots produced by these lasers are 25 cm apart and can be used to estimate fish length and the area viewed by the camera.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish-5.jpg',
 				alt: 'This wreckfish, swimming between carbonate chimneys, is just over 1 meter (about 3.3 feet) long. This photo was taken during a NOAA&#039;s Office of Exploration expedition in Lost City near Bermuda.',
 				title:
 					'This wreckfish, swimming between carbonate chimneys, is just over 1 meter (about 3.3 feet) long. This photo was taken during a NOAA&#039;s Office of Exploration expedition in Lost City near Bermuda.',
@@ -8183,7 +8183,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sea-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea bass</a>, <a href="/species-aliases/stone-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Stone bass</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/wreckfish.png',
 			alt: 'Wreckfish',
 			title: 'Wreckfish',
 		},
@@ -8249,32 +8249,32 @@ module.exports = [
 			'<ul>\n<li>Queen conch live in large groups in shallow, clear water. This makes them vulnerable to overfishing because they are easy to harvest in large quantities.</li>\n<li>They prefer seagrass meadows, coral rubble, algal plains, and sandy ocean bottoms.</li>\n<li>They may move seasonally and as they mature. Juveniles have been known to migrate from shallow-water nursery sites to deeper water as they mature, and adults have been observed moving seasonally from sand plains to hard ocean bottom areas.</li>\n<li>Macroalgae and sedentary animals can grow on conch shells, providing camouflage for conchs in their various habitats.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Primarily harvested by hand, so there is little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-1_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-1_0.jpg',
 				alt: 'The queen conch’s shell is typically orange, and the inside of the lip ranges from bright orange to pink.',
 				title:
 					'The queen conch’s shell is typically orange, and the inside of the lip ranges from bright orange to pink.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-2_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-2_0.jpg',
 				alt: 'Picture of conch fritters.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-3_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-3_0.jpg',
 				alt: 'Empty conch shells are a common sight in areas of intensive harvest.',
 				title:
 					'Empty conch shells are a common sight in areas of intensive harvest.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-5_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen-conch-5_0.jpg',
 				alt: 'Dr. Megan Davis, Harbor Branch Oceanographic Institution, discussing culture of queen conch.',
 				title:
 					'Dr. Megan Davis, Harbor Branch Oceanographic Institution, discussing culture of queen conch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7.JPG',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7.JPG',
 				alt: 'Queen conch with eye stalks. Photo credit: Jennifer Doerr',
 				title: 'Queen conch with eye stalks. Photo credit: Jennifer Doerr',
 			},
@@ -8291,7 +8291,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/conch" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Conch</a>, <a href="/species-aliases/pink-conch" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pink conch</a>, <a href="/species-aliases/carrucho" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Carrucho</a>, <a href="/species-aliases/caracol-reina" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Caracol Reina</a>, <a href="/species-aliases/aliger-gigas" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Aliger gigas</a>, <a href="/species-aliases/lobatus-gigas" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lobatus gigas</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen_conch_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/queen_conch_0.png',
 			alt: 'Queen conch',
 			title: 'Queen conch',
 		},
@@ -8358,31 +8358,31 @@ module.exports = [
 			'<ul>\n<li>Juveniles less than 2 years old live in shallow waters in complex habitats, such as shell hash, cobble, algae, and bryozoans (branching, coral-like invertebrates) to avoid being preyed upon by fish and other crabs.</li>\n<li>Older juveniles form pods that travel together, mounding up during the day and feeding at night.</li>\n<li>Pods can consist of tens of thousands of individual crabs and are likely an anti-predator strategy, similar to schooling in fish.</li>\n<li>Mature animals move into deeper water (typically less than 650 feet along the continental shelf) to feed, and the females return to shallow waters to hatch their eggs.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Habitat impacts from crab pots are minor because fishing occurs in areas of soft sediment, such as silt and mud, which are unlikely to be damaged by fishing gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-1.jpg',
 				alt: 'A male and female crab mating, found in shallow waters of Womens Bay, Kodiak Island, AK.',
 				title:
 					'A male and female crab mating, found in shallow waters of Womens Bay, Kodiak Island, AK.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-2.jpg',
 				alt: 'Female red king crab with eggs.',
 				title: 'Female red king crab with eggs.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-3.jpg',
 				alt: 'NOAA Fisheries research biologists Sara Persselin and Brad Stevens display one of 32 red king crabs collected in waters around Kodiak Island in 2006 for use in a collaborative effort to rebuild Kodiak&#039;s red king crab stock.',
 				title:
 					'NOAA Fisheries research biologists Sara Persselin and Brad Stevens display one of 32 red king crabs collected in waters around Kodiak Island in 2006 for use in a collaborative effort to rebuild Kodiak&#039;s red king crab stock.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-4.jpg',
 				alt: 'Red king crab claws',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red-king-crab-5.jpg',
 				alt: 'Red king crab carapace removed from a molted shell.',
 				title: 'Red king crab carapace removed from a molted shell.',
 			},
@@ -8399,7 +8399,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/alaska-king-crab" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Alaska king crab</a>, <a href="/species-aliases/king-crab" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">King crab</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_king_crab.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_king_crab.png',
 			alt: 'Red king crab',
 			title: 'Red king crab',
 		},
@@ -8464,24 +8464,24 @@ module.exports = [
 			'<ul>\n<li>Spiny dogfish live in waters as deep as 4,050 feet but most are found in waters less than 1,150 feet deep.</li>\n<li>They are common in inland seas, such as San Francisco Bay and Puget Sound, and in shallow bays from Alaska to central California.</li>\n<li>They exhibit a variety of seasonal and daily movement patterns. Some animals migrate to warmer waters in winter, while others stay in colder waters. They tend to move shallower during the day and deeper at night.</li>\n<li>Males are generally found in shallower water than females, except for pregnant females that enter shallow bays to pup.</li>\n<li>Immature juveniles live in the water column near the surface. As they grow older, they settle to the bottom.</li>\n<li>Spiny dogfish often travel in large schools, largely to protect themselves from predators, and avidly feed during their journeys. The schools include hundreds, if not thousands, of dogfish and tend to divide up according to size and gender, although the young—both male and female—tend to stay together.</li>\n<li>They can travel long distances – a spiny dogfish tagged in Queen Charlotte Sound (off British Columbia) was recovered off the northeast coast of Japan years later.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishermen generally do not directly target spiny dogfish in waters off the Pacific Coast and Alaska. As a result, there are no habitat impacts from a directed fishery.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_56.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_56.jpg',
 				alt: 'Pacific spiny dogfish meal image.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_11.jpg',
 				alt: 'Tagged spiny dogfish shark ready for release.',
 				title: 'Tagged spiny dogfish shark ready for release.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_11.jpg',
 				alt: 'Close-up of spiny dogfish head.',
 				title: 'Close-up of spiny dogfish head.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1spiny_dogfish_tacos_with_avocado_onion_cabbage_and_cilantro-lime_yogurt_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1spiny_dogfish_tacos_with_avocado_onion_cabbage_and_cilantro-lime_yogurt_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
 				alt: 'Spiny dogfish tacos',
 				title:
 					'Photo courtesy of Chef Peter J. Fischbach, Fischbach Food Service Consulting.',
@@ -8498,7 +8498,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dogfish</a>, <a href="/species-aliases/spring-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spring dogfish</a>, <a href="/species-aliases/spiked-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spiked dogfish</a>, <a href="/species-aliases/grayfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grayfish</a>, <a href="/species-aliases/spur-dog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spur dog</a>, <a href="/species-aliases/piked-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Piked dogfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_spiny_dogfish_shark_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_spiny_dogfish_shark_0.png',
 			alt: 'Illustration of a Pacific Spiny Dogfish.',
 			title: 'Pacific Spiny Dogfish',
 		},
@@ -8563,32 +8563,32 @@ module.exports = [
 			'<ul>\n<li>Juveniles (1 inch and larger) live in shallow, near-shore waters off Alaska and British Columbia.</li>\n<li>Pacific halibut move to deeper water as they age.</li>\n<li>Adults migrate seasonally from shallow summer feeding grounds to deeper winter spawning grounds.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest Pacific halibut have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_10.jpg',
 				alt: 'Dorsal side of a small halibut.',
 				title:
 					'Dorsal side of a small halibut. Larvae begin life in an upright position with an eye on each side of their head. When they are about an inch long, their left eye migrates over the snout to the right side of the head, and the color of the left side fades.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_8.jpg',
 				alt: 'Ventral side of halibut.',
 				title: 'Ventral side of halibut.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_4.jpg',
 				alt: 'At about 6 months old, halibut settle to the ocean floor, where the protective coloring on their “eyed” side camouflages them.',
 				title:
 					'At about 6 months old, halibut settle to the ocean floor, where the protective coloring on their “eyed” side camouflages them.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_13.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_13.jpg',
 				alt: 'The Pacific halibut is one of the largest flatfish - they can weigh up to 500 pounds and grow to over 8 feet long.',
 				title:
 					'The Pacific halibut is one of the largest flatfish - they can weigh up to 500 pounds and grow to over 8 feet long.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09_0.jpg',
 				alt: 'Fish dish.',
 				title: '',
 			},
@@ -8604,7 +8604,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Halibut</a>, <a href="/species-aliases/alaskan-halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Alaskan halibut</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_halibut.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_halibut.png',
 			alt: 'Illustration of a Pacific Halibut',
 			title: 'Pacific Halibut',
 		},
@@ -8668,30 +8668,30 @@ module.exports = [
 			'<ul>\n<li>Spiny dogfish live inshore and offshore, usually near the bottom but also in mid-water and at the surface.</li>\n<li>They swim in large schools and migrate seasonally with changes in water temperature.</li>\n<li>Much of the population travels north in the spring and summer and south in the fall and winter.</li>\n<li>Some spiny dogfish remain in northern waters throughout the year and move offshore during the winter.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_7.jpg',
 				alt: 'Measuring dogfish during a research survey.',
 				title: 'Measuring dogfish during a research survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_10.jpg',
 				alt: 'A spiny dogfish tagged as part of the Spiny Dogfish Cooperative Reserach Tagging Study.',
 				title:
 					'A spiny dogfish tagged as part of the Spiny Dogfish Cooperative Reserach Tagging Study.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_7.jpg',
 				alt: 'Close-up of a spiny dogfish&#039;s narrow, pointed snout.',
 				title: 'Close-up of a spiny dogfish&#039;s narrow, pointed snout.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_10.jpg',
 				alt: 'Atlantic spiny dogfish seafood dish.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1spiny_dogfish_tacos_with_avocado_onion_cabbage_and_cilantro-lime_yogurt_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_1spiny_dogfish_tacos_with_avocado_onion_cabbage_and_cilantro-lime_yogurt_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
 				alt: 'Spiny dogfish tacos',
 				title:
 					'Photo courtesy of Chef Peter J. Fischbach, Fischbach Food Service Consulting.',
@@ -8708,7 +8708,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/dogfish-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dogfish shark</a>, <a href="/species-aliases/cape-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cape dogfish</a>, <a href="/species-aliases/cape-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cape shark</a>, <a href="/species-aliases/spring-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spring dogfish</a>, <a href="/species-aliases/spiked-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spiked dogfish</a>, <a href="/species-aliases/grayfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grayfish</a>, <a href="/species-aliases/spur-dog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spur dog</a>, <a href="/species-aliases/piked-dogfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Piked dogfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_spiny_dogfish_shark.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_spiny_dogfish_shark.png',
 			alt: 'Atlantic spiny dogfish',
 			title: 'Atlantic spiny dogfish',
 		},
@@ -8772,32 +8772,32 @@ module.exports = [
 			'<ul>\n<li>Juvenile and adult arrowtooth flounder live on the ocean floor.</li>\n<li>They’re most commonly found on sand or sandy gravel habitat and occasionally over low-relief rock-sponge bottoms.</li>\n<li>During the summer, arrowtooth flounder feed in shallow water on the continental shelf.</li>\n<li>They migrate to deep water over the continental slope to spawn in the winter.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats affected by some types of fishing gear used to harvest arrowtooth flounder.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_7.jpg',
 				alt: 'Researcher separating arrowtooth flounder from Alaska pollock during a trawl survey of the Gulf of Alaska.',
 				title:
 					'Researcher separating arrowtooth flounder from Alaska pollock during a trawl survey of the Gulf of Alaska.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_6.jpg',
 				alt: 'Pile of arrowtooth flounder, a relatively large flatfish with a large mouth.',
 				title:
 					'Pile of arrowtooth flounder, a relatively large flatfish with a large mouth.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_9.jpg',
 				alt: 'Whole arrowtooth flounder. Photo credit: U.S. Food and Drug Administration.',
 				title:
 					'Whole arrowtooth flounder. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_9.jpg',
 				alt: 'View of the underside of an arrowtooth flounder.',
 				title: 'View of the underside of an arrowtooth flounder.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07_0.jpg',
 				alt: 'Picture of flounder.',
 				title: '',
 			},
@@ -8813,7 +8813,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/arrowtooth-halibut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Arrowtooth halibut</a>, <a href="/species-aliases/turbot" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Turbot</a>, <a href="/species-aliases/paltus" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Paltus</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/arrowtooth_flounder_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/arrowtooth_flounder_0.png',
 			alt: 'Arrowtooth flounder',
 			title: 'Arrowtooth flounder',
 		},
@@ -8875,32 +8875,32 @@ module.exports = [
 			'<ul>\n<li>Alaska snow crabs prefer soft sandy or muddy ocean bottoms, typically in water less than 650 feet deep, where they can burrow if threatened by predators and where they can feed on the animals living in the sediment.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Habitat impacts from crab pots are minor because fishing occurs in areas of soft sediment such as silt and mud that are unlikely to be damaged by fishing gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1_1.jpg',
 				alt: 'Only male crabs can legally be caught for commercial use. Commercial size males are usually older than 8 years and weigh between 1 and 2 pounds. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
 				title:
 					'Only male crabs can legally be caught for commercial use. Commercial size males are usually older than 8 years and weigh between 1 and 2 pounds. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_0.jpg',
 				alt: 'Snow crab taken during the 2008 Beaufort Sea Survey.',
 				title: 'Snow crab taken during the 2008 Beaufort Sea Survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/6_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/6_0.jpg',
 				alt: 'Fishing at night for snow crab in the Bering Sea on the fishing vessel Kiska Sea. (Photo credit: Karen Ducey, www.karenducey.com)',
 				title:
 					'Fishing at night for snow crab in the Bering Sea on the fishing vessel Kiska Sea. (Photo credit: Karen Ducey, www.karenducey.com)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/7_0.jpg',
 				alt: 'Bering Sea snow crab being off-loaded for processing in Dutch Harbor, Alaska. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
 				title:
 					'Bering Sea snow crab being off-loaded for processing in Dutch Harbor, Alaska. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/8_0.jpg',
 				alt: 'Snow crab catch. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
 				title:
 					'Snow crab catch. (Photo credit: Forrest Bowers, Alaska Department of Fish and Game)',
@@ -8918,7 +8918,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/opilio" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Opilio</a>, <a href="/species-aliases/opies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Opies</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaska_snow_crab.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaska_snow_crab.png',
 			alt: 'Alaska snow crab',
 			title: 'Alaska snow crab',
 		},
@@ -8982,31 +8982,31 @@ module.exports = [
 			'<ul>\n<li>Ocean quahogs live in water between 25 and 1,300 feet deep.</li>\n<li>In the northern part of their range, they’re found in shallower water closer to shore.</li>\n<li>The U.S. stock is almost entirely within federal waters (3 to 200 nautical miles from shore), except for a modest amount off the coast of Maine and in waters between 65 and 260 feet deep.</li>\n<li>Ocean quahogs are rarely found where bottom water temperatures exceed 60˚ F.</li>\n<li>Eggs and larvae are found in the water column and drift with the currents until they develop into juveniles and settle to the bottom.</li>\n<li>Ocean quahogs burrow in a variety of sediments, especially fine sand.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest quahogs has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_11.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_11.jpg',
 				alt: 'Ocean quahogs.',
 				title: 'Ocean quahogs.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_9.jpg',
 				alt: 'Quahogs collected during a surfclam and ocean quahog research survey.',
 				title:
 					'Quahogs collected during a surfclam and ocean quahog research survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_7.jpg',
 				alt: 'Clam dredge scaffolding installed on the NOAA research vessel, Delaware II, for a surfclam and ocean quahog survey. These surveys monitor the shellfish resources and are critical for their effective management.',
 				title:
 					'Clam dredge scaffolding installed on the NOAA research vessel, Delaware II, for a surfclam and ocean quahog survey. These surveys monitor the shellfish resources and are critical for their effective management.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_5.jpg',
 				alt: 'Harvesting ocean quahogs.',
 				title: 'Harvesting ocean quahogs.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_8.jpg',
 				alt: 'Chowder.',
 				title: '',
 			},
@@ -9022,7 +9022,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Clam</a>, <a href="/species-aliases/quahog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Quahog</a>, <a href="/species-aliases/black-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black clam</a>, <a href="/species-aliases/mahogany-quahog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mahogany quahog</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/hard_clam_ocean_quahog.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/hard_clam_ocean_quahog.png',
 			alt: 'Hard clam/ocean quahog',
 			title: 'Hard clam/ocean quahog',
 		},
@@ -9086,21 +9086,21 @@ module.exports = [
 			'<ul>\n<li>Adults live on hard ocean bottoms, reefs, ledges, and artificial reefs at depths of 80 to 300 feet, either alone or in small groups.</li>\n<li>Larvae and juveniles drift up to the surface and develop within the planktonic environment (open ocean), and often live among mats of planktonic <em>Sargassum </em>(a floating brown algae) before they move to the bottom.&nbsp;&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest gray triggerfish has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.jpg',
 				alt: 'Credit: NOAA Flower Garden Banks National Marine Sanctuary/Schmahl',
 				title:
 					'Credit: NOAA Flower Garden Banks National Marine Sanctuary/Schmahl',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/2.jpg',
 				alt: 'Gray triggerfish. Credit: Gray’s Reef National Marine Sanctuary',
 				title:
 					'Gray triggerfish. Credit: Gray’s Reef National Marine Sanctuary',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/3.jpg',
 				alt: 'Gray triggerfish. Credit: Brandi Noble, NOAA Fisheries/SEFSC',
 				title: 'Gray triggerfish. Credit: Brandi Noble, NOAA Fisheries/SEFSC',
 			},
@@ -9117,7 +9117,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/grey-triggerfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grey triggerfish</a>, <a href="/species-aliases/leatherjacket" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Leatherjacket</a>, <a href="/species-aliases/leatherneck" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Leatherneck</a>, <a href="/species-aliases/taly" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Taly</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/gray_triggerfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/gray_triggerfish.png',
 			alt: 'Gray triggerfish',
 			title: 'Gray triggerfish',
 		},
@@ -9180,30 +9180,30 @@ module.exports = [
 			'<ul>\n<li>Bluefish live in temperate and tropical coastal oceans around the world, except in the eastern Pacific.</li>\n<li>They gather by size in schools that can cover tens of square miles of ocean, equivalent to 10,000 football fields.</li>\n<li>Bluefish migrate seasonally, moving north in spring and summer as water temperatures rise and then south in autumn and winter to waters in the South Atlantic Bight.</li>\n<li>Females release their eggs in the open ocean.</li>\n<li>Larvae develop into juveniles near the surface in continental shelf waters and eventually move to estuarine and nearshore shelf habitats.</li>\n<li>Juveniles prefer sandy ocean bottoms but will also inhabit mud, silt, or clay ocean bottoms or vegetated areas.</li>\n<li>Adults live in both inshore and offshore areas and favor warmer water.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Recreational fishermen use hook-and-line gear that has minimal impacts on habitat. Commercial fishermen use a variety of gears including trawls, gillnets, haul seines, and pound nets, and the impacts vary by gear type.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_10.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_10.jpg',
 				alt: 'Bluefish have a prominent jaw, with sharp, compressed teeth.',
 				title: 'Bluefish have a prominent jaw, with sharp, compressed teeth.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_8.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_8.jpg',
 				alt: 'A recreational fisherman with his catch of bluefish. Bluefish are one of the most popular recreational species along the Atlantic coast.',
 				title:
 					'A recreational fisherman with his catch of bluefish. Bluefish are one of the most popular recreational species along the Atlantic coast.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_6.jpg',
 				alt: 'A historic photo of a crew of New York bluefish fisherman.',
 				title: 'A historic photo of a crew of New York bluefish fisherman.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_7.jpg',
 				alt: 'Filleting freshly-caught bluefish.',
 				title: 'Filleting freshly-caught bluefish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_3.jpg',
 				alt: 'Bluefish in the pan.',
 				title: 'Bluefish in the pan.',
 			},
@@ -9219,7 +9219,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/tailor" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tailor</a>, <a href="/species-aliases/snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Snapper</a>, <a href="/species-aliases/baby-blues" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Baby blues</a>, <a href="/species-aliases/choppers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Choppers</a>, <a href="/species-aliases/elfs" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Elfs</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/bluefish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/bluefish.png',
 			alt: 'Bluefish',
 			title: 'Bluefish',
 		},
@@ -9284,30 +9284,30 @@ module.exports = [
 			'<ul>\n<li>Black sea bass prefer structured habitats such as reefs, wrecks, or oyster beds in temperate and subtropical waters.</li>\n<li>In the Mid-Atlantic (north of Cape Hatteras, North Carolina), they migrate seasonally as water temperature changes.</li>\n<li>They generally migrate to inshore coastal areas and bays in the spring and offshore in the fall.</li>\n<li>In the South Atlantic, black sea bass do not tend to migrate as far.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest black sea bass have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black-sea-bass-noaa-john-rosendale-sized.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black-sea-bass-noaa-john-rosendale-sized.png',
 				alt: 'Black sea bass. Credit: NOAA/John Rosendale.',
 				title: 'Black sea bass. Credit: NOAA/John Rosendale.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_5.jpg',
 				alt: 'A NOAA Fisheries scientist attaching a tube tag on a black sea bass as part of a joint research project among federal and state governments and commercial and recreational fishermen to better understand black sea bass abundance, distribution, and harvest.',
 				title:
 					'A NOAA Fisheries scientist attaching a tube tag on a black sea bass as part of a joint research project among federal and state governments and commercial and recreational fishermen to better understand black sea bass abundance, distribution, and harvest.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_4.jpg',
 				alt: 'A researcher holds up a black sea bass.',
 				title: 'A researcher holds up a black sea bass.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_6.jpg',
 				alt: 'Black sea bass fingerlings (small, young fish).',
 				title: 'Black sea bass fingerlings (small, young fish).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_crispy_black_sea_bass_with_asparagus_red_onion_balsamic_vinegar_and_olive_oil_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/rsz_crispy_black_sea_bass_with_asparagus_red_onion_balsamic_vinegar_and_olive_oil_chef_pete_j_fischbach_fischbach_food_service_consulting.jpg',
 				alt: 'Crispy black sea bass dish',
 				title:
 					'Photo courtesy of Chef Peter J. Fischbach,  Fischbach Food Service Consulting',
@@ -9324,7 +9324,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sea-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea bass</a>, <a href="/species-aliases/blackfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blackfish</a>, <a href="/species-aliases/rock-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rock bass</a>, <a href="/species-aliases/black-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black bass</a>, <a href="/species-aliases/tallywag" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tallywag</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black_sea_bass_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/black_sea_bass_0.png',
 			alt: 'Black sea bass',
 			title: 'Black sea bass',
 		},
@@ -9388,31 +9388,31 @@ module.exports = [
 			'<ul>\n<li>Petrale sole are common on the outer continental shelf in water 330 to 500 feet deep, but can be found in depths ranging from 50 to 1,370 feet.</li>\n<li>Adults migrate seasonally from deep water where they spawn to shallow water where they feed in the summer.</li>\n<li>Eggs and larvae are found in surface waters, and juveniles and adults live on sandy and muddy bottoms.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitats that are affected by bottom trawls used to harvest petrale sole. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01.gif',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01.gif',
 				alt: 'Petrale Sole',
 				title: 'Photo credit: Daniel W. Gotshall',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_5.jpg',
 				alt: 'Petrale Sole specimen',
 				title: 'Photo credit: Oregon Department of Fish and Wildlife',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_3.jpg',
 				alt: 'Whole petrale sole.',
 				title:
 					'Whole petrale sole. Photo credit: U.S. Food &amp; Drug Administration (FDA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_4.jpg',
 				alt: 'Petrale sole fillets',
 				title:
 					'Petrale sole fillets. Photo credit: U.S. Food &amp; Drug Administration (FDA)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_1.jpg',
 				alt: 'Fish and chips',
 				title: '',
 			},
@@ -9428,7 +9428,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sole</a>, <a href="/species-aliases/flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Flounder</a>, <a href="/species-aliases/california-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">California sole</a>, <a href="/species-aliases/brill" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Brill</a>, <a href="/species-aliases/petral" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Petral</a>, <a href="/species-aliases/jordan%E2%80%99s-flounder" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Jordan’s flounder</a>, <a href="/species-aliases/round-nosed-sole" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Round-nosed sole</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/petrale_sole.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/petrale_sole.png',
 			alt: 'Illustration of a petrale sole',
 			title: '',
 		},
@@ -9490,19 +9490,19 @@ module.exports = [
 			'<ul>\n<li>Juvenile greater amberjack school around mats of pelagic (open ocean) <em>Sargassum</em> in the Gulf of Mexico. Sargassum is an algae that provides food and protection for juvenile fish and invertebrates in the open ocean. Schooling behavior decreases as greater amberjack mature.</li>\n<li>They shift from inhabiting pelagic to demersal (near the ocean bottom) habitats at about 5 to 6 months of age. Sub-adults and adults congregate around reefs, rocky outcrops, and wrecks at depths of 60 to 240 feet.</li>\n<li>Some populations live in a particular location while others migrate, likely using a variety of habitats and areas throughout the year.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch greater amberjack rarely contacts the ocean floor and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_6.jpg',
 				alt: 'Greater amberjack.',
 				title: 'Greater amberjack. Photo credit: NOAA.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4.jpg',
 				alt: 'Greater amberjack.',
 				title: 'Greater amberjack. Photo credit: NOAA.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/6.jpg',
 				alt: 'Greater amberjack.',
 				title: 'Greater amberjack (Seriola dumerili). Photo credit: NOAA.',
 			},
@@ -9519,7 +9519,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/amberjack" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Amberjack</a>, <a href="/species-aliases/medregal" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Medregal</a>, <a href="/species-aliases/coronado" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coronado</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/greater_amberjack.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/greater_amberjack.png',
 			alt: 'Illustration of a Greater Amberjack.',
 			title: 'Greater Amberjack',
 		},
@@ -9584,32 +9584,32 @@ module.exports = [
 			'<ul>\n<li>Thresher sharks are highly migratory, and travel seasonally as temperatures change.</li>\n<li>They are commonly found close to shore in areas rich with plankton, where their prey is also abundant.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Drift gillnets and harpoons used to catch common thresher sharks have no impact on habitat because they’re used in the water column and don’t contact the ocean floor.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_5.jpg',
 				alt: 'Common thresher shark.',
 				title: 'Common thresher shark.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_4.jpg',
 				alt: 'Leading an adult common thresher shark into the shark cradle during the Southwest Fisheries Science Center’s 2006 Juvenile Shark Survey off of the Channel ',
 				title:
 					'Leading an adult common thresher shark into the shark cradle at the stern of the NOAA Ship David Starr Jordan. This shark was caught, tagged, and released alive during the Southwest Fisheries Science Center’s 2006 Juvenile Shark Survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_46.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_46.jpg',
 				alt: 'A photo of an adult common thresher shark being tagged during the 2009 Juvenile Shark Survey off of the Channel Islands.',
 				title:
 					'This adult common thresher shark was caught, tagged, and released alive during the 2009 Juvenile Shark Survey off of the Channel Islands. (Photo credit: Southwest Fisheries Science Center, NOAA Fisheries Service.)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_2.jpg',
 				alt: 'Common thresher shark steaks.',
 				title:
 					'Common thresher shark steaks. (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_3.jpg',
 				alt: 'Photo of a seafood dish with Pacific Common Thresher Shark and shrimp.',
 				title: '',
 			},
@@ -9625,7 +9625,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/thresher-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thresher shark</a>, <a href="/species-aliases/fox-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Fox shark</a>, <a href="/species-aliases/sea-fox" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea fox</a>, <a href="/species-aliases/swingletail" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Swingletail</a>, <a href="/species-aliases/whiptail-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Whiptail shark</a>, <a href="/species-aliases/thintail-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thintail shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_common_thresher_shark.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_common_thresher_shark.png',
 			alt: 'Illustration of a Pacific Common Thresher Shark',
 			title: 'Pacific Common Thresher Shark',
 		},
@@ -9688,31 +9688,31 @@ module.exports = [
 			'<ul>\n<li>During the winter, Pacific cod live on the continental shelf edge and upper continental slope in waters 300 to more than 800 feet deep.</li>\n<li>In the summer, they move to shallower water (300 feet deep or less).</li>\n<li>Larvae and small juveniles are found throughout the water column, while large juveniles and adults live near the ocean floor and prefer habitats of mud, sand, and clay.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some types of fishing gear used to harvest Pacific cod.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06_0.jpg',
 				alt: 'Adult Pacific cod caught on jigging gear aboard the fishing vessel Miss O in April 2007.',
 				title:
 					'Adult Pacific cod caught on jigging gear aboard the fishing vessel Miss O in April 2007.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_2.jpg',
 				alt: 'Electronic data storage tag being placed on a Pacific cod. These tags record cod’s vertical movements. This information helps researchers determine when fish are in the water column or on the bottom.',
 				title:
 					'Electronic data storage tag being placed on a Pacific cod. These tags record cod’s vertical movements. This information helps researchers determine when fish are in the water column or on the bottom.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/07.jpg',
 				alt: 'Whole Pacific cod.',
 				title: 'Whole Pacific cod (FDA).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/08_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/08_0.jpg',
 				alt: 'Pacific cod skinless fillets.',
 				title: 'Pacific cod skinless fillets (FDA).',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Alaska%20Cod%20Potato%20Cakes_Credit%20Alaska%20Seafood%20Marketing%20Institute.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Alaska%20Cod%20Potato%20Cakes_Credit%20Alaska%20Seafood%20Marketing%20Institute.jpg',
 				alt: 'Alaska cod potato cakes',
 				title: 'Cod potato cakes. Credit: Alaska Seafood Marketing Institute',
 			},
@@ -9729,7 +9729,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cod</a>, <a href="/species-aliases/alaska-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Alaska cod</a>, <a href="/species-aliases/gray-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Gray cod</a>, <a href="/species-aliases/true-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">True cod</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_cod.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_cod.png',
 			alt: 'Illustration of a pacific cod',
 			title: 'Pacific Cod',
 		},
@@ -9794,15 +9794,15 @@ module.exports = [
 			'<ul>\n<li>Blue marlin prefer warm surface waters that are well mixed by surface winds and are uniform in temperature and salinity. They are considered the most tropical of all billfishes.</li>\n<li>They spend all of their time in the water column, frequently moving between the surface and a depth of 100 meters. Depth distribution is limited by low water temperature and low oxygen levels.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear used to harvest blue marlin rarely contacts the ocean floor, so habitat impacts are minimal.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_4.jpg',
 				alt: 'Large blue marlin jumping, as seen from a charter vessel. ',
 				title:
 					'Large blue marlin jumping, as seen from a charter vessel. Credit: NOAA Fisheries',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_2.jpg',
 				alt: 'Blue marlin steaks.',
 				title: 'Blue marlin steaks. Credit: U.S. Food and Drug Administration',
 			},
@@ -9818,7 +9818,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/%E2%80%98u" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">A‘u</a>, <a href="/species-aliases/kajiki" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Kajiki</a>, <a href="/species-aliases/aguja-azul" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Aguja azul</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_blue_marlin.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_blue_marlin.png',
 			alt: 'Illustration of a pacific blue marlin',
 			title: 'Pacific Blue Marlin',
 		},
@@ -9883,30 +9883,30 @@ module.exports = [
 			'<ul>\n<li>Anchovies form large, dense schools near the ocean surface.</li>\n<li>Anchovy schools move short distances along the shore and offshore.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The gear used to catch northern anchovies is used at the surface and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_1.jpg',
 				alt: 'Swimming Northern Anchovies',
 				title: 'Northern anchovy. Photo credit: U.S. Geological Survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_1.jpg',
 				alt: 'School of northern anchovy.',
 				title: 'School of northern anchovy.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_2.jpg',
 				alt: 'Anchovies schooling near the surface.',
 				title: 'Anchovies schooling near the surface.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05.jpg',
 				alt: 'Anchovies being pumped from fishing vessel to shore facility in San Pedro, California. Nearly all anchovies caught by U.S. fisheries are used as bait.',
 				title:
 					'Anchovies being pumped from fishing vessel to shore facility in San Pedro, California. Nearly all anchovies caught by U.S. fisheries are used as bait.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/06.jpg',
 				alt: 'Anchovies served with vegetables.',
 				title: '',
 			},
@@ -9923,7 +9923,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/anchovy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Anchovy</a>, <a href="/species-aliases/north-pacific-anchovy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">North Pacific anchovy</a>, <a href="/species-aliases/california-anchovy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">California anchovy</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/northern_anchovy.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/northern_anchovy.png',
 			alt: 'Illustration of a northern anchovy',
 			title: 'Northern Anchovy',
 		},
@@ -9988,33 +9988,33 @@ module.exports = [
 			'<ul>\n<li>Larvae live near the surface of the ocean. Juveniles settle on nearshore sandy ocean bottoms near eelgrass or kelp beds.</li>\n<li>Young adults and adults move to rocky habitats or seaweed, kelp, and eelgrass beds, where food is abundant.</li>\n<li>Male lingcod don’t generally move far from where they’re born, but researchers have found that immature fish sometimes migrate more than 60 miles and females migrate seasonally to spawn.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Time and area closures and gear restrictions protect habitats that are affected by some types of fishing gear used to harvest lingcod.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_3.jpg',
 				alt: 'Lingcod hiding motionless on a reef in California Point Lobos State Reserve.',
 				title:
 					'Lingcod hiding motionless on a reef in California Point Lobos State Reserve.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02_0.jpg',
 				alt: 'Male lingcod guard fertilized eggs nestled in rocky outcrops in Cordell Bank National Marine Sanctuary.',
 				title:
 					'Male lingcod guard fertilized eggs nestled in rocky outcrops in Cordell Bank National Marine Sanctuary.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_1.jpg',
 				alt: 'Whole lingcod',
 				title:
 					'Whole lingcod (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_1.jpg',
 				alt: 'Lingcod fillet',
 				title:
 					'Lingcod fillet (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_1.jpg',
 				alt: 'Lingcod fish and chips platter.',
 				title: '',
 			},
@@ -10030,7 +10030,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/cultus-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cultus cod</a>, <a href="/species-aliases/blue-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blue cod</a>, <a href="/species-aliases/bluefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bluefish</a>, <a href="/species-aliases/green-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Green cod</a>, <a href="/species-aliases/buffalo-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Buffalo cod</a>, <a href="/species-aliases/greenling" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Greenling</a>, <a href="/species-aliases/white-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">White cod</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/lingcod.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/lingcod.png',
 			alt: 'Illustration of a lingcod',
 			title: 'Illustration of Lingcod',
 		},
@@ -10093,30 +10093,30 @@ module.exports = [
 			'<ul>\n<li>Striped bass are anadromous (they live in the ocean but return to freshwater to spawn).</li>\n<li>In the spring, mature striped bass migrate back to fresh or brackish water to spawn.</li>\n<li>Larvae drift downstream toward their nursery areas in river deltas and the inland portions of the coastal sounds and estuaries.</li>\n<li>Juveniles typically remain in estuaries for 2 to 4 years and then migrate out to the Atlantic Ocean.</li>\n<li>Some spend the majority of their adult life in rivers or coastal estuaries.</li>\n<li>Some spend their adult life in the ocean, migrating north and south seasonally and ascending to rivers to spawn in the spring. Striped bass tagged in the Chesapeake Bay have been caught in Canadian waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gears used to harvest striped bass have minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_1.jpg',
 				alt: 'Atlantic striped bass.',
 				title: 'Atlantic striped bass.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_2_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_2_0.jpg',
 				alt: 'Tagged striped bass.',
 				title: 'Tagged striped bass.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_3.jpg',
 				alt: 'A researcher holds up a large striped bass.',
 				title: 'A researcher holds up a large striped bass.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_4.jpg',
 				alt: 'Researchers aboard the NOAA Oregon II measuring a striped bass during a tagging survey. Striped bass generally grow up to 5 feet in length.',
 				title:
 					'Researchers aboard the NOAA Oregon II measuring a striped bass during a tagging survey. Striped bass generally grow up to 5 feet in length.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/ASB_5.jpg',
 				alt: 'Atlantic striped bass prepared for dinner.  ',
 				title: '',
 			},
@@ -10133,7 +10133,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bass</a>, <a href="/species-aliases/rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rockfish</a>, <a href="/species-aliases/striper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Striper</a>, <a href="/species-aliases/linesider" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Linesider</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_striped_bass_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_striped_bass_0.png',
 			alt: 'Illustration of Atlantic Striped Bass',
 			title: 'Illustration of Atlantic Striped Bass',
 		},
@@ -10199,31 +10199,31 @@ module.exports = [
 			'<ul>\n<li>Juveniles burrow in medium- to fine-grain sand in waters 30 to 80 feet deep.</li>\n<li>Adults prefer medium- to coarse-grain sand and gravel from beach zones to over 160 feet deep.</li>\n<li>Surfclams prefer more turbulent waters and bury themselves just below the sediment surface.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest surfclams has negative impacts to habitat, but the fishery is managed to minimize these impacts, particularly to sensitive habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01_2.jpg',
 				alt: 'Haul on deck of a clam dredge.',
 				title: 'Haul on deck of a clam dredge.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/02.jpg',
 				alt: 'A hydraulic dredge with water coming from jets as it is lifted out of the water at Oyster Bay, New York.',
 				title:
 					'A hydraulic dredge with water coming from jets as it is lifted out of the water at Oyster Bay, New York.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03_0.jpg',
 				alt: 'Sorting clam catch on deck.',
 				title: 'Sorting clam catch on deck.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04_0.jpg',
 				alt: 'Once they are brought aboard, the clams are put into large wire mesh cages. When full, the individual cages weigh thousands of pounds.',
 				title:
 					'Once they are brought aboard, the clams are put into large wire mesh cages. When full, the individual cages weigh thousands of pounds.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_0.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/05_0.jpg',
 				alt: 'A wrackline of broken surfclam shells along mud flats exposed at low tide along Plumb Beach in Brooklyn. During harsh winter storms, surfclams can be thrown onto beaches; one such storm placed an estimated 50 million clams along a 10-mile stretch of beach',
 				title:
 					'A wrackline of broken surfclam shells along mud flats exposed at low tide along Plumb Beach, Brooklyn. During harsh winter storms, surfclams can be thrown onto beaches; one such storm placed an estimated 50 million clams along a 10-mile stretch of beach.',
@@ -10240,7 +10240,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/surfclam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Surfclam</a>, <a href="/species-aliases/hen-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hen clam</a>, <a href="/species-aliases/bar-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bar clam</a>, <a href="/species-aliases/sea-clam" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea clam</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_surfclam_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_surfclam_0.png',
 			alt: 'Atlantic surfclam',
 			title: 'Atlantic surfclam',
 		},
@@ -10306,32 +10306,32 @@ module.exports = [
 			'<ul>\n<li>Shortfin mako sharks live near the surface in tropical and temperate oceans.&nbsp;</li>\n<li>Juveniles are common in coastal waters, and adults are primarily found offshore. &nbsp;</li>\n<li>They are highly migratory and capable of swimming long distances across entire oceans.&nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Gear used to catch shortfin mako does not contact the ocean floor, so there is no impact to habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-1.jpg',
 				alt: 'Two shortfin mako sharks. Mako sharks are fast-moving and streamlined. They propel themselves through the water with short strokes of their thick, powerful tails. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
 				title:
 					'Two shortfin mako sharks. Mako sharks are fast-moving and streamlined. They propel themselves through the water with short strokes of their thick, powerful tails. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-2.jpg',
 				alt: 'Pacific Shortfin Mako Shark prepared',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-3.jpg',
 				alt: 'Shortfin mako shark steaks. (Photo credit: U.S. Food and Drug Administration)',
 				title:
 					'Shortfin mako shark steaks. (Photo credit: U.S. Food and Drug Administration)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-4.jpg',
 				alt: 'Tagged shortfin mako shark. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
 				title:
 					'Tagged shortfin mako shark. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-shortfin-mako-shark-5.jpg',
 				alt: 'This adult mako shark was caught, tagged, and released alive during the Southwest Fisheries Science Center&#039;s Juvenile Shark Survey in 2007. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
 				title:
 					'This adult mako shark was caught, tagged, and released alive during the Southwest Fisheries Science Center&#039;s Juvenile Shark Survey in 2007. Photo: Southwest Fisheries Science Center, NOAA Fisheries Service.',
@@ -10348,7 +10348,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mako-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mako shark</a>, <a href="/species-aliases/blue-pointer" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blue pointer</a>, <a href="/species-aliases/bonito-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bonito shark</a>, <a href="/species-aliases/pacific-mako-shark" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific mako shark</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_shortfin_mako_shark.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_shortfin_mako_shark.png',
 			alt: 'Pacific Shortfin Mako Shark',
 			title: 'Pacific Shortfin Mako Shark',
 		},
@@ -10411,33 +10411,33 @@ module.exports = [
 			'<ul>\n<li>Pacific ocean perch live in deeper waters of the upper continental slope and along the edge of the continental shelf.&nbsp;</li>\n<li>Larvae and young juveniles live near the surface, while older juveniles and adults live near the ocean floor.&nbsp;</li>\n<li>Adults prefer sandy and rocky ocean bottoms, areas with vertical relief, and ocean habitats with structure-forming invertebrates, like coral.&nbsp;</li>\n<li>Adults migrate to shallow waters in the summer and offshore in the fall and winter to spawn and live.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect sensitive rocky, cold-water coral and sponge habitats from bottom trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_1.jpg',
 				alt: 'Sometimes rockfish may have bulging eyes as a result of being brought up from great depths. Don’t worry, this is not an indication of poor quality.',
 				title:
 					'Sometimes rockfish may have bulging eyes as a result of being brought up from great depths. Don’t worry, this is not an indication of poor quality.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_2.jpg',
 				alt: 'In Asian cuisine, rockfish like Pacific ocean perch are often served whole, either steamed or deep fried.',
 				title:
 					'In Asian cuisine, rockfish like Pacific ocean perch are often served whole, either steamed or deep fried.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_3.jpg',
 				alt: 'School of Pacific ocean perch on soft bottom in the Gulf of Alaska, as observed from the submersible Delta. (Photo credit: S. Kalei Shotwell)',
 				title:
 					'School of Pacific ocean perch on soft bottom in the Gulf of Alaska, as observed from the submersible Delta. (Photo credit: S. Kalei Shotwell)',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_4.jpg',
 				alt: 'A large catch of Pacific ocean perch taken during a NOAA Alaska Fisheries Science Center bottom trawl survey.',
 				title:
 					'A large catch of Pacific ocean perch taken during a NOAA Alaska Fisheries Science Center bottom trawl survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-ocean-perch_5.jpg',
 				alt: 'Pacific ocean perch are commonly known as POP. POP are light red, with some small dark, olive-green areas.',
 				title:
 					'Pacific ocean perch are commonly known as POP. POP are light red, with some small dark, olive-green areas.',
@@ -10454,7 +10454,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/pop" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">POP</a>, <a href="/species-aliases/rockfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rockfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_ocean_perch.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific_ocean_perch.png',
 			alt: 'Pacific Ocean Perch',
 			title: 'Pacific Ocean Perch',
 		},
@@ -10517,30 +10517,30 @@ module.exports = [
 			'<ul>\n<li>Pacific mahimahi live near the surface in tropical and subtropical waters around the world.</li>\n<li>They swim together in schools as juveniles, but older fish are usually found alone.</li>\n<li>They travel seasonally as adults with changes in water temperature.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch mahimahi rarely contacts the ocean floor and has minimal impacts on habitat. ',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_4.jpg',
 				alt: 'Pacific MahiMahi grilled.',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_5.jpg',
 				alt: 'Mahimahi steaks. Photo credit: U.S. Food and Drug Administration.',
 				title:
 					'Mahimahi steaks. Photo credit: U.S. Food and Drug Administration.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_3.jpg',
 				alt: 'Mahimahi catch.',
 				title: 'Mahimahi catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_1.jpg',
 				alt: 'Mahimahi on line.',
 				title: 'Mahimahi on line.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/pacific-mahimahi-dolphinfish_2.jpg',
 				alt: 'Recreational fishermen display their catch of mahimahi.',
 				title: 'Recreational fishermen display their catch of mahimahi.',
 			},
@@ -10557,7 +10557,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mahi-mahi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mahi mahi</a>, <a href="/species-aliases/dolphinfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dolphinfish</a>, <a href="/species-aliases/dorado" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dorado</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mahimahi_dolphinfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mahimahi_dolphinfish.png',
 			alt: 'Pacific MahiMahi',
 			title: 'Pacific MahiMahi',
 		},
@@ -10625,27 +10625,27 @@ module.exports = [
 			'<ul>\n<li>Widow rockfish are found at depths ranging from 80 to 1,200 feet.</li>\n<li>Both juveniles and adults exist in large schools and are found above large jagged rocks and near cobblestone.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Most fishing gear used to harvest widow rockfish rarely contacts the ocean floor and has minimal impacts on habitat. Area closures and gear restrictions protect sensitive rocky, cold-water coral and sponge habitats from bottom trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_1.png',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_1.png',
 				alt: 'Widow rockfish. Credit: NOAA Fisheries, At-Sea Hake Observer Program',
 				title:
 					'Widow rockfish. Credit: NOAA Fisheries, At-Sea Hake Observer Program',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_2.jpg',
 				alt: 'Widow rockfish. Credit: NOAA Fisheries, West Coast Groundfish Observer Program',
 				title:
 					'Widow rockfish. Credit: NOAA Fisheries, West Coast Groundfish Observer Program',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_3.jpg',
 				alt: 'Whole widow rockfish. Credit: U.S. Food and Drug Administration',
 				title:
 					'Whole widow rockfish. Credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish_4.jpg',
 				alt: 'Widow rockfish fillets. Credit: U.S. Food and Drug Administration',
 				title:
 					'Widow rockfish fillets. Credit: U.S. Food and Drug Administration',
@@ -10662,7 +10662,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/brown-bomber" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Brown bomber</a>, <a href="/species-aliases/soft-brown" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Soft brown</a>, <a href="/species-aliases/brownie" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Brownie</a>, <a href="/species-aliases/belinda-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Belinda bass</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/widow_rockfish.png',
 			alt: 'Widow Rockfish',
 			title: '',
 		},
@@ -10726,30 +10726,30 @@ module.exports = [
 			'<ul>\n<li>Atlantic bluefin tuna live near the surface in temperate waters but frequently dive to depths of 500 to 1,000 meters.</li>\n<li>They are a&nbsp;highly migratory species. They can migrate thousands of miles across an entire ocean.</li>\n<li>Tagging studies have indicated that bluefin tuna move across the east/west boundary in the Atlantic.</li>\n<li>They tend to spawn in the same areas in the Gulf of Mexico.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch bluefin tuna rarely contacts the ocean floor and has minimal impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_1.jpg',
 				alt: 'School of bluefin tuna',
 				title: 'School of bluefin tuna',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_3.jpg',
 				alt: 'Large bluefin tuna on deck.',
 				title: 'Large bluefin tuna on deck.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_4.jpg',
 				alt: 'After being tagged, the bluefin tuna are returned to the sea. The tag is visible on the back of the tuna.',
 				title:
 					'After being tagged, the bluefin tuna are returned to the sea. The tag is visible on the back of the tuna.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_6.jpg',
 				alt: 'Baby Atlantic bluefin tuna',
 				title: 'Baby Atlantic bluefin tuna',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tunaatlbluefin_7.jpg',
 				alt: 'Western Atlantic Bluefin Tuna',
 				title: '',
 			},
@@ -10766,7 +10766,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Tuna</a>, <a href="/species-aliases/bluefin-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Bluefin tuna</a>, <a href="/species-aliases/toro" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Toro</a>, <a href="/species-aliases/maguro" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Maguro</a>, <a href="/species-aliases/giant-bluefin" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Giant bluefin</a>, <a href="/species-aliases/northern-bluefin-tuna" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Northern bluefin tuna</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bluefin_tuna_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_bluefin_tuna_0.png',
 			alt: '',
 			title: '',
 		},
@@ -10832,27 +10832,27 @@ module.exports = [
 			'<ul>\n<li>Tilefish live in water from 250 to 1,500 feet deep where bottom temperatures range from 49 to 58 ° F.</li>\n<li>Individual tilefish are found in and around submarine canyons, where they burrow in mud or sand sediment.</li>\n<li>Tilefish sometimes concentrate in small groups.</li>\n<li>Habitats can be classified as rocks and boulders, pueblo habitats, or vertical burrows. Vertical burrows are the most common type of habitat. Pueblo habitats are found in the side of submarine canyon walls and are named because of their resemblance to the pueblo communities of Native Americans in the southwestern United States.</li>\n<li>Managers have closed four deep water canyons from Georges Bank to the Mid-Atlantic to bottom-tending mobile gear (such as otter trawls) to protect tilefish habitat.</li>\n<li>Many fish and crustacean species are found in and around tilefish habitat because it provides food and shelter.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch tilefish rarely contacts the ocean floor and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_2.jpg',
 				alt: 'Tilefish live in burrows, sometimes forming undersea pueblo villages.',
 				title:
 					'Tilefish live in burrows, sometimes forming undersea pueblo villages.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_3.jpg',
 				alt: 'Record recreational catch of tilefish. Recreational catch makes up a small percentage of total tilefish landings. Photo credit: New Jersey Division of Fish and Wildlife.',
 				title:
 					'Record recreational catch of tilefish. Recreational catch makes up a small percentage of total tilefish landings. Photo credit: New Jersey Division of Fish and Wildlife.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_4.jpg',
 				alt: 'Historic poster from the U.S. Bureau of Fisheries (now the National Marine Fisheries Service, or NOAA Fisheries) marketing tilefish.',
 				title:
 					'Historic poster from the U.S. Bureau of Fisheries (now the National Marine Fisheries Service, or NOAA Fisheries) marketing tilefish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish_5.jpg',
 				alt: 'Tilefish',
 				title: '',
 			},
@@ -10868,7 +10868,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/golden-tilefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Golden tilefish</a>, <a href="/species-aliases/golden-bass" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Golden bass</a>, <a href="/species-aliases/golden-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Golden snapper</a>, <a href="/species-aliases/great-northern-tilefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Great northern tilefish</a>, <a href="/species-aliases/rainbow-tilefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Rainbow tilefish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/tilefish.png',
 			alt: '',
 			title: '',
 		},
@@ -10931,31 +10931,31 @@ module.exports = [
 			'<ul>\n<li>Larval red snapper swim freely within the water column.</li>\n<li>Juveniles live in shallow waters over sandy or muddy bottom habitat.</li>\n<li>Adults live on the bottom, usually near hard structures on the continental shelf that have moderate to high relief (for example, coral reefs, artificial reefs, rocks, ledges, and caves), sloping soft-bottom areas, and limestone deposits.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to harvest red snapper has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_1.jpg',
 				alt: 'Red snapper in Gray&#039;s Reef National Marine Sanctuary.',
 				title: 'Red snapper in Gray&#039;s Reef National Marine Sanctuary.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_2.jpg',
 				alt: ' Removing a red snapper otolith (ear bone). Scientists determine the age of snapper by counting annual growth rings on their otoliths, similar to counting growth rings in trees.',
 				title:
 					' Removing a red snapper otolith (ear bone). Scientists determine the age of snapper by counting annual growth rings on their otoliths, similar to counting growth rings in trees.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_3.jpg',
 				alt: 'A fisherman holds up his red snapper catch.',
 				title: 'A fisherman holds up his red snapper catch.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_4.jpg',
 				alt: 'Whole red snapper. Photo credit: U.S. Food and Drug Administration',
 				title:
 					'Whole red snapper. Photo credit: U.S. Food and Drug Administration',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/snapperred_7.jpg',
 				alt: 'Red Snapper',
 				title: '',
 			},
@@ -10972,7 +10972,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Snapper</a>, <a href="/species-aliases/genuine-red-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Genuine red snapper</a>, <a href="/species-aliases/american-reds" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">American reds</a>, <a href="/species-aliases/spot-snapper" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spot snapper</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_snapper.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/red_snapper.png',
 			alt: '',
 			title: '',
 		},
@@ -11038,30 +11038,30 @@ module.exports = [
 			'<ul>\n<li>Freshwater lakes, streams, estuaries, and associated wetlands provide vital nursery grounds for sockeye salmon.</li>\n<li>Anadromous sockeye migrate from fresh water habitats to the ocean to further grow, feed, and mature.</li>\n<li>Adult salmon leave the ocean, enter fresh water, and migrate many miles upstream to spawn, usually in the stream or lake of their birth.</li>\n<li>Some sockeye salmon are not anadromous and spend their entire lives in freshwater.</li>\n<li>&nbsp;In the Pacific Northwest, non-anadromous sockeye are known as "kokanee."</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch sockeye salmon rarely contacts the ocean floor and has little impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_1.jpg',
 				alt: 'Spawning sockeye salmon in a stream.',
 				title: 'Spawning sockeye salmon in a stream.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_2.jpg',
 				alt: 'Spawning female (top) and male (bottom) sockeye salmon show extreme sexual dimorphism (males and females differ greatly in appearance), as shown by their color and the male’s hump.',
 				title:
 					'Spawning female (top) and male (bottom) sockeye salmon show extreme sexual dimorphism (males and females differ greatly in appearance), as shown by their color and the male’s hump.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_5.jpg',
 				alt: 'A researcher removes scales from juvenile sockeye salmon.',
 				title: 'A researcher removes scales from juvenile sockeye salmon.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_6.jpg',
 				alt: 'Sockeye salmon roe is very valuable.',
 				title: 'Sockeye salmon roe is very valuable.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeyesalmon_7.jpg',
 				alt: 'Sockeye Salmon',
 				title: '',
 			},
@@ -11078,7 +11078,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/red-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Red salmon</a>, <a href="/species-aliases/blueback-salmon" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blueback salmon</a>, <a href="/species-aliases/redfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Redfish</a>, <a href="/species-aliases/summer-sockeye" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Summer Sockeye</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeye_salmon.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sockeye_salmon.png',
 			alt: '',
 			title: '',
 		},
@@ -11144,31 +11144,31 @@ module.exports = [
 			'<ul>\n<li>Adults live on mud bottoms in waters deeper than 650 feet.</li>\n<li>Juveniles live throughout the water column in nearshore waters.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The trawl, longline, and pot gear used to harvest sablefish have minimal or temporary effects on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_1.jpg',
 				alt: 'Juvenile sablefish.',
 				title: 'Juvenile sablefish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_2.jpg',
 				alt: 'A sablefish rests on the soft sediments blanketing the deep canyon floor at about 2,625 feet. The red spots in the photo are lasers spaced 4 inches apart that are used to estimate the size of organisms inhabiting the area.',
 				title:
 					'A sablefish rests on the soft sediments blanketing the deep canyon floor at about 2,625 feet. The red spots in the photo are lasers spaced 4 inches apart that are used to estimate the size of organisms inhabiting the area.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_4.jpg',
 				alt: 'NOAA Fisheries researcher holding a sablefish.',
 				title: 'NOAA Fisheries researcher holding a sablefish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_5.jpg',
 				alt: 'An old Department of Commerce poster advertises the virtues of sablefish.',
 				title:
 					'An old Department of Commerce poster advertises the virtues of sablefish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish_6.jpg',
 				alt: 'Sablefish',
 				title: '',
 			},
@@ -11184,7 +11184,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/black-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Black cod</a>, <a href="/species-aliases/butterfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Butterfish</a>, <a href="/species-aliases/skil" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Skil</a>, <a href="/species-aliases/beshow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beshow</a>, <a href="/species-aliases/coalfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Coalfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/sablefish.png',
 			alt: '',
 			title: '',
 		},
@@ -11250,30 +11250,30 @@ module.exports = [
 			'<ul>\n<li>Younger pollock live in the mid-water region of the ocean; older pollock (age 5 and up) typically dwell near the ocean floor.</li>\n<li>Pollock swim in large schools in waters between 330 and 985 feet deep but are sometimes found as deep as 3,300 feet. &nbsp;</li>\n</ul>\n',
 		'Habitat Impacts':
 			'The Alaska pollock fishery uses midwater trawl nets that, although sometimes making contact with the bottom, have minimal impact on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_1.jpg',
 				alt: 'Larval pollock among zooplankton.',
 				title: 'Larval pollock among zooplankton.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_2.jpg',
 				alt: 'Juvenile pollock.',
 				title: 'Juvenile pollock.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_4.jpg',
 				alt: 'Pollock caught during a groundfish survey aboard the NOAA research vessel, Miller Freeman. Scientific research cruises often collect fish to learn more about the fishery. Many pollock in this large load of fish may be measured to determine the range of si',
 				title:
 					'Pollock caught during a groundfish survey aboard the NOAA research vessel, Miller Freeman.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Pollock%20Reuben_Credit%20Alaska%20Seafood%20Marketing%20Institute.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Pollock%20Reuben_Credit%20Alaska%20Seafood%20Marketing%20Institute.jpg',
 				alt: 'Pollock Reuben',
 				title: 'Pollock Reuben. Credit: Alaska Seafood Marketing Institute.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_9.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaskapollock_9.jpg',
 				alt: 'Alaskan Pollock',
 				title: '',
 			},
@@ -11290,7 +11290,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/pollock" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pollock</a>, <a href="/species-aliases/walleye-pollock" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Walleye pollock</a>, <a href="/species-aliases/pacific-pollock" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Pacific pollock</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaska_pollock.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/alaska_pollock.png',
 			alt: '',
 			title: '',
 		},
@@ -11357,30 +11357,30 @@ module.exports = [
 			'<ul>\n<li>Monkfish live on the ocean floor, typically on sand, mud, and shell <a href="http://www.nefsc.noaa.gov/nefsc/publications/tm/tm127/index.htm" target="_blank">habitats</a>.</li>\n<li>Adults spend most of their time on the bottom, often in a depression or partially covered in sediment. They also spend some time off the bottom, probably riding currents to help with migration.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_1.jpg',
 				alt: 'Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K',
 				title:
 					'Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_4.jpg',
 				alt: 'Inside the large mouth of a monkfish.',
 				title: 'Inside the large mouth of a monkfish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_5.jpg',
 				alt: 'Various sizes of monkfish.',
 				title: 'Various sizes of monkfish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_6.jpg',
 				alt: 'Measuring a monkfish.',
 				title: 'Measuring a monkfish.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_7.jpg',
 				alt: 'Monkfish',
 				title: '',
 			},
@@ -11397,7 +11397,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/goosefish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Goosefish</a>, <a href="/species-aliases/monktails" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Monktails</a>, <a href="/species-aliases/angler" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Angler</a>, <a href="/species-aliases/fishing-frog" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Fishing frog</a>, <a href="/species-aliases/allmouth" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Allmouth</a>, <a href="/species-aliases/molligut" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Molligut</a>, <a href="/species-aliases/abbot" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Abbot</a>, <a href="/species-aliases/sea-devil" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sea-devil</a>, <a href="/species-aliases/lotte" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lotte</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish.png',
 			alt: '',
 			title: '',
 		},
@@ -11463,31 +11463,31 @@ module.exports = [
 			'<ul>\n<li>Mahi mahi live near the surface in tropical and subtropical waters.</li>\n<li>Juveniles swim together in schools.</li>\n<li>Older fish are usually found alone.</li>\n<li>Larger males prefer open ocean habitat.</li>\n<li>Females and smaller males are commonly found near natural and artificial floating objects, including floating brown algae called&nbsp;<em>Sargassum</em>&nbsp;(in the Atlantic and the Caribbean).</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch mahi mahi rarely contacts the ocean floor and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_1.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_1.jpg',
 				alt: 'Mahi mahi on line.',
 				title: 'Mahi mahi on line.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_2.jpg',
 				alt: 'Catch of mahi mahi at Nags Head, North Carolina. The mahi mahi&#039;s bright coloring fades almost immediately upon death.',
 				title:
 					'Catch of mahi mahi at Nags Head, North Carolina. The mahi mahi&#039;s bright coloring fades almost immediately upon death.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_4.jpg',
 				alt: 'Longline fishing research on the NOAA Ship Oscar Elton Sette. Scientists extract the heart from this mahi mahi for research.',
 				title:
 					'Longline fishing research on the NOAA Ship Oscar Elton Sette. Scientists extract the heart from this mahi mahi for research.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_5.jpg',
 				alt: 'Recreational fisherman displays his catch of mahi mahi.',
 				title: 'Recreational fisherman displays his catch of mahi mahi.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_7.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlanticmahimahi_7.jpg',
 				alt: 'Atlantic Mahi mahi',
 				title: '',
 			},
@@ -11503,7 +11503,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/mahimahi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Mahimahi</a>, <a href="/species-aliases/dolphinfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dolphinfish</a>, <a href="/species-aliases/dolphin" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dolphin</a>, <a href="/species-aliases/dorado" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Dorado</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mahimahi_dolphinfish_0.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_mahimahi_dolphinfish_0.png',
 			alt: '',
 			title: '',
 		},
@@ -11568,30 +11568,30 @@ module.exports = [
 			'<ul>\n<li>Cobia are found near structures in the water (buoys, debris, shipwrecks, and artificial reefs) or large animals (sharks, turtles, and stingrays).</li>\n<li>Adult cobia travel alone or in small groups.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Fishing gear used to catch cobia rarely contacts the ocean floor and has minimal impacts on habitat.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_2.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_2.jpg',
 				alt: 'Cobia is popular among recreational fishermen because it’s a large, powerful fish that puts up a good fight and provides a tasty meal.',
 				title:
 					'Cobia is popular among recreational fishermen because it’s a large, powerful fish that puts up a good fight and provides a tasty meal.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_3.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_3.jpg',
 				alt: 'Cobia are often mistaken for sharks or remoras.',
 				title: 'Cobia are often mistaken for sharks or remoras.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_4.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_4.jpg',
 				alt: 'Baskets of cobia caught off the Carolinas.',
 				title: 'Baskets of cobia caught off the Carolinas.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_5.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_5.jpg',
 				alt: 'Cobia on ice after harvest.',
 				title: 'Cobia on ice after harvest.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_6.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia_6.jpg',
 				alt: 'Cobia',
 				title: '',
 			},
@@ -11607,7 +11607,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/crabeater" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Crabeater</a>, <a href="/species-aliases/sergeantfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Sergeantfish</a>, <a href="/species-aliases/ling" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ling</a>, <a href="/species-aliases/cabio" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cabio</a>, <a href="/species-aliases/cubby-yew" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cubby yew</a>, <a href="/species-aliases/lemonfish" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Lemonfish</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/cobia.png',
 			alt: '',
 			title: '',
 		},
@@ -11671,29 +11671,29 @@ module.exports = [
 			'<ul>\n<li>Atlantic cod live near the ocean floor along rocky slopes and ledges.</li>\n<li>They prefer to live in cold water, at depths of around 30 to 500 feet, on bottoms with coarse sediments, rather than on finer mud and silt.</li>\n</ul>\n',
 		'Habitat Impacts':
 			'Area closures and gear restrictions protect habitat that are affected by some kinds of trawl gear.',
-		'Image Gallery': [
+		imageGallery: [
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/01.jpg',
 				alt: 'Atlantic cod',
 				title: 'Atlantic cod.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/03.jpg',
 				alt: 'A researcher holds an Atlantic cod.',
 				title: 'A researcher holds an Atlantic cod.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/04.jpg',
 				alt: 'Catch of Atlantic cod during a research survey.',
 				title: 'Catch of Atlantic cod during a research survey.',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/08.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/08.jpg',
 				alt: 'Atlantic Cod',
 				title: '',
 			},
 			{
-				src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09.jpg',
+				img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/09.jpg',
 				alt: 'Atlantic Cod',
 				title: '',
 			},
@@ -11710,7 +11710,7 @@ module.exports = [
 		'Species Aliases':
 			'<a href="/species-aliases/cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Cod</a>, <a href="/species-aliases/codling" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Codling</a>, <a href="/species-aliases/scrod-cod" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Scrod cod</a>, <a href="/species-aliases/markets" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Markets</a>, <a href="/species-aliases/steakers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Steakers</a>',
 		'Species Illustration Photo': {
-			src: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_cod.png',
+			img: 'https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/atlantic_cod.png',
 			alt: '',
 			title: '',
 		},
