@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 	</head>
 	<body>
 		<h1><%=fish['Species Name']%></h1>
@@ -13,13 +14,20 @@
 		<%=fish.Texture%> <%=fish['Health Benefits']%>
 		<!-- IF THE ARRAY EXISTS LOAD PHOTO -->
 		<% if (fish['Species Illustration Photo'][0]) { %>
-		<img src="<%=fish['Species Illustration Photo'][0].src%>" />
-		<%}%>
+		<div class="w3-card-4">
+			<img
+				src="<%=fish['Species Illustration Photo'][0].src%>"
+				class="w3-image"
+			/>
+			<%}%>
+		</div>
 
 		<!-- IF THE OBJECT EXISTS LOAD PHOTO -->
 		<% if (fish.imageGallery) {%>
-		<img src="<%=fish.imageGallery[0].src%>" />
-		<%}%>
+		<div class="w3-card-4">
+			<img src="<%=fish.imageGallery[0].src%>" class="w3-image" />
+			<%}%>
+		</div>
 
 		<form action="/fish/<%=fish._id %>?_method=DELETE" method="POST">
 			<input type="submit" value="DELETE" />
