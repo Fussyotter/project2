@@ -52,15 +52,7 @@ app.get('/fish/:id', (request, response) => {
 	});
 });
 
-// app.get('/new', (request,response) {
-// 	response.render('new.ejs')
-// })
 
-// app.post('/new', (request, response) => {
-// 	fishSchema.create(request.body, (err, newFish) => {
-// 		response.redirect('/fish')
-// 	})
-// })
 
 app.delete('/fish/:id', (request, response) => {
 	fishSchema.findByIdAndRemove(request.params.id, (error, fishDelete) => {
