@@ -15,20 +15,22 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
-app.get('/fish', (request, response) => {
-	fishSchema.find((error, allFish) => {
-		response.render('index.ejs', {
-			fish: allFish,
-		});
-	});
-});
-
 // Temporary
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB, () => {
 	console.log('The connection with mongod is established');
 });
 
+app.get('/fish/new', (request, response) => {
+	response.render('new.ejs');
+});
+
+app.post('/fish', (req, res) => {
+	fishSchema.create(req.body, (error, newFish) => {
+		console.log(newFish);
+		res.send(newFish);
+	});
+});
 app.get('/fish/seed', (req, res) => {
 	fishSchema.create(fishArr, (error, seedData) => {
 		if (error) {
