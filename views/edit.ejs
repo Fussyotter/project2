@@ -8,15 +8,37 @@
 	</head>
 	<body>
 		<h1>Edit the <%=fish['Species Name']%></h1>
+
 		<form action="/fish/<%=fish._id%>?_method=PUT" method="POST">
-			<label for="name"> name:</label>
+			<label for="name"> Species Name:</label>
 			<input
 				type="text"
 				name="Species Name"
 				value="<%=fish['Species Name']%>"
 			/>
-			<input type="submit" value="submit change" />
+
+			<label for="location">Location:</label>
 			<input type="text" name="Location" value="<%fish.Location%>" />
+
+			<label for="Habitat">Habitat:</label>
+			<input type="text" name="Habitat" value="<%fish.Habitat%>" />
+
+			<label for="Population">Population:</label>
+			<input type="text" name="Population" value="<%fish.Population%>" />
+
+			<label for="Taste">Taste:</label>
+			<input type="text" name="Taste" value="<%fish.Taste%>" />
+
+			<label for="Texture">Texture:</label>
+			<input type="text" name="Texture" value="<%fish.Texture%>" />
+			<label for="Health Benefits">Health Benefits:</label>
+			<input
+				type="text"
+				name="Health Benefits"
+				value="<%fish['Health Benefits']%>"
+			/>
+
+			<input type="submit" value="submit change" />
 		</form>
 	</body>
 </html>
