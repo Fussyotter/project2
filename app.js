@@ -15,20 +15,19 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
-app.get('/fish', (request, response)=> {
-	fishSchema.find( (error,allFish) => {
+app.get('/fish', (request, response) => {
+	fishSchema.find((error, allFish) => {
 		response.render('index.ejs', {
-			fish : allFish 
-		})
-	})
-})
+			fish: allFish,
+		});
+	});
+});
 
 // Temporary
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB, () => {
 	console.log('The connection with mongod is established');
 });
-
 
 app.get('/fish/seed', (req, res) => {
 	fishSchema.create(fishArr, (error, seedData) => {
@@ -53,19 +52,20 @@ app.get('/fish/:id', (request, response) => {
 	});
 });
 
-
+app.get('/fish/:id/edit', (request, response) => {
+	fishSchema.findById(request.params.id, (err, fishEdit) => {
+		if (err) {
+			console.log(error);
+		}
+		response.render('edit.ejs', {
+			fish: fishEdit,
+		});
+	});
+});
 
 app.delete('/fish/:id', (request, response) => {
 	fishSchema.findByIdAndRemove(request.params.id, (error, fishDelete) => {
 		response.redirect('/fish');
-	});
-});
-
-app.get('fish/:id/edit', (request, response) => {
-	fishSchema.findById(request.params.id, (err, fishEdit) => {
-		response.render('edit.ejs', {
-			fish: fishEdit,
-		});
 	});
 });
 

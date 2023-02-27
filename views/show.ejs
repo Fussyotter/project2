@@ -14,14 +14,15 @@
 		<%=fish.Texture%> <%=fish['Health Benefits']%>
 		<!-- IF THE ARRAY EXISTS LOAD PHOTO -->
 		<% if (fish['Species Illustration Photo'][0]) { %>
-    <div class="w3-display-container">
-		<div class="w3-card">
-			<img
-				src="<%=fish['Species Illustration Photo'][0].src%>"
-				class="w3-image w3-round"style="width: 100%; max-width: 400px"
-			/>
-			<%}%>
-		</div>
+		<div class="w3-display-container">
+			<div class="w3-card">
+				<img
+					src="<%=fish['Species Illustration Photo'][0].src%>"
+					class="w3-image w3-round"
+					style="width: 100%; max-width: 400px"
+				/>
+				<%}%>
+			</div>
 			<!-- IF THE OBJECT EXISTS LOAD PHOTO -->
 			<% if (fish.imageGallery) {%>
 			<div class="w3-card">
@@ -29,8 +30,8 @@
 					src="<%=fish.imageGallery[0].src%>"
 					class="w3-image w3-round"
 					style="width: 100%; max-width: 400px"
-				
-				/> <%}%>
+				/>
+				<%}%>
 			</div>
 
 			<form action="/fish/<%=fish._id %>?_method=DELETE" method="POST">

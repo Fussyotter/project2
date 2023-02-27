@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Edit the <%=fish['Species Name']%></h1>
+		<form action="/fish/<%=fish._id%>?_method=PUT" method="POST">
+			<label for="name"> name:</label>
+			<input
+				type="text"
+				name="Species Name"
+				value="<%=fish['Species Name']%>"
+			/>
+			<input type="submit" value="submit change" />
+			<input type="text" name="Location" value="<%fish.Location%>" />
+		</form>
+	</body>
+</html>
