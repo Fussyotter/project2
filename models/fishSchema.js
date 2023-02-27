@@ -6,7 +6,7 @@ const fishSchema = new Schema({
 	'Species Name': String,
 	Habitat: String,
 
-	imageGallery: [{ img: String }],
+	imageGallery: [{ src: String }],
 	Location: String,
 	// 'Noaa Fisheries Region': String,
 	Population: String,

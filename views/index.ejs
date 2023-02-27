@@ -6,19 +6,19 @@
 	</head>
 	<body>
 		<h1>Fish Index Page</h1>
-		<ul>
+		
 			<% for(let i = 0; i < fish.length; i++){ %>
-			<li>
+			
 				<a href="/fish/<%=fish[i].id%>"> <%=fish[i]['Species Name']%> </a>
 				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
 				<%if (fish[i].imageGallery) {%> 
 				<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
-				<img src="<%=fish[i].imageGallery[j].img %>" /> 
+				<img src="<%=fish[i].imageGallery[j].src %>" /> 
 					<%}%> 
 				<%}%> 
 			<%}%>
-			</li>
-		</ul>
+			
+		
 		
 	</body>
 	<nav>
