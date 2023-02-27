@@ -39,28 +39,19 @@ app.get('/fish/seed', (req, res) => {
 });
 
 app.get('/fish', (req, res) => {
-	recipeSchema.find({}, (error, allFish) => {
-		res.render('index.ejs', { fishArr: allFish });
+	fishSchema.find({}, (error, allFish) => {
+		res.render('index.ejs', { fish: allFish });
 	});
 });
 
 app.get('/fish/:id', (request, response) => {
 	fishSchema.findById(request.params.id, (err, foundFish) => {
 		response.render('show.ejs', {
-			fishArr: foundFish,
+			fish: foundFish,
 		});
 	});
 });
 
-// app.get('/new', (request,response) {
-// 	response.render('new.ejs')
-// })
-
-// app.post('/new', (request, response) => {
-// 	fishSchema.create(request.body, (err, newFish) => {
-// 		response.redirect('/fish')
-// 	})
-// })
 
 app.delete('/fish/:id', (request, response) => {
 	fishSchema.findByIdAndRemove(request.params.id, (error, fishDelete) => {
@@ -71,7 +62,7 @@ app.delete('/fish/:id', (request, response) => {
 app.get('fish/:id/edit', (request, response) => {
 	fishSchema.findById(request.params.id, (err, fishEdit) => {
 		response.render('edit.ejs', {
-			fishArr: fishEdit,
+			fish: fishEdit,
 		});
 	});
 });
