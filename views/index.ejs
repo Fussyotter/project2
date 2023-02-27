@@ -17,21 +17,24 @@
 					<%=fish[i]['Species Name']%> 
 				</a>
 			</h1>
+			<div class="w3-container">
 				<%if (fish[i].imageGallery) {%> 
 					<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
 
 					
 						<a href="/fish/<%=fish[i].id%>">
-							<div class="w3-row-padding w3-padding-16 w3-center" >
-   							<div class="w3-quarter">
+							 <div class="w3-row ">
+    						<div class="w3-col l3 s6">
+     						 <div class="w3-container">
 							<img src="<%=fish[i].imageGallery[j].src %>" class="w3-image"style="max-width:400px" /> 
 						</div>
+					</div>
 					</div>
 						</a>
 				
 						<%}%> 
 				
-				
+					</div>
 				<%}%> 
 				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
 			<%}%>
