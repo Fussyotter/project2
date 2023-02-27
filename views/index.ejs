@@ -11,10 +11,15 @@
 			<li>
 				<a href="/fish/<%=fish[i].id%>"> <%=fish[i]['Species Name']%> </a>
 				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
-
-				<%}%>
+				<%if (fish[i].imageGallery) {%> 
+				<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
+				<img src="<%=fish[i].imageGallery[j].img %>" /> 
+					<%}%> 
+				<%}%> 
+			<%}%>
 			</li>
 		</ul>
+		<%=console.log(fish[0].imageGallery[0].img)%>
 	</body>
 	<nav>
 		<a href="/fish/new">newfish</a>
