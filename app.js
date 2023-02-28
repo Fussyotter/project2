@@ -14,6 +14,8 @@ const fishSchema = require('./models/fishSchema.js');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
+app.use('/models', express.static('models'));
+
 
 // Temporary
 mongoose.set('strictQuery', true);
@@ -51,6 +53,17 @@ app.get('/fish/:id', (request, response) => {
 		response.render('show.ejs', {
 			fish: foundFish,
 		});
+	});
+});
+// TESTING SEARCH ROUTE
+app.get('/search', async (req, res) => {
+	const searchResult = req.query.fish;
+	const results = await fishSchema.find({
+		'Species Name': { $regex: searchResult, $options: 'i' },
+	});
+	// res.send(results);
+	res.render('search.ejs', {
+		results,
 	});
 });
 
