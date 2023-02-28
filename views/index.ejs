@@ -11,8 +11,8 @@
 		
 	</head>
 	<body>
-		<form>
-			<input type="text" id="searchInput">
+		<form method="GET"  action="/search">
+			<input type="text"  name="fish">
 			<button type="submit" id="searchButton">Search</button>
 		</form>
 		<div class="w3-main w3-content w3-padding" style="width:100%">
@@ -48,7 +48,8 @@
 					<%}%> 
 					<%}%>
 				</div>
-				<script src="/models/search.js"></script>
+
+				<!-- PREVIOUS SHOT AT SEARCH BAR JS<script src="/models/search.js"></script> -->
 			</body>
 			</html>
 			
