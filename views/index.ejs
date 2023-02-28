@@ -27,6 +27,8 @@
 				
 				
 				<%if (fish[i].imageGallery) {%> 
+					<div class="w3-display-container">
+						<div class="w3-card">
 					<h1>
 						<a href="/fish/<%=fish[i].id%>"> 
 							<%=fish[i]['Species Name']%> 
@@ -50,7 +52,8 @@
 					<%}%> 
 					<%}%>
 				</div>
-
+				</div>
+			</div>
 				<!-- PREVIOUS SHOT AT SEARCH BAR JS<script src="/models/search.js"></script> -->
 			</body>
 			</html>
