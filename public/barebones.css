@@ -3,13 +3,13 @@
 font-family: 'Tilt Neon', cursive;
 background-color: rgb(211, 240, 255);
 }
-/* body {
-background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
-  /* Full height */
+body {
+/* background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
+  
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-} */
+  background-size: cover; */
+} 
 img {
 size: 20%;
 }
