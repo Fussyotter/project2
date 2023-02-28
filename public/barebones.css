@@ -10,5 +10,9 @@ nav {
   text-align: right;
 }
 h1 {
-  font-family: 'Tilt Neon', cursive;
+  font-family: 'Tilt Neon';
 }
+form {
+  text-align: right;
+}
+

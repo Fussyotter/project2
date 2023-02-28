@@ -11,13 +11,23 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sorts+Mill+Goudy&family=Tilt+Neon&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1><%=fish['Species Name']%></h1>
+		<div class="w3-main w3-content w3-padding" style="width:100%">
+			<div class="w3-container w3-center w3-red">
+				<h1><%=fish['Species Name']%></h1>
+				<button><a href="/fish/<%=fish._id%>/edit">Edit: <%=fish['Species Name']%></a></button> 
+				<form action="/fish/<%=fish._id %>?_method=DELETE" method="POST">
+					<input type="submit" value="DELETE" />
+				</form>
+			</div>	
 
-		<%=fish.Habitat%> <%=fish.Location%> <%=fish.Population%> <%=fish.Taste%>
-		<%=fish.Texture%> <%=fish['Health Benefits']%>
+			Taste: <%=fish.Taste%> <br><br>
+			Texture: <%=fish.Texture%> <br> <br>
+			Population: <%=fish.Population%> <br> <br>
+		Location: <%=fish.Location%> <br> <br>
 		<!-- IF THE ARRAY EXISTS LOAD PHOTO -->
 		<% if (fish['Species Illustration Photo'][0]) { %>
 		<div class="w3-display-container">
+		</div>
 			<div class="w3-card">
 				<img
 					src="<%=fish['Species Illustration Photo'][0].src%>"
@@ -25,7 +35,6 @@
 					style="width: 100%; max-width: 400px"
 				/>
 				<%}%>
-			</div>
 			<!-- IF THE OBJECT EXISTS LOAD PHOTO -->
 			<% if (fish.imageGallery[0]) {%>
 			<div class="w3-card">
@@ -37,10 +46,6 @@
 				<%}%>
 			</div>
 
-			<form action="/fish/<%=fish._id %>?_method=DELETE" method="POST">
-				<input type="submit" value="DELETE" />
-			</form>
 		</div>
-		<a href="/fish/<%=fish._id%>/edit">edit</a>
 	</body>
 </html>
