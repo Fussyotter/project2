@@ -2,14 +2,19 @@
   text-decoration: none;
 font-family: 'Tilt Neon', cursive;
 background-color: rgb(211, 240, 255);
+
 }
+
 body {
-/* background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
-  
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover; */
+background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
+  height: 200%;
+ 
 } 
+.new-body {
+  background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
+    height: 200%;
+   
+  } 
 img {
 size: 20%;
 }
@@ -31,6 +36,10 @@ padding-top: 2%;
 }
 form {
   padding-bottom: 2%;
+}
+.edit-form {
+  padding-top: 2%;
+  padding-left: 2%;
 }
 
 .index-h1 {
