@@ -59,6 +59,7 @@ app.get('/search', async (req, res) => {
 	const results = await fishSchema.find({
 		'Species Name': { $regex: searchResult, $options: 'i' },
 	});
+	// res.send(results);
 	res.render('search.ejs', {
 		results,
 	});
