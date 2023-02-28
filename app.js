@@ -14,6 +14,8 @@ const fishSchema = require('./models/fishSchema.js');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
+app.use('/models', express.static('models'));
+
 
 // Temporary
 mongoose.set('strictQuery', true);
