@@ -16,7 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use('/models', express.static('models'));
 
-
 // Temporary
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB, () => {
@@ -56,6 +55,7 @@ app.get('/fish/:id', (request, response) => {
 	});
 });
 // TESTING SEARCH ROUTE
+// localhost:3000/search?fish=
 app.get('/search', async (req, res) => {
 	const searchResult = req.query.fish;
 	const results = await fishSchema.find({
