@@ -11,17 +11,17 @@
 		
 	</head>
 	<body>
-		<form method="GET"  action="/search">
+		<form class="search" method="GET"  action="/search">
 			<label for="fish">Search By Species name:</label>
 			<input type="text"  name="fish">
 			<button type="submit" id="searchButton">Search</button>
 		</form>
 		<div class="w3-main w3-content w3-padding" style="width:100%">
-			<div class="w3-container w3-center w3-red">
-				<h1>Fish Index Page</h1>
+			<div class="w3-container w3-center w3-black">
+				<h1> <span class="index-h1">FishMonger</span>DB</h1>
 			</div>	
 			<nav>
-				<a href="/fish/new">Make a New Fish Entry</a>
+				<button><a href="/fish/new">Make a New Fish Entry</a></button>
 			</nav>
 			<% for(let i = 0; i < fish.length; i++){ %>
 				
@@ -37,7 +37,8 @@
 						
 				</h1>
 				
-				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
+				<button><a href="/fish/<%= fish[i].id; %>/edit">Edit</a></button>
+				
 				<%for (let j=0; j <fish[i].imageGallery.length ; j+= 10) {%>
 					
 					

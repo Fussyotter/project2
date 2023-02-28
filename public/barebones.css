@@ -1,8 +1,15 @@
 * {
   text-decoration: none;
 font-family: 'Tilt Neon', cursive;
-
+background-color: rgb(211, 240, 255);
 }
+/* body {
+background-image: url("https://i.pngimg.me/thumb/f/720/comvecteezy274806.jpg");
+  /* Full height */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 img {
 size: 20%;
 }
@@ -11,4 +18,21 @@ nav {
 }
 h1 {
   font-family: 'Tilt Neon', cursive;
+  color: black;
+}
+.search {
+  padding-left: 56%;
+  padding-top: 1%;
+}
+.new-fish {
+padding-left: 22%;
+padding-top: 2%;
+
+}
+form {
+  padding-bottom: 2%;
+}
+
+.index-h1 {
+color: rgb(42, 103, 226);
 }

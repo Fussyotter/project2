@@ -11,10 +11,15 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sorts+Mill+Goudy&family=Tilt+Neon&display=swap" rel="stylesheet">
 	</head>
 	<body>
-	
+	<h1> Results:</h1><br>
   <% results.forEach(result => { %>
     <ul>
-      <li><a href="/fish/<%= result.id;%>"><%=result['Species Name']%></a></li>
+      <li><a href="/fish/<%= result.id;%>"><%=result['Species Name']%></li>
+	  <img
+					src="<%=result['Species Illustration Photo'][0].src%>"
+					class="w3-image w3-round"
+					style="width: 100%; max-width: 400px"
+				/></a>
       </ul>
 
   <% }) %>
