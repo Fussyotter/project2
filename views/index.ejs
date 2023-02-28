@@ -6,41 +6,36 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
-		<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-			<div class="w3-container w3-red">
-			<h1>Fish Index Page</h1>
+		<div class="w3-main w3-content w3-padding" style="width:100%">
+			<div class="w3-container w3-center w3-red">
+				<h1>Fish Index Page</h1>
 			</div>	
-			<% for(let i = 0; i < fish.length; i++){ %>
+				<% for(let i = 0; i < fish.length; i++){ %>
+					<div class="w3-container">
 			
-			<h1>
-				<a href="/fish/<%=fish[i].id%>"> 
-					<%=fish[i]['Species Name']%> 
-				</a>
-			</h1>
-			<div class="w3-container">
-				<%if (fish[i].imageGallery) {%> 
-					<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
-
-					
-						<a href="/fish/<%=fish[i].id%>">
-				<div class="w3-row ">
-    					<div class="w3-col l3 s6">
-     						 <div class="w3-container">
-							<img src="<%=fish[i].imageGallery[j].src %>" class="w3-image"style="max-width:400px" /> 
-						</div>
-					</div>
-					</div>
-						</a>
+				<h1>
+					<a href="/fish/<%=fish[i].id%>"> 
+						<%=fish[i]['Species Name']%> 
+					</a>
+				</h1>
+						
+							
+					<%if (fish[i].imageGallery) {%> 
+						<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
+							<class="w3-col">												
+								<p><a href="/fish/<%=fish[i].id%>">
+								<img src="<%=fish[i].imageGallery[j].src %>" class="w3-image"  /> 
+								</a></p>
+						
 				
+							
+						</div>
 						<%}%> 
 				
-					</div>
+		</div>
 				<%}%> 
 				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
 			<%}%>
-			
-		
-					</div>
 	</body>
 	<nav>
 		<a href="/fish/new">newfish</a>

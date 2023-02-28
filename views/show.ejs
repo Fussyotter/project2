@@ -7,9 +7,7 @@
 	</head>
 	<body>
 		<h1><%=fish['Species Name']%></h1>
-		<div>
-			<button>big button</button>
-		</div>
+
 		<%=fish.Habitat%> <%=fish.Location%> <%=fish.Population%> <%=fish.Taste%>
 		<%=fish.Texture%> <%=fish['Health Benefits']%>
 		<!-- IF THE ARRAY EXISTS LOAD PHOTO -->
@@ -24,7 +22,7 @@
 				<%}%>
 			</div>
 			<!-- IF THE OBJECT EXISTS LOAD PHOTO -->
-			<% if (fish.imageGallery) {%>
+			<% if (fish.imageGallery[0]) {%>
 			<div class="w3-card">
 				<img
 					src="<%=fish.imageGallery[0].src%>"
