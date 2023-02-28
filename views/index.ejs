@@ -3,25 +3,49 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="/barebones.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sorts+Mill+Goudy&family=Tilt+Neon&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Fish Index Page</h1>
-		<ul>
-			<% for(let i = 0; i < fish.length; i++){ %>
-			<li>
-				<a href="/fish/<%=fish[i].id%>"> <%=fish[i]['Species Name']%> </a>
-				<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
-				<%if (fish[i].imageGallery) {%> 
-				<%for (let j=0; j <fish[i].imageGallery.length; j++) {%>
-				<img src="<%=fish[i].imageGallery[j].img %>" /> 
-					<%}%> 
-				<%}%> 
-			<%}%>
-			</li>
-		</ul>
-		
+		<form>
+<input type="text" id="searchInput">
+  <button type="submit" id="searchButton">Search</button>
+</form>
+		<div class="w3-main w3-content w3-padding" style="width:100%">
+			<div class="w3-container w3-center w3-red">
+				<h1>Fish Index Page</h1>
+			</div>	
+			<nav>
+				<a href="/fish/new">Make a New Fish Entry</a>
+			</nav>
+				<% for(let i = 0; i < fish.length; i++){ %>
+					
+			
+					<%if (fish[i].imageGallery) {%> 
+						<h1>
+							<a href="/fish/<%=fish[i].id%>"> 
+								<%=fish[i]['Species Name']%> 
+							</a>
+						</h1>
+									<h1>
+					
+				</h1>
+						
+						<a href="/fish/<%= fish[i].id; %>/edit">Edit</a>
+					<%for (let j=0; j <fish[i].imageGallery.length ; j+= 10) {%>
+																	
+						
+						<p><a href="/fish/<%=fish[i].id%>">
+							<img src="<%=fish[i].imageGallery[j].src %>" class="w3-image" width="400"  /> 
+						</a></p>
+						<%}%> 
+				
+						<%}%> 
+						<%}%>
+					</div>
+					
 	</body>
-	<nav>
-		<a href="/fish/new">newfish</a>
-	</nav>
 </html>
