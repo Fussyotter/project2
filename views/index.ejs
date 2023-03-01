@@ -24,36 +24,43 @@
 				<button><a href="/fish/new">Make a New Fish Entry</a></button>
 			</nav>
 			<% for(let i = 0; i < fish.length; i++){ %>
-				
-				
-				<%if (fish[i].imageGallery) {%> 
-					<div class="w3-display-container">
-						<div class="w3-card">
+					<%if (fish[i].imageGallery) {%> 
 					<h1>
 						<a href="/fish/<%=fish[i].id%>"> 
 							<%=fish[i]['Species Name']%> 
 						</a>
 					</h1>
 					<h1>
-						
-						
-				</h1>
-				
+					</h1>
 				<button><a href="/fish/<%= fish[i].id; %>/edit">Edit</a></button>
-				
-				<%for (let j=0; j <fish[i].imageGallery.length ; j+= 10) {%>
+					<%for (let j=0; j <fish[i].imageGallery.length ; j+= 10) {%>
 					
 					
-					<p><a href="/fish/<%=fish[i].id%>">
+				<p>
+					<a href="/fish/<%=fish[i].id%>">
 						<img src="<%=fish[i].imageGallery[j].src %>" class="w3-image" width="400"  /> 
-					</a></p>
+					</a>
+				</p>
 					<%}%> 
-					
-					<%}%> 
-					<%}%>
+				<% } else if (fish[i]['Species Illustration Photo']) { %>
+						<h1>
+							<a href="/fish/<%= fish[i].id %>">
+								<%= fish[i]['Species Name'] %>
+							</a>
+						</h1>
+							<h1></h1>
+							<button><a href="/fish/<%= fish[i].id %>/edit">Edit</a></button>
+							<% for (let j = 0; j < fish[i]['Species Illustration Photo'].length; j += 10) { %>
+							<p>
+								<a href="/fish/<%= fish[i].id %>">
+									<img src="<%= fish[i]['Species Illustration Photo'][j].src %>" class="w3-image" width="400" />
+								</a>
+							</p>
+							<% } %>
+						<% } %>
+					<% } %>
 				</div>
-				</div>
-			</div>
+
 				<!-- PREVIOUS SHOT AT SEARCH BAR JS<script src="/models/search.js"></script> -->
 			</body>
 			</html>

@@ -36,6 +36,7 @@
 				/>
 				<%}%>
 			<!-- IF THE OBJECT EXISTS LOAD PHOTO -->
+			<% if (fish.imageGallery) { %>
 			<% if (fish.imageGallery[0]) {%>
 			<div class="w3-card">
 				<img
@@ -43,6 +44,7 @@
 					class="w3-image w3-round"
 					style="width: 100%; max-width: 400px"
 				/>
+				<%}%>
 				<%}%>
 			</div>
 
